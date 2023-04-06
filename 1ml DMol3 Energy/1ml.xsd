@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="latin1"?>
+<!DOCTYPE XSD []>
+<XSD Version="20.1" WrittenBy="Materials Studio 20.1">
+	<AtomisticTreeRoot ID="1" NumProperties="63" NumChildren="2">
+		<Property Name="AngleAxisType" DefinedOn="AngleBetweenPlanesBender" Type="Enumerated"/>
+		<Property Name="AngleEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BeadDocumentID" DefinedOn="MesoMoleculeSet" Type="String"/>
+		<Property Name="BendBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BendTorsionBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="BondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="EFGAsymmetry" DefinedOn="Atom" Type="Double"/>
+		<Property Name="EFGQuadrupolarCoupling" DefinedOn="Atom" Type="Double"/>
+		<Property Name="ElectrostaticEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="EquivalentAtomMatch" DefinedOn="Atom3d" Type="String"/>
+		<Property Name="FaceMillerIndex" DefinedOn="GrowthFace" Type="MillerIndex"/>
+		<Property Name="FacetTransparency" DefinedOn="GrowthFace" Type="Float"/>
+		<Property Name="FermiLevel" DefinedOn="ScalarFieldBase" Type="Double"/>
+		<Property Name="Force" DefinedOn="Matter" Type="CoDirection"/>
+		<Property Name="FrameFilter" DefinedOn="Trajectory" Type="String"/>
+		<Property Name="HarmonicForceConstant" DefinedOn="HarmonicRestraint" Type="Double"/>
+		<Property Name="HarmonicMinimum" DefinedOn="HarmonicRestraint" Type="Double"/>
+		<Property Name="HydrogenBondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ImportOrder" DefinedOn="Bondable" Type="UnsignedInteger"/>
+		<Property Name="InversionEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="IsBackboneAtom" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="IsChiralCenter" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="IsOutOfPlane" DefinedOn="Atom" Type="Boolean"/>
+		<Property Name="IsRepeatArrowVisible" DefinedOn="ElectrodeWire" Type="Boolean"/>
+		<Property Name="KineticEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="LineExtentPadding" DefinedOn="BestFitLineMonitor" Type="Double"/>
+		<Property Name="LinkageGroupName" DefinedOn="Linkage" Type="String"/>
+		<Property Name="ListIdentifier" DefinedOn="PropertyList" Type="String"/>
+		<Property Name="NMRShielding" DefinedOn="Atom" Type="Double"/>
+		<Property Name="NonBondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="NormalMode" DefinedOn="Bondable" Type="Direction"/>
+		<Property Name="NormalModeFrequency" DefinedOn="Bondable" Type="Double"/>
+		<Property Name="NumScanSteps" DefinedOn="LinearScan" Type="UnsignedInteger"/>
+		<Property Name="OrbitalCutoffRadius" DefinedOn="Bondable" Type="Double"/>
+		<Property Name="PlaneExtentPadding" DefinedOn="BestFitPlaneMonitor" Type="Double"/>
+		<Property Name="PotentialEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="QuantizationValue" DefinedOn="ScalarFieldBase" Type="Double"/>
+		<Property Name="RelativeVelocity" DefinedOn="Matter" Type="Direction"/>
+		<Property Name="RepeatArrowScale" DefinedOn="ElectrodeWire" Type="Float"/>
+		<Property Name="RestraintEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ScanEnd" DefinedOn="LinearScan" Type="Double"/>
+		<Property Name="ScanStart" DefinedOn="LinearScan" Type="Double"/>
+		<Property Name="SeparatedStretchStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ServerDipoleMoment" DefinedOn="MatterGroupProperties" Type="Direction"/>
+		<Property Name="SimulationStep" DefinedOn="Trajectory" Type="Integer"/>
+		<Property Name="SpinQuantizationDirection" DefinedOn="Atom" Type="Direction"/>
+		<Property Name="Stiffness" DefinedOn="SymmetryMatterHessian" Type="Matrix6x6"/>
+		<Property Name="StretchBendStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="StretchStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="StretchTorsionStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="Temperature" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ThreeBodyNonBondEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TorsionBendBendEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TorsionEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TorsionStretchEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="TotalEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="Units" DefinedOn="ScalarFieldBase" Type="String"/>
+		<Property Name="ValenceCrossTermEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="ValenceDiagonalEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="VanDerWaalsEnergy" DefinedOn="ClassicalEnergyHolder" Type="Double"/>
+		<Property Name="_ServerAtomNames" DefinedOn="IndexProvider" Type="String"/>
+		<Property Name="_Stress" DefinedOn="MatterSymmetrySystem" Type="Matrix"/>
+		<Property Name="_TrajectoryStress" DefinedOn="MatterSymmetrySystem" Type="Matrix"/>
+		<SymmetrySystem ID="2" Mapping="3" Children="ci(48):48+4" Normalized="1" XYZ="1.85433789986265e-014,1.87654236035515e-014,0.361513583777754" OverspecificationTolerance="0.05" PeriodicDisplayType="Original">
+			<MappingSet ID="52" SymmetryDefinition="24" ActiveSystem="2" NumFamilies="1" OwnsTotalConstraintMapping="1" TotalConstraintMapping="3">
+				<MappingFamily ID="53" NumImageMappings="6">
+					<IdentityMapping ID="54" Element="1,0,0,0,0,1,0,0,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(44):14,22,18,23,4,12,5,15,7,19,9,13,10,16,11,20,6,17,8,21,5+25,19+31" DefectObjects="24,55,50" NumImages="44" NumDefects="3">
+						<Atom3d ID="14" HasProperties="1" Mapping="54" Parent="2" RestrictedBy="25" RestrictedProperties="XYZ" DisplayStyle="Ball and Stick" XYZ="0.498343886751271,0.50165191400547,0.0723027409908309" BallSize="120" ATPTensor="0,0,0,0,0,0,0,0,0" Components="Pd">
+							<Properties Force="-7.6967586074859,-7.77967289218809,12.1454542413048"/>
+						</Atom3d>
+						<Atom3d ID="22" HasProperties="1" Mapping="54" Parent="2" RestrictedBy="25" RestrictedProperties="XYZ" DisplayStyle="Ball and Stick" XYZ="0.998345706836303,0.00165007905468923,0.0723027409908309" BallSize="120" ATPTensor="0,0,0,0,0,0,0,0,0" Components="Pd">
+							<Properties Force="3.77978074217891,3.65733879860116,9.10909068097857"/>
+						</Atom3d>
+						<Atom3d ID="18" HasProperties="1" Mapping="54" Parent="2" DisplayStyle="Ball and Stick" XYZ="0.50375010548676,0.507540936603463,0.218585942853081" Connections="38,44" BallSize="120" ATPTensor="0,0,0,0,0,0,0,0,0" Components="Pd">
+							<Properties Force="-2.74394246256182,-2.4129944004874,6.40639344596295"/>
+						</Atom3d>
+						<Atom3d ID="23" HasProperties="1" Mapping="54" Parent="2" DisplayStyle="Ball and Stick" XYZ="0.982650565312741,-0.0147411316635152,0.222723312211245" Connections="56,57,49" BallSize="120" ATPTensor="0,0,0,0,0,0,0,0,0" Components="Pd">
+							<Properties Force="1.48858878593978,1.47964457081601,-4.87152834953433"/>
+						</Atom3d>
+						<Atom3d ID="4" HasProperties="1" Mapping="54" Parent="2" RestrictedBy="25" RestrictedProperties="XYZ" Name="Pd" DisplayStyle="Ball and Stick" XYZ="0.248295892207368,0.251603926712978,5.5689459094177e-006" BallSize="120" ATPTensor="0,0,0,0,0,0,0,0,0" Components="Pd">
+							<Properties Force="-2.22945325083148,-2.32239518304968,132.065131557924"/>
+						</Atom3d>
+						<Atom3d ID="12" HasProperties="1" Mapping="54" Parent="2" RestrictedBy="25" RestrictedProperties="XYZ" Name="Pd" DisplayStyle="Ball and Stick" XYZ="0.748297741675829,0.751605761663759,5.5689459094177e-006" BallSize="120" ATPTensor="0,0,0,0,0,0,0,0,0" Components="Pd">
+							<Properties Force="1.15245583427597,1.07162598437349,166.599596227568"/>
+						</Atom3d>
+						<Atom3d ID="5" HasProperties="1" Mapping="54" Parent="2" RestrictedBy="25" RestrictedProperties="XYZ" Name="Pd" DisplayStyle="Ball and Stick" XYZ="0.248303746072536,0.251611780700728,0.144610729227379" Connections="41" BallSize="120" ATPTensor="0,0,0,0,0,0,0,0,0" Components="Pd">
+							<Properties Force="-4.6784218986679,-4.58759632103494,-279.412180815072"/>
+						</Atom3d>
+						<Atom3d ID="15" HasProperties="1" Mapping="54" Parent="2" RestrictedBy="25" RestrictedProperties="XYZ" Name="Pd" DisplayStyle="Ball and Stick" XYZ="0.748305595713861,0.751613615651509,0.144610729227379" BallSize="120" ATPTensor="0,0,0,0,0,0,0,0,0" Components="Pd">
+							<Properties Force="12.7936317316944,12.0061574098423,-54.0205780677814"/>
+						</Atom3d>
+						<Atom3d ID="7" HasProperties="1" Mapping="54" Parent="2" Name="Ag" DisplayStyle="Ball and Stick" XYZ="0.268463264530362,0.2719011247586,0.332860094711778" Connections="33,58" BallSize="60" ATPTensor="0,0,0,0,0,0,0,0,0" Components="Ag">
+							<Properties Force="1.41313036821933,1.34325199929751,1.23456540364911"/>
+						</Atom3d>
+						<Atom3d ID="19" HasProperties="1" Mapping="54" Parent="2" Name="Ag" DisplayStyle="Ball and Stick" XYZ="0.781277938410309,0.786349446339462,0.339712544708224" Connections="34,36,59" BallSize="60" ATPTensor="0,0,0,0,0,0,0,0,0" Components="Ag">
+							<Properties Force="0.836902451081355,0.814298480715576,-7.07372609658409"/>
+						</Atom3d>
+						<Atom3d ID="9" HasProperties="1" Mapping="54" Parent="2" RestrictedBy="25" RestrictedProperties="XYZ" DisplayStyle="Ball and Stick" XYZ="0.248303540477731,0.751590268742863,0" BallSize="120" ATPTensor="0,0,0,0,0,0,0,0,0" Components="Ag">
+							<Properties Force="-1.23477410815282,1.9405522742223,-119.752844153964"/>
+						</Atom3d>
+						<Atom3d ID="13" HasProperties="1" Mapping="54" Parent="2" RestrictedBy="25" RestrictedProperties="XYZ" DisplayStyle="Ball and Stick" XYZ="0.748305360562763,0.251588433792082,0" BallSize="120" ATPTensor="0,0,0,0,0,0,0,0,0" Components="Ag">
+							<Properties Force="1.85902101838564,-1.15144587720706,-119.652744256371"/>
+						</Atom3d>
+						<Atom3d ID="10" HasProperties="1" Mapping="54" Parent="2" RestrictedBy="25" RestrictedProperties="XYZ" DisplayStyle="Ball and Stick" XYZ="0.2483113943429,0.751598122730612,0.144605160245931" BallSize="120" ATPTensor="0,0,0,0,0,0,0,0,0" Components="Ag">
+							<Properties Force="-13.9392277098141,8.94105443171336,191.724670523454"/>
+						</Atom3d>
+						<Atom3d ID="16" HasProperties="1" Mapping="54" Parent="2" RestrictedBy="25" RestrictedProperties="XYZ" DisplayStyle="Ball and Stick" XYZ="0.748313214600796,0.251596287779832,0.144605160245931" BallSize="120" ATPTensor="0,0,0,0,0,0,0,0,0" Components="Ag">
+							<Properties Force="8.93839257179512,-13.3194616057722,193.326268884945"/>
+						</Atom3d>
+						<Atom3d ID="11" HasProperties="1" Mapping="54" Parent="2" DisplayStyle="Ball and Stick" XYZ="0.289583683680642,0.757094937939023,0.31520056972777" Connections="31,60" BallSize="120" ATPTensor="0,0,0,0,0,0,0,0,0" Components="Ag">
+							<Properties Force="1.62578590906787,2.61686827907305,10.8107889400625"/>
+						</Atom3d>
+						<Atom3d ID="20" HasProperties="1" Mapping="54" Parent="2" DisplayStyle="Ball and Stick" XYZ="0.754186387800787,0.294127241416205,0.316068658859905" Connections="32,46" BallSize="120" ATPTensor="0,0,0,0,0,0,0,0,0" Components="Ag">
+							<Properties Force="3.05263598960003,1.75808436021281,12.1454542413048"/>
+						</Atom3d>
+						<Atom3d ID="6" HasProperties="1" Mapping="54" Parent="2" RestrictedBy="25" RestrictedProperties="XYZ" Name="Ag" DisplayStyle="Ball and Stick" XYZ="0.49835936474406,0.00164244530774754,0.0723083099012012" BallSize="120" ATPTensor="0,0,0,0,0,0,0,0,0" Components="Ag">
+							<Properties Force="-0.0754584177204505,0.62500899861527,-93.0929047616492"/>
+						</Atom3d>
+						<Atom3d ID="17" HasProperties="1" Mapping="54" Parent="2" RestrictedBy="25" RestrictedProperties="XYZ" Name="Ag" DisplayStyle="Ball and Stick" XYZ="0.998361214385384,0.501644280258528,0.0723083099012012" BallSize="120" ATPTensor="0,0,0,0,0,0,0,0,0" Components="Ag">
+							<Properties Force="0.473330074791915,0.0498770488512418,-92.7926050688696"/>
+						</Atom3d>
+						<Atom3d ID="8" HasProperties="1" Mapping="54" Parent="2" Name="Ag" DisplayStyle="Ball and Stick" XYZ="0.500688959577146,-0.00364443235172221,0.22655850042647" Connections="61,42" BallSize="120" ATPTensor="0,0,0,0,0,0,0,0,0" Components="Ag">
+							<Properties Force="1.23477410815282,-3.36046331041771,32.8994996756222"/>
+						</Atom3d>
+						<Atom3d ID="21" HasProperties="1" Mapping="54" Parent="2" Name="Ag" DisplayStyle="Ball and Stick" XYZ="0.992442794634946,0.503033333330358,0.226719571611344" Connections="37,62" BallSize="120" ATPTensor="0,0,0,0,0,0,0,0,0" Components="Ag">
+							<Properties Force="-1.76298303219597,-0.386090447368967,32.9995995732154"/>
+						</Atom3d>
+						<CompleteRestriction ID="25" Mapping="54" Parent="2" RestrictsObjects="ci(12):14,22,4,12,5,15,9,13,10,16,6,17" RestrictsProperties="XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ"/>
+						<Atom3d ID="26" HasProperties="1" Mapping="54" Parent="2" Name="O" UserID="2" DisplayStyle="Ball and Stick" XYZ="0.519565752662881,0.523965786944186,0.356026738929561" Connections="31,32,33,34" BallSize="60" Components="O">
+							<Properties Force="-3.82093987911734,-3.87640728091267,-11.4113883256215"/>
+						</Atom3d>
+						<Atom3d ID="27" HasProperties="1" Mapping="54" Parent="2" Name="O" UserID="2" DisplayStyle="Ball and Stick" XYZ="0.738237258777125,0.741351537898074,0.250884101215438" Connections="35,36,37,38,39" BallSize="60" Components="O">
+							<Properties Force="1.76298303219597,2.88979831312417,-24.6913080729822"/>
+						</Atom3d>
+						<Atom3d ID="28" HasProperties="1" Mapping="54" Parent="2" Name="O" UserID="2" DisplayStyle="Ball and Stick" XYZ="0.242054626078963,0.245132880093176,0.218920478036819" Connections="40,41,42,43,44" BallSize="60" Components="O">
+							<Properties Force="-2.27747224392631,-0.277764930267241,-4.5044953916927"/>
+						</Atom3d>
+						<Atom3d ID="29" HasProperties="1" Mapping="54" Parent="2" Name="O" UserID="2" DisplayStyle="Ball and Stick" XYZ="1.02410298609615,0.029001240633424,0.305706511656834" Connections="45,46,47,48,49" BallSize="60" Components="O">
+							<Properties Force="0.0480189930948317,0.28073129924773,9.80978996413077"/>
+						</Atom3d>
+						<Bond ID="31" Mapping="54" Parent="2" Connects="26,11"/>
+						<Bond ID="32" Mapping="54" Parent="2" Connects="26,20"/>
+						<Bond ID="33" Mapping="54" Parent="2" Connects="26,7"/>
+						<Bond ID="34" Mapping="54" Parent="2" Connects="26,19"/>
+						<Bond ID="35" Mapping="54" Parent="2" Connects="27,63"/>
+						<Bond ID="36" Mapping="54" Parent="2" Connects="27,19"/>
+						<Bond ID="37" Mapping="54" Parent="2" Connects="27,21"/>
+						<Bond ID="38" Mapping="54" Parent="2" Connects="27,18"/>
+						<Bond ID="39" Mapping="54" Parent="2" Connects="27,64"/>
+						<Bond ID="40" Mapping="54" Parent="2" Connects="28,65"/>
+						<Bond ID="41" Mapping="54" Parent="2" Connects="28,5"/>
+						<Bond ID="42" Mapping="54" Parent="2" Connects="28,8"/>
+						<Bond ID="43" Mapping="54" Parent="2" Connects="28,66"/>
+						<Bond ID="44" Mapping="54" Parent="2" Connects="28,18"/>
+						<Bond ID="45" Mapping="54" Parent="2" Connects="29,67"/>
+						<Bond ID="46" Mapping="54" Parent="2" Connects="29,20"/>
+						<Bond ID="47" Mapping="54" Parent="2" Connects="29,68"/>
+						<Bond ID="48" Mapping="54" Parent="2" Connects="29,69"/>
+						<Bond ID="49" Mapping="54" Parent="2" Connects="29,23"/>
+						<SpaceGroup ID="24" Parent="2" Children="55" Name="P1" DisplayStyle="None" XYZ="-10.1722535662319,9.13069619912221e-016,-1.51805786908002e-013" AVector="0,4.1120850295802,4.06888494793136" BVector="0,-4.11208491012597,4.06888506865386" CVector="28.138,0,0" Color="255,255,255,255" OrientationBase="C along Z, B in YZ plane" Centering="3D Primitive-Centered" Lattice="3D Triclinic" GroupName="P1" Operators="1,0,0,0,0,1,0,0,0,0,1,0" DisplayRange="0,1,0,1,0,1" LineThickness="2" CylinderRadius="0.2" LabelAxes="1" ActiveSystem="2" ITNumber="1" LongName="P 1" Qualifier="Origin-1" SchoenfliesName="C1-1" System="Triclinic" Class="1"/>
+						<ReciprocalLattice3D ID="55" Parent="24" XYZ="-10.1722535662319,9.13069619912221e-016,-1.51805786908002e-013" Visible="0"/>
+						<IndexProvider ID="50" Parent="2" NumTriggerSets="1">
+							<MonitorTriggerSet ID="70" Objects="ci(24):14,22,18,23,4,12,5,15,7,19,9,13,10,16,11,20,6,17,8,21,4+26" EventMask="13"/>
+						</IndexProvider>
+					</IdentityMapping>
+					<ImageMapping ID="71" Element="1,0,0,0,0,1,0,-1,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(34):9x0,69,19x0,61,3x0,56" NumImages="3">
+						<Atom3d ID="69" Mapping="71" ImageOf="19" Visible="0"/>
+						<Bond ID="61" Mapping="71" ImageOf="35"/>
+						<Bond ID="56" Mapping="71" ImageOf="39"/>
+					</ImageMapping>
+					<ImageMapping ID="72" Element="1,0,0,1,0,1,0,-1,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(15):14x0,68" NumImages="1">
+						<Atom3d ID="68" Mapping="72" ImageOf="11" Visible="0"/>
+					</ImageMapping>
+					<ImageMapping ID="73" Element="1,0,0,-1,0,1,0,0,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(40):3x0,66,15x0,65,19x0,58" NumImages="3">
+						<Atom3d ID="66" Mapping="73" ImageOf="23" Visible="0"/>
+						<Atom3d ID="65" Mapping="73" ImageOf="21" Visible="0"/>
+						<Bond ID="58" Mapping="73" ImageOf="45"/>
+					</ImageMapping>
+					<ImageMapping ID="74" Element="1,0,0,1,0,1,0,0,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(38):8x0,67,25x0,62,2x0,57" NumImages="3">
+						<Atom3d ID="67" Mapping="74" ImageOf="7" Visible="0"/>
+						<Bond ID="62" Mapping="74" ImageOf="40"/>
+						<Bond ID="57" Mapping="74" ImageOf="43"/>
+					</ImageMapping>
+					<ImageMapping ID="75" Element="1,0,0,-1,0,1,0,1,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(42):41x0,60" NumImages="1">
+						<Bond ID="60" Mapping="75" ImageOf="47"/>
+					</ImageMapping>
+					<ImageMapping ID="76" Element="1,0,0,0,0,1,0,1,0,0,1,0" Constraint="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="ci(43):3x0,64,14x0,63,23x0,59" NumImages="3">
+						<Atom3d ID="64" Mapping="76" ImageOf="23" Visible="0"/>
+						<Atom3d ID="63" Mapping="76" ImageOf="8" Visible="0"/>
+						<Bond ID="59" Mapping="76" ImageOf="48"/>
+					</ImageMapping>
+					<MappingRepairs NumRepairs="0"/>
+				</MappingFamily>
+				<InfiniteMapping ID="3" Element="1,0,0,0,0,1,0,0,0,0,1,0" MappedObjects="2,30,51" NumImages="2">
+					<AtomicHessian ID="30" Mapping="3" Parent="2" NumTriggerSets="4" ShouldMaintainAtCommonRoot="0" NumRows="24">
+						<RestrictableMonitorTriggerSet ID="77" ShouldAllowDeletions="0" ShouldDefineCommonRoot="0" IsIndexed="1"/>
+						<RestrictableMonitorTriggerSet ID="78" Objects="ci(24):14,22,18,23,4,12,5,15,7,19,9,13,10,16,11,20,6,17,8,21,4+26" EventMask="13" IsIndexed="1" MustBeInvariant="0" Properties="XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ,XYZ"/>
+						<RestrictableMonitorTriggerSet ID="79" ShouldDefineCommonRoot="0" IsIndexed="1"/>
+						<MonitorTriggerSet ID="80" Objects="2" EventMask="13" IsIndexed="1"/>
+						<HessianRow NumCells="1">
+							<HessianCell Cell="138.480623769108,35.1164791267384,54.031699330803,35.1164791267384,138.429911647697,52.0920722278575,54.031699330803,52.0920722278575,1014.01042472366"/>
+						</HessianRow>
+						<HessianRow NumCells="2">
+							<HessianCell Cell="63.6773179271553,13.1188081018261,47.093247764847,13.15435984713,63.2638736814626,45.8084393360326,-68.6269326335011,-66.8933199258884,-80.2201556746928"/>
+							<HessianCell Cell="88.3247677894061,-2.68314576834636,-57.0654730471618,-2.68314576834636,88.178239095681,-56.5881408970083,-57.0654730471618,-56.5881408970083,586.908965219732"/>
+						</HessianRow>
+						<HessianRow NumCells="3">
+							<HessianCell Cell="966.885586354914,-157.55794582269,426.882345129274,-158.986095221816,972.952901642951,479.833209896772,-738.175478494975,-775.827884122143,-34566.6880931935"/>
+							<HessianCell Cell="-284.732306648772,-85.2535512261561,684.644723135806,-95.8782395332327,-291.239064270494,763.03879063326,-508.896382658446,-538.393648122731,3658.53670623579"/>
+							<HessianCell Cell="170198.138155564,22101.7252256149,14490.8512153805,22101.7252256149,170199.028283385,10692.8373263496,14490.8512153805,10692.8373263496,2612172.15755086"/>
+						</HessianRow>
+						<HessianRow NumCells="4">
+							<HessianCell Cell="461.545963233126,95.7274389548236,-3590.67220830348,100.554747362405,474.901222508791,-3661.75842539568,-1882.96002507158,-1927.31405043233,8949.16913769763"/>
+							<HessianCell Cell="648.686172056033,-586.965822730864,-386.807657531608,-581.424944588036,660.873995640363,-436.506299624285,325.657374668591,327.381153181481,-17708.0111776537"/>
+							<HessianCell Cell="4720.96448561282,5470.57938149561,43389.7386327594,5451.06050303845,5203.80949233506,44513.6437685124,-10154.2155067135,-10956.6494160193,-121555.809561872"/>
+							<HessianCell Cell="143760.607314921,4875.19865071827,-43821.7375390224,4875.1986507183,143668.977483922,-43229.9839753744,-43821.7375390223,-43229.9839753744,1615279.31031817"/>
+						</HessianRow>
+						<HessianRow NumCells="5">
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+						</HessianRow>
+						<HessianRow NumCells="6">
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+						</HessianRow>
+						<HessianRow NumCells="7">
+							<HessianCell Cell="-1171.07665015396,-55.8445035828531,-252.079967705275,-52.9857587227674,-1163.73708448872,-243.693001499261,-1081.80160707232,-1034.1560275047,13593.2334675917"/>
+							<HessianCell Cell="-884.937641482602,101.266069630888,783.253653795747,100.742051937359,-881.524879390059,764.225589531939,480.004426025056,497.031243982636,7079.7088949401"/>
+							<HessianCell Cell="-11502.7018278354,-2445.63034076316,-22131.7710221021,-2679.2528433125,-11473.6607425948,-21750.1691170669,-39258.0658201625,-35097.3148150571,-362811.100863031"/>
+							<HessianCell Cell="-1580.20836783647,719.555785014136,4304.03548341911,807.769860427436,-1659.88724366652,4213.73445260929,-16940.0775973476,-17840.2791582478,-40183.6287121773"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="15158.2327849453,-3459.82557383855,11831.0317003834,-3459.82557383855,15077.639767663,11342.4452452781,11831.0317003834,11342.4452452781,465846.246076393"/>
+						</HessianRow>
+						<HessianRow NumCells="8">
+							<HessianCell Cell="-886.975915313546,23.9248037357355,-706.386043860226,28.9183317507664,-884.312984926622,-685.265708438442,2229.84910721448,2255.60220679776,12307.8454324224"/>
+							<HessianCell Cell="-683.08158084183,119.576603896185,327.279128653462,123.3107334902,-680.261706367344,314.229600902852,653.113048858928,657.966360691453,3908.24675432251"/>
+							<HessianCell Cell="-12486.3663417495,-4317.66850789937,27370.5966521323,-4284.65852058427,-12451.1421552172,27577.1862691166,56792.3605930989,58242.5212336706,-295300.006901599"/>
+							<HessianCell Cell="-186.605634158108,880.61106913589,-864.805672474999,901.650428257451,-225.789032644729,-796.66465236052,-32844.5324533889,-34013.2314759265,-20360.3033462036"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="9641.32634434037,-2334.49958417956,4.25460439340947,-2373.09085139432,9609.78955586286,-318.483473927353,-11625.0235726881,-12049.0129494682,198255.144406701"/>
+							<HessianCell Cell="9080.71335869315,-2171.21394284948,-17527.4583477377,-2171.21394284948,9070.79873825254,-17592.9369064926,-17527.4583477377,-17592.9369064926,284865.226212899"/>
+						</HessianRow>
+						<HessianRow NumCells="9">
+							<HessianCell Cell="1.93088956598816,-1.8556568814946,80.8107201042001,-2.91075020313998,-7.03790464952798,57.4495936721115,-40.8324322326444,26.2234026215377,-2082.28399982779"/>
+							<HessianCell Cell="-17.6936437948793,-26.1841590381285,-33.7528764016788,-25.0755243292464,-17.3630006151111,-67.5248284652927,280.796477034037,268.701025607937,-2689.11018907462"/>
+							<HessianCell Cell="-32.9474853718243,-1.04139297266286,-2938.59824754515,-83.424891990444,56.3479341448986,-1668.59836717876,6798.13241945331,7617.11191914648,86551.3345321357"/>
+							<HessianCell Cell="1903.36810396805,1925.1523382333,12314.4408249055,1708.45850225364,1757.49403492348,12334.5712188049,-14177.8534914742,-14268.9829351786,25229.9516525658"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="702.384311657961,468.374424542935,-16557.588466813,353.859544679241,736.803548789915,-18018.1371727035,-4119.87013814826,-4108.74638995333,-116293.490441274"/>
+							<HessianCell Cell="9.28378098588789,300.057598397423,4152.33474426302,335.980426628868,-46.3295999321398,3460.44526450998,102.466861923026,-127.289390453136,-63722.5161578503"/>
+							<HessianCell Cell="114518.600588145,23151.5033218562,71454.0413708735,23151.5033218562,114469.802940842,69090.8546408169,71454.0413708735,69090.8546408169,684246.278442447"/>
+						</HessianRow>
+						<HessianRow NumCells="10">
+							<HessianCell Cell="-6.00646363343029,5.52657974590057,466.548505239588,7.96935528370045,10.8230873989111,495.370571062187,86.6602615358691,123.546524588948,1286.10934909144"/>
+							<HessianCell Cell="-90.0503140984266,-84.8196036235617,529.548095690968,-84.8006624643943,-78.275462789723,502.760023055304,-285.214844849521,-298.845649993338,1671.74020836547"/>
+							<HessianCell Cell="-1336.89532870434,-1563.29875337456,-19903.8085879202,-1219.41865044444,-1477.86136304598,-19052.4864520637,-6347.99617247533,-6591.95819196608,-60172.0739526805"/>
+							<HessianCell Cell="4326.30045978132,4412.77716182566,4785.18249477911,4216.81205927276,4286.96044744382,4753.78024617851,13963.8853750127,14487.0698202066,-233.097736338888"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="1011.94207111609,1352.58468250296,12811.0209412189,1205.65623630262,997.032984228139,11955.5336814066,3651.17711817187,3467.01237335432,52058.0984283995"/>
+							<HessianCell Cell="410.185975026792,86.0494718481217,16737.6801484095,82.6259710176219,402.952517613412,16371.6739035692,666.964740117477,646.699719734164,47100.5868988358"/>
+							<HessianCell Cell="-3288.55909538636,-3113.6907801399,9774.66153530827,-3083.56686753336,-3138.12904995959,9721.20084823642,-6687.7825809634,-6355.5742242485,71301.4591236262"/>
+							<HessianCell Cell="111238.672767413,23567.1426671543,-77047.0910755208,23567.1426671543,111770.066402776,-76180.2205688169,-77047.0910755208,-76180.2205688169,780361.610634666"/>
+						</HessianRow>
+						<HessianRow NumCells="11">
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+						</HessianRow>
+						<HessianRow NumCells="12">
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+						</HessianRow>
+						<HessianRow NumCells="13">
+							<HessianCell Cell="-1258.41128333643,-209.355510641954,311.90485461987,-174.004734673043,-1268.89821337587,-737.202343353087,579.027073366767,1579.01445160703,10407.9696397791"/>
+							<HessianCell Cell="-912.406813650925,32.8235820796193,198.901888225415,-11.8767066454101,-973.791543028287,1009.12655922188,1144.59780149463,-305.089167335494,9715.61171254267"/>
+							<HessianCell Cell="-12416.620989043,4877.28292593943,-23159.6553780602,4390.23847796792,-12567.3193877436,33715.8720716084,-23818.8402351078,61628.6535394701,-240556.364813231"/>
+							<HessianCell Cell="-13841.9181155159,4990.81033276709,33904.0079407116,5002.22411850342,-13882.5397107012,-21336.4172557945,14596.5338365263,-69314.1823048959,-359325.420389801"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="13262.9288304087,-1531.61750580677,11662.5422840167,-1289.70976144908,12607.5362152118,3983.8432075794,-589.332816168507,-3412.49566307221,301828.921734654"/>
+							<HessianCell Cell="9323.21405959518,-1196.78842011057,-13011.2677115652,-1323.13599732646,11023.5863567484,-18125.2104738371,-7339.29992628311,-10439.4855857664,256263.731536606"/>
+							<HessianCell Cell="377.220609857275,108.417028658066,-629.335005981658,-15.9220187432201,-360.616413352658,-1520.6226680278,-420.525402258517,-996.231537624254,-83511.2322490341"/>
+							<HessianCell Cell="235.510374171343,494.943392380078,338.190711707126,-55.0249769381414,235.767089777973,391.774860124361,17561.7935388089,16529.9607664,52584.5884000442"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="15992.8099620955,-537.417265441778,-10424.409463479,-537.41726544178,16860.9673643163,-684.437974319968,-10424.409463479,-684.437974319969,412447.426266262"/>
+						</HessianRow>
+						<HessianRow NumCells="14">
+							<HessianCell Cell="-1271.73688819053,-177.105137032695,-766.092900842296,-204.532682605323,-1256.19835663032,327.29576656788,1546.37987678765,605.652109082275,10352.6471273646"/>
+							<HessianCell Cell="-977.065097493086,-14.2367749633451,1023.37310727173,35.7436696632604,-911.603331582276,176.704630598297,-293.93343833394,1159.36503816584,9644.99068816292"/>
+							<HessianCell Cell="-12554.9217190577,4511.8911835974,33458.7473220105,4835.31614256444,-12397.4504464391,-22486.937269856,59665.4854381715,-21710.1143810212,-237690.721298859"/>
+							<HessianCell Cell="-13886.3709650663,4998.90035550975,-21514.4610749983,4964.3674319212,-13956.1729326806,34206.6385111366,-68855.7960410146,13566.1377414356,-357919.93081355"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="12654.3947010696,-1273.42088003558,4337.93323495547,-1570.52340872819,13194.2630640146,10740.2868374538,-3194.63978761736,-1010.49207481441,299311.676046987"/>
+							<HessianCell Cell="11035.4460118109,-1338.5229205953,-18095.5252822542,-1198.57942036476,9315.66801326816,-13303.1570369615,-10395.4550655091,-7394.55804160851,254644.576828419"/>
+							<HessianCell Cell="-313.301739338611,-15.4997220184831,-1343.97235259737,87.2404204387458,345.357892267789,-940.355705693868,-67.2334913528945,-1416.12682694105,-84162.0028362639"/>
+							<HessianCell Cell="234.784833144777,-80.1263139321021,562.6004139369,579.611405589626,281.538381296238,263.981213432654,17331.0683985696,17124.595887411,52904.7958759437"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="13868.2877230386,350.842355357672,-2436.24019846026,96.890360124833,13831.541921949,-8654.85857678378,-8247.78587347928,-2556.73702838002,296192.860771446"/>
+							<HessianCell Cell="16901.5058620364,-571.159504969341,-571.24186039547,-571.159504969341,15975.3536774203,-10898.3818567242,-571.24186039547,-10898.3818567242,409131.81032996"/>
+						</HessianRow>
+						<HessianRow NumCells="15">
+							<HessianCell Cell="15.5432341785812,15.1690644431197,-120.022493765892,19.0831424632979,11.2665168498674,200.997631258673,213.54551857204,-595.567949616712,2019.35377521987"/>
+							<HessianCell Cell="39.5256928301096,62.3618382391282,-172.895859823589,-16.2570070304721,-3.68894219726313,268.398506195015,-349.500269227383,375.862063955414,961.259589173242"/>
+							<HessianCell Cell="1045.91740043313,986.920323744932,6413.41696326735,1054.60836870578,1103.8570595648,-3292.73774830444,-4999.550123766,-5413.23269452924,-60161.122153079"/>
+							<HessianCell Cell="-1992.57004631995,-2061.6466963597,-1868.06533447884,-519.369923771281,-542.209783320289,-4615.31393370953,5359.78508838957,6081.04009336221,-8787.8412402379"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="72.3165123386714,218.249611183958,-2419.59326523973,-723.915851793866,-39.9037302612194,20108.8373301127,1858.32967215318,1788.81998724128,34539.2309990008"/>
+							<HessianCell Cell="-130.875028199761,-799.904858586794,-4422.95497085864,529.103758655237,559.354207369286,4830.13432172957,-117.967918785202,-172.197917960129,26689.3659749592"/>
+							<HessianCell Cell="-5697.91131385365,1061.20083747747,-1293.6430408909,2867.34980914842,-72295.7644544087,5295.03222671047,750.278267884852,-707.864276468638,-187533.119806624"/>
+							<HessianCell Cell="-70042.4524147429,3061.40937249078,3315.74469749498,561.404880024902,-6444.52268087101,-3051.49021111267,-1599.45470539653,-8170.75443257301,-233988.771958402"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="-188.49422849799,60.7942642069969,-4975.93049060428,78.669051022281,24.9933899480651,7278.34202817762,1737.73154380595,1898.70608310185,18235.004961212"/>
+							<HessianCell Cell="968.85368796275,32.1361416644729,-2984.91342003009,182.119847242449,511.449390402653,8722.04647035802,1964.59220259106,2665.22354266737,63412.1592488863"/>
+							<HessianCell Cell="137363.709062675,-18954.3770956908,75886.5808966536,-18954.3770956908,137737.580737114,-68090.7370283014,75886.5808966536,-68090.7370283014,1944869.64057716"/>
+						</HessianRow>
+						<HessianRow NumCells="16">
+							<HessianCell Cell="9.39115184590357,8.98665976223482,276.368296875063,0.479569426452149,7.49046732018657,-96.4137778686493,-670.518830766592,183.33917233925,2415.03084161095"/>
+							<HessianCell Cell="1.02480390545303,-10.6345817370812,246.478154705981,46.556511711966,25.8675153761094,-52.621798587202,323.804904195033,-377.173713429425,1435.16699897619"/>
+							<HessianCell Cell="1107.92227012484,818.977991304607,-3685.85674017791,868.143538489843,870.693135570241,3957.00925677258,-6280.6466234285,-6730.32853125021,-72606.6070827744"/>
+							<HessianCell Cell="-497.048675822699,-473.681856364536,-4981.93215288942,-1782.73036803392,-1699.11851110417,-2712.5496556589,7537.95043139376,8398.94958980392,-15327.7166904469"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="-92.2131214293629,-676.418597397075,20393.1724796384,269.878819348747,252.834944798323,1356.84703188134,2109.34707913596,2587.4118865807,50703.3678708847"/>
+							<HessianCell Cell="544.486116940141,524.368364749275,5563.15532534305,-818.21409161262,-144.082070426933,-2970.02951483578,246.836045584348,-88.1173544450721,35050.4161462237"/>
+							<HessianCell Cell="-72666.5937790326,2817.16003534236,5234.2864383153,1128.63327419349,-5754.0250260891,-333.358072108113,-772.4807304182,1793.74023520251,-176372.944191167"/>
+							<HessianCell Cell="-6550.67911012634,463.60804725418,-2253.01635115703,3021.19117539613,-70465.6506288989,3126.18839815852,-8235.15025796254,-2471.6793858277,-231097.449036159"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="595.333564705995,202.261776564701,9264.63648149884,25.4720155489886,952.476985656782,-515.026107365475,2848.57473558252,2337.63004744515,76677.5933039585"/>
+							<HessianCell Cell="30.8495546441842,132.815278587426,8150.26513796468,117.892940237832,-149.44633463222,-2863.03420161849,2421.75741271113,2232.04192533141,33096.574899946"/>
+							<HessianCell Cell="-1270.23796144698,-2072.6292157702,-737.943658299086,-1049.77485686998,-1350.34530030215,-4414.68695495826,-4000.35370026713,-835.037814733719,21149.3451408278"/>
+							<HessianCell Cell="137716.445461201,-19398.5708818323,-70986.3221594401,-19398.5708818323,137650.449002323,76622.2889659664,-70986.3221594401,76622.2889659664,1931250.6539499"/>
+						</HessianRow>
+						<HessianRow NumCells="17">
+							<HessianCell Cell="108.759100530459,-5.53570923392203,62.7931087690844,16.3509261472724,86.7324426399128,-12.4643337490782,43.0610790029636,-63.7184154113242,198.744954299898"/>
+							<HessianCell Cell="81.1829879514422,-13.8082526110822,-32.3730289251397,-1.57646507912912,65.5356756107773,-57.4082878141811,18.1679761270951,-49.9209167219045,124.074439658674"/>
+							<HessianCell Cell="2687.03440763777,-108.314771856106,-837.866232436071,-128.827665227662,-324.172716804233,-319.589927715916,533.895952812679,126.457284390646,-10847.5139033501"/>
+							<HessianCell Cell="14.6213707927503,-535.203160570074,130.987996437965,305.942603484437,1374.26653022243,-275.384284232183,-402.830055668046,-624.157664667723,-5344.20910753035"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="-1344.89526810507,366.855406831658,-497.311328594693,173.266500916679,-894.291026764707,-641.091668455795,-182.283888803614,701.506266253306,4284.29109212843"/>
+							<HessianCell Cell="-1060.19028587364,220.828157748035,2088.47933316467,125.242482661628,-636.666128495386,543.233983077287,-1006.53673703186,968.228640916557,2960.21374236874"/>
+							<HessianCell Cell="-12.2041187066336,-22.5950309645742,247.767817776565,20.3765265441292,27.7548829440525,-49.6921716177323,175.140728291861,-153.932595445252,-907.69990188312"/>
+							<HessianCell Cell="-73.5711396331547,-67.1487036666584,-245.876736083784,33.6400601077113,27.4627350004386,176.33929326165,88.3799908299192,386.208707922827,630.789448131451"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="-1301.52335420941,249.104549667413,452.495928904619,-58.6358390505928,-1024.06030624886,-413.086157654204,231.735557281744,1417.98669863469,4146.75404099267"/>
+							<HessianCell Cell="-1357.63419122842,266.763793923017,1475.95269769176,-58.1120541097339,-958.346987323454,278.995710151432,-1002.24981385129,224.146487176381,4671.79446395098"/>
+							<HessianCell Cell="48.3104737338339,29.073412645674,-242.753832617587,-3.46384228954092,-12.9497239101585,-127.955839370261,-490.225660530202,-323.371716250001,1182.79776519125"/>
+							<HessianCell Cell="19.9112894017187,57.4539354023319,-125.089592756568,-15.029811183322,-11.0686996270723,-4.28550077271123,490.988505790706,392.01962007023,165.100513751331"/>
+							<HessianCell Cell="152.59681885451,-20.388376547103,77.0636353110101,-20.388376547103,82.2923356057007,-91.2085309562901,77.0636353110101,-91.2085309562901,1061.09091473644"/>
+						</HessianRow>
+						<HessianRow NumCells="18">
+							<HessianCell Cell="86.5375428469839,16.4158216039247,-11.5787706218865,-6.38282046302874,108.501674486254,61.3706834106748,-61.1079909439799,44.2719905348045,187.16477774631"/>
+							<HessianCell Cell="65.2734668538593,-1.87658767606018,-58.0876910636752,-14.3620991829574,80.8797244313421,-30.4098064608985,-49.5536132283615,19.8585054298729,116.053962460802"/>
+							<HessianCell Cell="-335.013335611982,-142.894456461125,-338.734403525359,-91.3472388117784,2695.79646694739,-908.333196180433,187.810161940955,641.06709608081,-10420.1389805187"/>
+							<HessianCell Cell="1382.42441587461,310.848845200309,-278.1160762651,-536.17885346847,21.1780502471403,133.372407168275,-692.539118889027,-458.345871912295,-5221.18343074121"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="-894.948031128199,178.674347161804,-647.288740729936,375.072913045199,-1341.95985078573,-437.983499795425,663.892667578257,-215.977324778576,3702.0433992175"/>
+							<HessianCell Cell="-632.836024474663,127.633015802625,514.950614883284,222.942951757068,-1061.11960735212,2113.54603779077,949.336222077474,-1022.03622265809,2802.73183337612"/>
+							<HessianCell Cell="25.6902051697521,22.2623852768125,-53.9685825334562,-26.3327132789584,-22.1365748215514,264.283033707614,-174.503247521048,135.95910547222,-1254.70409968768"/>
+							<HessianCell Cell="26.1839476722552,30.5472385659433,144.981622101388,-78.3498341746338,-75.9642631388107,-231.780544423725,402.411532506396,90.3542107456348,763.608129135394"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="-957.305561366877,-54.7166807836891,259.114414130764,269.650429548627,-1357.1583033967,1494.83921166919,202.733843557297,-1036.98781227649,4403.15942407906"/>
+							<HessianCell Cell="-1021.21229381865,-52.9390037450096,-441.691979415438,255.174998192055,-1298.67660202794,476.315244856601,1383.32743685399,203.999853732914,3901.23606079918"/>
+							<HessianCell Cell="-5.84510913737713,-7.43202908286867,-14.5474090188026,50.6912872218861,21.3032342321367,-80.9257084788411,308.59142106646,478.586204307289,6.11512576623405"/>
+							<HessianCell Cell="-10.7677176467772,-2.76414100044107,-159.237816030136,22.615750378154,41.1736392086475,-295.153746384836,-321.082985929304,-526.05290679457,1302.97018537102"/>
+							<HessianCell Cell="74.7228019113521,6.04119828554669,46.8784490821683,-41.8335791609581,75.0605035632232,-91.1430205912408,-87.1475931370154,48.9567616535587,-868.366338406445"/>
+							<HessianCell Cell="82.1399687660365,-21.3316650887819,-88.524481513783,-21.3316650887819,152.879218214176,81.3342763723808,-88.524481513783,81.3342763723808,1052.42742260143"/>
+						</HessianRow>
+						<HessianRow NumCells="19">
+							<HessianCell Cell="2483.7425015305,-50.9402804371132,1035.19239548968,48.2933920831525,-109.747909463422,-631.976858397507,-581.286861425404,-466.014361648281,-8406.35522928508"/>
+							<HessianCell Cell="-198.244058424675,27.4372678762383,-342.81912732985,-71.6887485884317,2644.28190354127,73.3287227958574,-583.677978676612,-533.110309226522,-9579.70840036405"/>
+							<HessianCell Cell="-13493.7730751674,-3700.11987987318,-22145.522489151,3773.23134605341,-74838.2265345219,10269.6915971224,-20322.1797775949,-19013.0959278546,-526881.613229497"/>
+							<HessianCell Cell="-74458.1001511975,3508.24349515022,-755.866582649751,312.902499521699,-10112.8955474448,-602.796495220023,27594.0347693032,22793.5970575287,-288292.528207127"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="-12464.8947807846,4407.01708115923,-47463.4258140142,4157.39919184214,-11701.9505694105,44070.0113387934,-25412.7287470747,39368.6723360042,-286055.216218979"/>
+							<HessianCell Cell="-12847.0626792947,5542.66363517678,40337.9396452677,4909.16500179188,-12416.4877017173,-32255.296803959,29284.1677094128,-21566.382730568,-342245.904837921"/>
+							<HessianCell Cell="-503.266853198893,-653.317885025594,-2942.97118088656,-1077.94290388071,-747.547960773932,5324.5152321345,6405.85410766362,7741.36751135159,75835.0521503756"/>
+							<HessianCell Cell="707.028053696963,374.821396925872,4154.40418983111,-2033.66140744634,-1852.23171293703,-11257.4523032745,-11798.072063449,-11756.2591268026,-23153.1766363105"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="-10552.0174374489,-2820.87570882896,-34268.2118764578,-4376.10531985194,-13721.3717823935,-40298.5757411477,-21744.3004240033,-24208.9756900276,-321537.314692311"/>
+							<HessianCell Cell="-11325.8900771096,-3421.24799364778,40738.2440866221,-4706.99955854982,-12944.9218256037,35949.6000953905,29956.5322517582,35829.5643465843,-327678.323914268"/>
+							<HessianCell Cell="-10828.0826201885,-4277.80308759386,40117.0797677338,-3599.00159263398,-10667.0371557297,68032.6174935635,48999.2587045203,45186.1578153531,-674456.743050068"/>
+							<HessianCell Cell="-9741.3902298573,-6846.48705561281,-64115.6653593595,-5959.49339425593,-11212.9198926565,-52982.771560635,-72075.6569307901,-69155.8321521133,-607895.552491733"/>
+							<HessianCell Cell="910.247040017053,-45.9802050455485,-254.748965658966,95.8474986917594,1095.63320060894,218.402339867717,-968.198818320115,32.089712082609,-37766.7522709488"/>
+							<HessianCell Cell="658.956572616552,-14.7465210816034,260.425646707244,91.5909661557185,663.357020206333,-1471.59552028674,67.8635027809268,-1468.45916961371,38834.8463914668"/>
+							<HessianCell Cell="188158.76134469,-15003.2123323352,31162.1543127641,-15003.2123323352,192743.81499923,-15896.1592100891,31162.1543127641,-15896.1592100891,3919865.45166007"/>
+						</HessianRow>
+						<HessianRow NumCells="20">
+							<HessianCell Cell="-101.847203107082,45.6833048759337,-646.805801214257,-59.2482315619382,2489.55614999177,1037.14994486517,-439.159234754321,-563.428531207637,-7792.57968200326"/>
+							<HessianCell Cell="2649.68790521289,-69.8036007722799,44.0840581429131,14.8015240887974,-214.735121591646,-253.170140801907,-539.897458546194,-598.355762621862,-9105.67798541412"/>
+							<HessianCell Cell="-73722.0290891573,4656.60951707363,13275.3790489508,-4766.31450738951,-14340.9264166649,-24630.7896831537,-18157.2570258101,-23915.0372424981,-549852.177114265"/>
+							<HessianCell Cell="-10137.5938976133,-144.404210856019,2355.36349643268,4280.87312234141,-73719.6836070312,-3703.74637529564,25856.2468625996,31775.6597544413,-304623.789176529"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="-11734.9866627597,3941.02930476717,42427.6104016948,4553.41239517708,-12291.4392116863,-43619.6146727946,39367.6334700136,-23586.410889295,-262412.853570893"/>
+							<HessianCell Cell="-12481.8538839654,4895.38903616269,-32525.4212397846,5629.51870797992,-12828.566691666,42062.005422859,-21452.3050342545,29469.1075814187,-328104.085140087"/>
+							<HessianCell Cell="-1442.39451239968,-1695.27885644983,4164.69762619569,55.2654026332912,245.852559472364,-3.88329274899807,6614.94111237401,7744.2379518676,83727.2930866256"/>
+							<HessianCell Cell="-2010.62469628449,-2231.19869682888,-9437.41188737191,376.990368537367,698.780689097019,2780.82446395812,-13495.681663595,-12329.7205317898,-26196.6193760401"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="-12878.0330981135,-4691.9488212275,35016.5844135377,-3485.82619144118,-11294.7617368282,43194.0973488854,35720.6578663049,30644.0722949795,-310897.134325075"/>
+							<HessianCell Cell="-13870.9450607738,-4282.42929228741,-40681.8897077554,-2764.20560631901,-10488.2093024936,-32315.7011471522,-23571.244455159,-21215.6151742219,-303261.753775525"/>
+							<HessianCell Cell="-11583.310708162,-6587.59178458804,-54680.0114742529,-6643.56527938768,-9442.16257311095,-62054.9593767943,-65818.0948415484,-71050.7643259109,-589723.261129261"/>
+							<HessianCell Cell="-10625.6325828224,-3667.99364927393,67807.3466394921,-4134.91816558448,-10391.5147548923,39540.739059417,43015.6026726459,46166.093873955,-703592.686981461"/>
+							<HessianCell Cell="679.455029473105,93.9738869531587,-1547.41860601496,-23.7112683980794,673.596570505617,147.51814378059,-1508.8387825449,-83.2213614575309,38910.3375636297"/>
+							<HessianCell Cell="1080.63786439817,104.527121757431,169.124775417406,-29.2251680485824,900.388607750368,-202.364338947662,46.6021698498569,-1117.2333496091,-37456.9125186523"/>
+							<HessianCell Cell="5202.60636334362,-7113.36919970792,21571.3699667289,-6740.60279918473,4850.50746413913,-17333.5581151281,-18298.7548073853,23998.835601235,-282096.52287361"/>
+							<HessianCell Cell="192743.370682644,-15309.7627123552,-18397.3938768839,-15309.7627123552,188046.218354318,30117.5647300446,-18397.3938768839,30117.5647300446,3890754.61040932"/>
+						</HessianRow>
+						<HessianRow NumCells="21">
+							<HessianCell Cell="64.0717138282784,32.8989238493074,10.4977110744058,42.1642327023329,67.9114066544294,-5.81611198931221,244.66732876232,173.669330317705,-859.406048814658"/>
+							<HessianCell Cell="-65.8741967732038,-55.0184645792133,378.162713600003,-42.7712638238969,-62.8946677744615,311.935226910466,-135.119229212053,-116.092293627158,100.37635709631"/>
+							<HessianCell Cell="-1021.00855663465,-1120.0905301857,-6423.97762382798,-997.931082424781,-1032.65823327973,-5488.44792202646,-1470.52916616544,-1081.87907923993,8282.77671008616"/>
+							<HessianCell Cell="1930.1431301775,1985.66172335413,-4967.45300822838,1786.47931055946,1834.10646367127,-4665.54608116482,5273.63127266342,5039.63765619375,14732.3044307051"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="532.63259877985,390.904627014473,17396.0852236822,447.904683729666,346.675901421972,15902.4457233558,885.668646313677,536.034933052967,-21765.7882865224"/>
+							<HessianCell Cell="-49.2493485323007,20.6468271764955,6026.93618149193,-45.3808010679393,-15.3008142129656,5499.30871435449,382.818737946554,557.388921339427,3114.66795794821"/>
+							<HessianCell Cell="-18478.8719820047,-13843.8776349049,-29867.2049819055,-13907.1527463821,-18635.1062884434,-29561.711502917,-35413.3899101537,-35186.7201619522,-157589.299233612"/>
+							<HessianCell Cell="-21079.9037866889,-16513.0945497769,19525.8475657562,-16467.6609229306,-21149.4188540597,19659.8966882821,15006.7830475757,14920.5466600601,-148337.864670992"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="-342.312153359466,122.518800818423,8160.69452435575,-359.937466639712,18.8518321697143,7425.63949753135,-1069.08847281344,-996.885355181588,-6714.10953769482"/>
+							<HessianCell Cell="52.6894027110445,-317.236426413061,8437.58705506894,100.481894395591,-338.427894830434,7304.70294809352,-1099.30294660021,-1099.49212725523,-6579.87056130667"/>
+							<HessianCell Cell="-15076.6910962375,11893.170549677,-48849.2229873702,13117.8401744794,-16732.6163319974,58389.3961070219,-44672.321961238,54552.1598637886,-326933.799740939"/>
+							<HessianCell Cell="-16863.4602048609,13222.637668586,57555.4983112335,12306.3883741074,-15244.6311274438,-48342.3217627381,54404.2711169128,-43533.9413225195,-318470.309333796"/>
+							<HessianCell Cell="-30.9961725637422,30.5473265598949,82.1981048284678,-40.6962362863122,43.9035186798901,46.3229099779115,-41.8705275464452,145.057133966068,-170.278969708115"/>
+							<HessianCell Cell="32.8534126314694,-32.0368065795983,162.776360598316,21.8181970520202,-17.6685833747883,164.652382287846,164.348602071478,-24.8424635261184,121.45218501732"/>
+							<HessianCell Cell="3450.46504243006,-3764.02421736121,869.80294199468,2894.10953125375,-3471.95295726579,1889.1254054838,7266.2038886462,-11499.1858218255,50446.3609615128"/>
+							<HessianCell Cell="-2658.18363780216,1840.98918312158,227.843192664316,-2865.01125201253,2435.85146420639,1311.83508546149,-10362.7723860744,4561.19445140922,50207.480323479"/>
+							<HessianCell Cell="68938.5504664801,3458.59826820388,2632.40145573391,3458.59826820389,69105.5080205289,1143.89665888448,2632.40145573391,1143.89665888448,871569.39174816"/>
+						</HessianRow>
+						<HessianRow NumCells="22">
+							<HessianCell Cell="1.47986499586517,-24.8531777124822,-29.628627392319,-34.568341069794,-8.96069931873815,-56.489954847026,134.804750629667,131.161837004414,-1573.21165538059"/>
+							<HessianCell Cell="94.4715470304093,105.985541755858,-602.934142324364,103.612163023636,95.2886004351677,-617.045542625347,84.1624707403686,81.4509964691297,-430.850801736956"/>
+							<HessianCell Cell="-17784.0459161942,-11976.8619746326,-31092.5242330687,-11256.9913490333,-16919.4291923237,-29159.2866355544,-48844.419208115,-46766.3493908109,-330673.575492132"/>
+							<HessianCell Cell="-21611.492605984,-15978.8666273881,45978.2821857976,-16230.4789520315,-21902.2488848425,48245.8331094635,56339.7699229076,56905.999014598,-172789.805772354"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="97.9167105544718,-903.624191992891,-20792.7264863575,-998.786651352903,155.979343315299,-22959.9970441981,4185.99926933225,3598.35216259029,-41708.8773233573"/>
+							<HessianCell Cell="323.889355262499,-280.524798891825,-9195.73615702038,-288.359772429297,257.609094391993,-9322.18019075466,1705.66046033321,1760.66763661295,-50673.2084760515"/>
+							<HessianCell Cell="-266.384958664905,-322.806861303894,-7924.67456330326,-920.284735224674,-981.21194883352,-9220.02293860052,-19362.0023702678,-19577.7894153412,14183.1441475064"/>
+							<HessianCell Cell="1427.56687508475,1361.70669219258,6940.86977779589,1284.38112416158,1238.13368254095,7693.9462618191,-17402.987231055,-17138.4387832755,-65707.3992891552"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="-1234.06476088614,-245.916522098283,-15545.5445242392,490.8894366942,1515.70534953551,-15964.687586115,-1235.26893544225,-3107.93319466664,-17667.8514224589"/>
+							<HessianCell Cell="1534.4302482523,397.609148695423,-15014.9345992111,-293.884018243865,-1209.97219602424,-16469.0246770775,-2798.17592548043,-1507.78807031199,-18427.1511067814"/>
+							<HessianCell Cell="-1458.60342775167,980.829257967364,431.269517225919,-1310.32790795006,547.936058635401,-492.883733536572,13896.2327249897,14782.6844353709,29202.4720250034"/>
+							<HessianCell Cell="644.189344215633,-973.806386142021,551.999094424444,717.174491221485,-1410.21779806987,-322.535417007655,15579.2249975017,14815.2265292631,33176.2673981086"/>
+							<HessianCell Cell="91.2721115559763,-13.6278100525512,-2.89146139967249,30.9495318091271,-23.8683949916734,-332.928903285362,-762.868072235678,828.031793252684,-115.308522767167"/>
+							<HessianCell Cell="-8.70032188646522,15.1540090468183,-400.439415020782,-13.9286736520512,94.7875498067128,-102.624058794529,797.950248238257,-685.859128455233,114.091820841991"/>
+							<HessianCell Cell="-21381.8126439714,16444.3533239834,-20774.4227775144,12820.5565336843,-19290.1936179393,45884.537455834,-20370.3147286876,8533.5387129002,-131079.455100382"/>
+							<HessianCell Cell="-20015.5535479344,13420.0964958069,47274.5831769198,15839.2926253025,-20738.5824728965,-20129.9246845771,11733.6818568508,-23560.8200750064,-128182.280133225"/>
+							<HessianCell Cell="1967.0259272504,1934.6681272402,3453.98302030213,2633.12896567454,2576.45915318683,4721.53212520049,-10725.7843875342,-10898.6504629906,-75848.8032430984"/>
+							<HessianCell Cell="76354.8092209766,-4343.39008861099,4254.50695223675,-4343.390088611,75394.1724264777,5180.07479799658,4254.50695223675,5180.07479799658,734247.395885323"/>
+						</HessianRow>
+						<HessianRow NumCells="23">
+							<HessianCell Cell="394.114212599982,486.740054116685,2874.10674559992,476.670760805877,367.439936801818,2884.17076836849,269.02567009933,204.245697339219,-5179.94220572197"/>
+							<HessianCell Cell="271.667229423425,380.964189544061,-2339.10715086022,394.724882097893,273.571133133614,-2370.26058684327,-497.228598435863,-520.914481077344,1797.36939743976"/>
+							<HessianCell Cell="-20233.0466739357,-14392.0580023599,10828.9466777024,-13256.1619753686,-19583.4103399608,13684.7430142325,23260.2217093451,20422.9289034928,112852.916951508"/>
+							<HessianCell Cell="-20438.5394052152,-13901.5425761985,4019.52191117247,-14517.5724878101,-21117.8581486477,7034.91122769576,-7878.35066758888,-8559.37219823111,-5975.61786141424"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="-11196.0260815245,962.98087834168,17752.8312914916,839.705107892667,-11215.6751687612,14794.953558547,232.424713613223,-63.6823181083627,-221021.011775835"/>
+							<HessianCell Cell="917.003080002685,-465.877816450974,7734.88796832223,-538.178443519379,967.614080932665,7377.31627369811,-791.618803640022,-299.940317408704,-779.92115717209"/>
+							<HessianCell Cell="-636.965216944953,-476.398499550778,8284.68005400507,-1429.04785633069,-1380.11806008845,5796.99716495146,33782.2024980787,34305.8778544801,69346.9544217652"/>
+							<HessianCell Cell="-2374.90800888297,-2255.10007543917,-9785.99178113973,-2522.93669600738,-2371.3758392228,-7444.51461739117,10149.289279918,10330.8823738392,-14895.8449716505"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="1600.33272663833,362.318556664068,7770.74755857626,-382.131724312246,-1125.68067036142,7317.875081032,-6257.40750735827,649.363805915132,-43246.0628890953"/>
+							<HessianCell Cell="-1212.96784691155,-416.260266293043,8415.95649551293,274.0898015296,1849.5312594751,6842.58665528025,174.044613204489,-5514.94208217394,-41796.2712306443"/>
+							<HessianCell Cell="1953.70462376657,-868.012983724597,5412.78004655753,1374.77189271718,-1187.47881630184,3030.59476384276,-4265.69683400108,-23781.3476833866,38340.0735510899"/>
+							<HessianCell Cell="-559.33279363995,1586.57894072708,5706.52078300953,-960.787422276131,1454.35519332953,3725.55190590826,-22321.0793610553,-7178.68508390059,35789.4884348138"/>
+							<HessianCell Cell="358.907098861642,-411.988956710318,3043.55036268484,-393.989410563208,384.046105113222,-2965.46387286637,455.192368714607,81.5828619679597,-1583.74095634665"/>
+							<HessianCell Cell="401.863240642376,-415.014807659554,-2922.99527702829,-429.090692433235,362.441166069011,3040.22468462731,39.2882582608268,441.731082074157,-1008.79332555149"/>
+							<HessianCell Cell="-17409.4619292878,10019.9551039898,541.830073629656,20315.9815754794,-26690.3282322012,4575.2896480956,35344.4297452708,-19750.0523906213,-292141.321126033"/>
+							<HessianCell Cell="-27393.1408207915,20530.9666160181,7407.12121362754,10709.8701938621,-17730.0450356386,-2895.95447601557,-16038.3429023695,29723.5437200242,-303740.613406876"/>
+							<HessianCell Cell="-3083.90684133666,-3037.97385224995,-9389.59928833808,-1733.44810427857,-1660.29520199142,-6339.43140509714,-26429.2496059852,-25422.0713360635,-250.521344089686"/>
+							<HessianCell Cell="2424.39545108282,2363.08221811164,-14897.8697439999,1679.05941811938,1385.55417869503,-10559.0512390602,17036.8278069296,21261.034221474,245539.913106526"/>
+							<HessianCell Cell="90348.9051674414,-6015.92053164392,-44569.2463327791,-6015.92053164393,90859.9437807337,-36963.0219814149,-44569.246332779,-36963.0219814149,398245.459302224"/>
+						</HessianRow>
+						<HessianRow NumCells="24">
+							<HessianCell Cell="-100.105299472324,-96.2600169711258,477.03718370759,-95.1358824780783,-100.376438770399,489.541834871012,163.417028092961,114.10174540823,-2190.59185764656"/>
+							<HessianCell Cell="110.563762228409,107.715091856913,-121.255583281452,115.784462918409,117.63705866124,-175.318897799262,-57.3104406932294,-38.9407437669113,-1206.4659646702"/>
+							<HessianCell Cell="-3522.75966062714,-3401.14360363472,-15322.2896932339,-3467.18338079721,-3404.98868073356,-14339.3854523779,16813.4151008887,16661.5103671357,90577.7909894834"/>
+							<HessianCell Cell="-518.213551668715,-482.604934988389,-17027.8667355376,-555.688999863002,-464.164318819093,-16427.8561509969,-10320.3793613158,-11154.9341866429,59458.1576852192"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="-267.186432167484,-283.537340582558,6561.39253883414,-279.650304676643,-314.525817496321,5214.82233429909,-2365.06353362096,-1927.53550443414,-78949.9952248725"/>
+							<HessianCell Cell="159.548639750331,139.06652890549,-3583.76697499992,176.538783987275,182.685928523282,-3782.69837051395,-838.547612997419,-790.150067955293,-26776.8077082489"/>
+							<HessianCell Cell="-14181.3837906729,-9303.96564529268,-43947.2048309257,-9514.62206572082,-14254.0275114288,-43270.2544266494,-53302.1870507427,-52516.0039697993,-234303.064450723"/>
+							<HessianCell Cell="-12764.5249989225,-9332.78790875308,58739.0549560997,-9361.85660226145,-12896.0881622531,58594.5566942992,43837.8780760607,43916.6914012717,-256881.088868528"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="0,0,0,0,0,0,0,0,0"/>
+							<HessianCell Cell="627.469944917853,480.24629440567,5012.10936185921,671.966688534089,504.771562122508,4549.73447729454,-1378.46245364707,-1736.96583276384,-59448.1314728599"/>
+							<HessianCell Cell="510.803854318208,606.414205879007,4988.57607772147,501.879114705362,604.722610175467,4604.17233512547,-2084.40118466511,-1248.35521469024,-59749.096804727"/>
+							<HessianCell Cell="-23232.8067333768,15831.9769014984,-22141.0201428381,14380.5173219005,-21799.0611017252,8059.50577783722,-11315.1135347033,13337.4236283441,-99022.1596547078"/>
+							<HessianCell Cell="-21792.1973803017,14195.4230413074,8235.82963366408,15687.8071571335,-23422.3207394229,-24972.2880007748,14744.4407325776,-12083.4421277481,-96848.7098765595"/>
+							<HessianCell Cell="-46.0060004017363,-47.7504863648268,58.1248469149831,-43.6517868607281,-50.8605163285528,67.048537204618,359.461658428485,-58.8991856175857,-732.118967904516"/>
+							<HessianCell Cell="-50.6550443123334,-37.9125219970448,107.46365490843,-49.6329171327782,-43.0630702648866,86.7189852040086,9.7980693183689,305.331656470234,-1077.80202431763"/>
+							<HessianCell Cell="-6367.81038239581,7852.76035049626,-22192.3439616959,-6315.49676803859,7780.21881232992,-21902.5544952259,10542.2272532905,-9824.67842835747,74284.7771154587"/>
+							<HessianCell Cell="8300.37155659689,-6745.53388603809,-23852.604556508,8372.41708560262,-6860.12493499368,-23741.7405441942,-14247.7744017401,14513.9699325931,83439.2258056693"/>
+							<HessianCell Cell="1782.02628250393,1654.06283009339,13939.2167712088,1747.12387004339,1931.70319413801,13527.3522960026,5796.56125274639,5335.40783222023,64945.2402962641"/>
+							<HessianCell Cell="-1200.78847299422,-592.066600081982,27687.6969490711,-1275.18357598207,-776.940231776671,27185.4918438744,-4545.86454478444,-7837.32660482181,-21585.5060443841"/>
+							<HessianCell Cell="5867.40278800406,6114.39171204081,8305.27394977992,5962.56181076498,6157.76867888585,10632.839351788,-5888.67160774545,-10567.5165675909,29707.4870850342"/>
+							<HessianCell Cell="66686.250919007,-16658.4940117811,14076.5765552496,-16658.4940117811,67107.0336791746,15600.3118707482,14076.5765552496,15600.3118707482,536358.859943068"/>
+						</HessianRow>
+					</AtomicHessian>
+					<AtomisticClassicalEnergy ID="51" HasProperties="1" Mapping="3" Parent="2" Name="DMol3 Energy">
+						<Properties TotalEnergy="-2400536.61230835"/>
+					</AtomisticClassicalEnergy>
+				</InfiniteMapping>
+			</MappingSet>
+		</SymmetrySystem>
+		<Bonding ID="81" IsBondingMonitored="0" IsHBondingMonitored="0" IsCloseContactMonitored="0"/>
+	</AtomisticTreeRoot>
+</XSD>
