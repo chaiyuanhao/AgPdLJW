@@ -1,0 +1,62 @@
+
+# Task parameters
+Calculate                     energy
+
+# Cartesian constraints
+Opt_fixed
+1   XYZ
+2   XYZ
+3   XYZ
+4   XYZ
+5   XYZ
+6   XYZ
+7   XYZ
+8   XYZ
+9   XYZ
+10   XYZ
+11   XYZ
+12   XYZ
+13   XYZ
+14   XYZ
+15   XYZ
+21   XYZ
+22   XYZ
+23   XYZ
+24   XYZ
+25   XYZ
+31   XYZ
+32   XYZ
+33   XYZ
+34   XYZ
+35   XYZ
+36   XYZ
+37   XYZ
+38   XYZ
+39   XYZ
+40   XYZ
+
+Symmetry                      off
+Max_memory                    2048
+File_usage                    smart
+Scf_density_convergence       1.000000e-05
+Scf_charge_mixing             2.000000e-01
+Scf_spin_mixing               5.000000e-01
+Scf_diis                      10 pulay
+Scf_iterations                9999
+
+# Electronic parameters
+Spin_polarization             unrestricted
+Charge                        0
+Basis                         dnd
+Pseudopotential               dspp
+Functional                    pbe
+Aux_density                   hexadecapole
+Integration_grid              medium
+Occupation                    fermi
+Cutoff_Global                 4.0000 angstrom
+
+# Kpoint definition file (intervals/offset): 
+Kpoints                       file     6 6 1 0.0000 0.0000 0.0000
+101.kpoints
+
+# Calculated properties
