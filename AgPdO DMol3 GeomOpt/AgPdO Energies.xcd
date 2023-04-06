@@ -4,7 +4,7 @@
 	<CHART_2D>
 		<DATA_2D NumSeries="1">
 			<SERIES_2D UniqueID="0" Name="Total Energy" NumPoints="1">
-				<POINT_2D XY="1,-14700.6952619409" ItemData="1"/>
+				<POINT_2D XY="1,-15001.1625101986" ItemData="1"/>
 			</SERIES_2D>
 		</DATA_2D>
 		<MARKERS_2D NumMarkers="0" Visible="true" Width="1" Style="Solid" Color="255,0,0"/>
@@ -12,7 +12,7 @@
 			<TITLE Visible="1" Text="DMol3 Geometry Optimization">
 				<FONT/>
 			</TITLE>
-			<LEGEND Visible="1" Heading=""/>
+			<LEGEND Visible="0" Heading=""/>
 			<CARTESIAN_AXES_2D XOriginPos="Min" YOriginPos="Min" XTickPos="Auto" YTickPos="Auto">
 				<AXIS_X Visible="true" Reversed="false" Title="Optimization Step">
 					<FONT/>
@@ -20,7 +20,7 @@
 					<MAJOR_TICKMARKS Length="6" Visible="true" Width="1" Style="Solid" Color="185,185,185"/>
 					<MINOR_TICKMARKS Length="2" Visible="true" Width="1" Style="Solid" Color="185,185,185"/>
 				</AXIS_X>
-				<AXIS_Y Visible="true" Reversed="false" Title="Energy/Ha">
+				<AXIS_Y Visible="true" Reversed="false" Title="Energy (Ha)">
 					<FONT/>
 					<AXIS_LINE Visible="true" Width="1" Style="Solid" Color="185,185,185"/>
 					<MAJOR_TICKMARKS Length="6" Visible="true" Width="1" Style="Solid" Color="185,185,185"/>
