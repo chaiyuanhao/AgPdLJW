@@ -1,33 +1,33 @@
 Name:	dmol3.exe
 Umask:	0002
 State:	R (running)
-Tgid:	3065996
-Ngid:	3065996
-Pid:	3065996
-PPid:	3065992
+Tgid:	3065369
+Ngid:	3065369
+Pid:	3065369
+PPid:	3065365
 TracerPid:	0
 Uid:	1000	1000	1000	1000
 Gid:	1000	1000	1000	1000
 FDSize:	64
 Groups:	1000 
-NStgid:	3065996
-NSpid:	3065996
-NSpgid:	3065996
-NSsid:	3065783
-VmPeak:	 1580996 kB
-VmSize:	 1580996 kB
+NStgid:	3065369
+NSpid:	3065369
+NSpgid:	3065369
+NSsid:	3065156
+VmPeak:	 1619276 kB
+VmSize:	 1619276 kB
 VmLck:	       0 kB
 VmPin:	       0 kB
-VmHWM:	  624564 kB
-VmRSS:	  624564 kB
-RssAnon:	  526952 kB
-RssFile:	   44676 kB
-RssShmem:	   52936 kB
-VmData:	  566824 kB
+VmHWM:	  622624 kB
+VmRSS:	  622624 kB
+RssAnon:	  564180 kB
+RssFile:	   44744 kB
+RssShmem:	   13700 kB
+VmData:	  605104 kB
 VmStk:	     564 kB
 VmExe:	   27740 kB
 VmLib:	  266684 kB
-VmPTE:	    2120 kB
+VmPTE:	    1916 kB
 VmSwap:	       0 kB
 HugetlbPages:	       0 kB
 CoreDumping:	0
@@ -51,5 +51,5 @@ Cpus_allowed:	000000,00000001
 Cpus_allowed_list:	0
 Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000003
 Mems_allowed_list:	0-1
-voluntary_ctxt_switches:	191
-nonvoluntary_ctxt_switches:	1746
+voluntary_ctxt_switches:	175
+nonvoluntary_ctxt_switches:	3272

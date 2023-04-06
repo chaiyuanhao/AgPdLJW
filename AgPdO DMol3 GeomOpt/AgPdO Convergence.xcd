@@ -5,10 +5,10 @@
 		<DATA_2D NumSeries="6">
 			<SERIES_2D UniqueID="0" Name="Energy Change (Ha)" NumPoints="0"/>
 			<SERIES_2D UniqueID="1" Name="Max. Displacement (Ang)" NumPoints="1">
-				<POINT_2D XY="1,-3.300195736034599" ItemData="1"/>
+				<POINT_2D XY="1,-2.891224340413938" ItemData="1"/>
 			</SERIES_2D>
 			<SERIES_2D UniqueID="2" Name="Max. Force (Ha/Ang)" NumPoints="1">
-				<POINT_2D XY="1,-2.873481538300957" ItemData="1"/>
+				<POINT_2D XY="1,-2.742138268267989" ItemData="1"/>
 			</SERIES_2D>
 			<SERIES_2D UniqueID="3" Name="" NumPoints="1">
 				<POINT_2D XY="1,-4.698970004336019" ItemData="1"/>

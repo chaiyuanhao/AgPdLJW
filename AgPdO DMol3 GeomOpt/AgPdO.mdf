@@ -1,6 +1,6 @@
 !BIOSYM molecular_data 4
  
-!Date: Fri Nov  4 00:49:53 2022   Materials Studio Generated MDF file
+!Date: Fri Nov  4 00:48:39 2022   Materials Studio Generated MDF file
  
 #topology
 
@@ -40,6 +40,7 @@ XXXX_1:Ag10         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000
 XXXX_1:Ag11         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
 XXXX_1:Ag12         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
 XXXX_1:O1           O  x       ?     0  2-    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:O2           O  x       ?     0  2-    0.0000 0 0 8 1.0000  0.0000 
 XXXX_1:Pd9          Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
 XXXX_1:Pd10         Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
 XXXX_1:Pd11         Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
@@ -60,7 +61,8 @@ XXXX_1:Ag21         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000
 XXXX_1:Ag22         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
 XXXX_1:Ag23         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
 XXXX_1:Ag24         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
-XXXX_1:O2           O  x       ?     0  2-    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:O3           O  x       ?     0  2-    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:O4           O  x       ?     0  2-    0.0000 0 0 8 1.0000  0.0000 
 XXXX_1:Pd17         Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
 XXXX_1:Pd18         Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
 XXXX_1:Pd19         Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
@@ -81,7 +83,8 @@ XXXX_1:Ag33         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000
 XXXX_1:Ag34         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
 XXXX_1:Ag35         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
 XXXX_1:Ag36         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
-XXXX_1:O3           O  x       ?     0  2-    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:O5           O  x       ?     0  2-    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:O6           O  x       ?     0  2-    0.0000 0 0 8 1.0000  0.0000 
 XXXX_1:Pd25         Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
 XXXX_1:Pd26         Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
 XXXX_1:Pd27         Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
@@ -102,7 +105,8 @@ XXXX_1:Ag45         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000
 XXXX_1:Ag46         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
 XXXX_1:Ag47         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
 XXXX_1:Ag48         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
-XXXX_1:O4           O  x       ?     0  2-    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:O7           O  x       ?     0  2-    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:O8           O  x       ?     0  2-    0.0000 0 0 8 1.0000  0.0000 
  
 !
 #symmetry
@@ -115,8 +119,8 @@ XXXX_1:O4           O  x       ?     0  2-    0.0000 0 0 8 1.0000  0.0000
 @list subset MDF_FIXED_ATOMS_SUBSET
 
 Molecule:XXXX_1:Pd1 Pd3 Pd4 Ag2 Ag4 Ag5 Pd5 Pd7 Pd8 Ag8 Ag10 Ag11 Pd17 Pd19 Pd20 
-Ag26 Ag28 Ag29 Pd21 Pd23 Pd24 Ag32 Ag34 Ag35 Pd9 Pd11 Pd12 Ag14 Ag16 Ag17 Pd13 
-Pd15 Pd16 Ag20 Ag22 Ag23 Pd25 Pd27 Pd28 Ag38 Ag40 Ag41 Pd29 Pd31 Pd32 Ag44 Ag46 
-Ag47 
+Ag26 Ag28 Ag29 Pd21 Pd23 Pd24 Ag32 Ag34 Ag35 Pd25 Pd27 Pd28 Ag38 Ag40 Ag41 Pd29 
+Pd31 Pd32 Ag44 Ag46 Ag47 Pd9 Pd11 Pd12 Ag14 Ag16 Ag17 Pd13 Pd15 Pd16 Ag20 Ag22 
+Ag23 
 
 #end
