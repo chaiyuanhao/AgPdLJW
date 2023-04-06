@@ -1,0 +1,365 @@
+ 
+     ===============================================================
+     Materials Studio DMol^3 version 2020            
+     compiled on Oct 17 2019 19:55:04
+     ===============================================================
+ 
+     ===============================================================
+     Density Functional Theory Electronic Structure Program
+     Copyright (c) 2019, Dassault Systemes, all rights reserved.
+     Cite work using this program as: 
+     B. Delley, J. Chem. Phys. 92,  508  (1990).
+     B. Delley, J. Chem. Phys. 113, 7756 (2000).
+     DMol^3 is available as part of Materials Studio.
+     ===============================================================
+ 
+ 
+DATE:     Oct  9 09:25:43 2022
+ 
+Job started on host DESKTOP-NLKLTCI
+
+This run uses   32 processors
+
+Message: License checkout of MS_dmol successful
+Message: License checkout of MS_dsolid successful
+ 
+Basis set is read from file:
+C:\Program Files (x86)\BIOVIA\Materials Studio 20.1 x64 Server\share\Resources\Quantum\DMol3\BASFILE_v3.5
+
+ 
+ parallel run with  32 processors
+ 
+ no INCOOR file: try ZMAT
+ no ZMAT file: try CAR
+
+Geometry is read from file: 0ml.car                                                                                                                                                                                                                                                         
+
+INCOOR, atomic coordinates in au (for archive):
+______________________________________________________________________>8
+
+$cell vectors
+             15.37821325997283    0.00000000000000    0.00000000000000
+              0.00011447834469   10.93187665987601    0.00000000000000
+              0.00000000000000    0.00000000000000   43.26036634380325
+$coordinates
+Pd            0.00021125626297    5.54195685329388    0.00000000000000
+Pd            0.00021125626297    0.01827378201979    5.46565357118739
+Pd            3.84416150484763    8.24627596944883    2.73303119726863
+Ag            7.68853360833354    0.07586470690850    0.00012032075210
+Ag            7.68865438828909    5.48409841121601    5.46577389193949
+Ag            3.84482500091820    2.78019585305997    2.73316367462890
+Pd            7.68931788624938    5.54195685329388    0.00000000000000
+Pd            7.68931788624938    0.01827378201979    5.46565357118739
+Pd           11.53326813483405    8.24627596944883    2.73303119726863
+Ag           15.37764023831995    0.07586470690850    0.00012032075210
+Ag           15.37776101827551    5.48409841121601    5.46577389193949
+Ag           11.53393163090462    2.78019585305997    2.73316367462890
+$end
+______________________________________________________________________>8
+
+
+N_atoms =   12     N_atom_types =  2
+
+
+INPUT_DMOL keywords (for archive):
+______________________________________________________________________>8
+
+#Warning: no global confinement specs in BASFILE
+                                                                                                                                    <--
+# Task parameters                                                                                                                   <--
+Calculate                     optimize                                                                                              <--
+Opt_energy_convergence        2.0000e-05                                                                                            <--
+Opt_gradient_convergence      4.0000e-03 A                                                                                          <--
+Opt_displacement_convergence  5.0000e-03 A                                                                                          <--
+Opt_iterations                50                                                                                                    <--
+Opt_max_displacement          0.3000 A                                                                                              <--
+                                                                                                                                    <--
+# Cartesian constraints                                                                                                             <--
+Opt_fixed                                                                                                                           <--
+1   XYZ                                                                                                                             
+2   XYZ                                                                                                                             
+3   XYZ                                                                                                                             
+4   XYZ                                                                                                                             
+5   XYZ                                                                                                                             
+6   XYZ                                                                                                                             
+7   XYZ                                                                                                                             
+8   XYZ                                                                                                                             
+9   XYZ                                                                                                                             
+10   XYZ                                                                                                                            
+11   XYZ                                                                                                                            
+12   XYZ                                                                                                                            
+                                                                                                                                    
+Symmetry                      off                                                                                                   <--
+Max_memory                    2048                                                                                                  <--
+File_usage                    smart                                                                                                 <--
+Scf_density_convergence       1.000000e-05                                                                                          <--
+Scf_charge_mixing             2.000000e-01                                                                                          <--
+Scf_spin_mixing               5.000000e-01                                                                                          <--
+Scf_diis                      10 pulay                                                                                              <--
+Scf_iterations                9999                                                                                                  <--
+                                                                                                                                    <--
+# Electronic parameters                                                                                                             <--
+Spin_polarization             unrestricted                                                                                          <--
+Charge                        0                                                                                                     <--
+Basis                         dnd                                                                                                   <--
+Pseudopotential               dspp                                                                                                  <--
+Functional                    pbe                                                                                                   <--
+Aux_density                   hexadecapole                                                                                          <--
+Integration_grid              medium                                                                                                <--
+Occupation                    fermi                                                                                                 <--
+Cutoff_Global                 4.0000 angstrom                                                                                       <--
+                                                                                                                                    <--
+# Kpoint definition file (intervals/offset):                                                                                        <--
+Kpoints                       file     6 9 1 0.0000 0.0000 0.0000                                                                   <--
+0ml.kpoints                                                                                                                         
+                                                                                                                                    <--
+# Calculated properties                                                                                                             <--
+______________________________________________________________________>8
+
+
+Publications of specific relevance to this calculation:
+
+Density functional:
+ PBE functional: Perdew Burke Ernzerhof: Phys. Rev. Lett. 77, 3865 (1996)
+
+Spin unrestricted calculation
+
+
+ The Generation and Use of Delocalized Internal Coordinates in Geometry optimization; 
+ Baker Kessi Delley: J. Chem. Phys., 105, 192 (1996) 
+ Andzelm Fitzgerald King-Smith: Chem. Phys. Lett., 335, 321 (2001)
+
+ Hardness conserving semilocal pseudopotentials; Delley: Phys. Rev. B 66, 155125 (2002)
+
+Fast Calculation of Electrostatics in Crystals and Large Molecules;
+ Delley: J. Phys. Chem. 100, 6107 (1996)
+
+Parallel eigenvalue solution:
+Parallel solution of partial symmetric eigenvalue problems from electronic structure calculations:
+Auckenthaler, Blum, Bungartz, et al.: Parallel Computing 37, 783 (2011)
+
+ 
+Calculation is Spin_unrestricted
+ 
+ 
+
+Lattice:
+ translation vector [a0]    1   15.378213260    0.000000000    0.000000000
+ translation vector [a0]    2    0.000114478   10.931876660    0.000000000
+ translation vector [a0]    3    0.000000000    0.000000000   43.260366344
+Cell volume         7272.618 a0^3
+Warning: at least C1 SYM file should be there for optgeom
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+** with  FIXED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Pd            0.000112            2.932677            0.000000
+            2    Pd            0.000112            0.009670            2.892299
+            3    Pd            2.034243            4.363741            1.446258
+            4    Ag            4.068597            0.040146            0.000064
+            5    Ag            4.068661            2.902060            2.892363
+            6    Ag            2.034594            1.471216            1.446328
+            7    Pd            4.069012            2.932677            0.000000
+            8    Pd            4.069012            0.009670            2.892299
+            9    Pd            6.103143            4.363741            1.446258
+           10    Ag            8.137497            0.040146            0.000064
+           11    Ag            8.137561            2.902060            2.892363
+           12    Ag            6.103494            1.471216            1.446328
+          ----------------------------------------------------------------------
+
+
+  FROZEN COORDINATES 
+ Atom    1   x=    0.000   y=    2.933   z=    0.000
+ Atom    2   x=    0.000   y=    0.010   z=    2.892
+ Atom    3   x=    2.034   y=    4.364   z=    1.446
+ Atom    4   x=    4.069   y=    0.040   z=    0.000
+ Atom    5   x=    4.069   y=    2.902   z=    2.892
+ Atom    6   x=    2.035   y=    1.471   z=    1.446
+ Atom    7   x=    4.069   y=    2.933   z=    0.000
+ Atom    8   x=    4.069   y=    0.010   z=    2.892
+ Atom    9   x=    6.103   y=    4.364   z=    1.446
+ Atom   10   x=    8.137   y=    0.040   z=    0.000
+ Atom   11   x=    8.138   y=    2.902   z=    2.892
+ Atom   12   x=    6.103   y=    1.471   z=    1.446
+
+
+  
+
+ Schmidt-Orthogonalized Set of       0 Active and    36 Constraint Vectors
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :       0
+ There are :           36  degrees of freedom
+ There are likely:    404  primitive internals
+
+Palladium    nbas=  1, z=  46, nrfn=  7, rcut=  7.56, e_ref= -0.006806 Ha
+  DSPP: PWC_PBE s 01d21 release   rcore=  1.43  zval=  18.00  46.00
+   n=4  L=0  occ= 2.00 e=      -3.142021Ha       -85.4988eV
+   n=4  L=1  occ= 6.00 e=      -1.864915Ha       -50.7469eV
+   n=4  L=2  occ=10.00 e=      -0.132294Ha        -3.5999eV
+   n=5  L=0  occ= 0.00 e=      -0.094650Ha        -2.5755eV
+   n=4  L=2  occ= 0.00 e=      -1.003745Ha       -27.3133eV
+   n=5  L=0  occ= 0.00 e=      -0.741482Ha       -20.1768eV
+   n=5  L=1  occ= 0.00 e=      -0.507684Ha       -13.8148eV
+Silver       nbas=  2, z=  47, nrfn=  7, rcut=  7.56, e_ref= -0.018438 Ha
+  DSPP: PWC_PBE s 01d21 release   rcore=  1.56  zval=  19.00  47.00
+   n=4  L=0  occ= 2.00 e=      -3.513144Ha       -95.5976eV
+   n=4  L=1  occ= 6.00 e=      -2.137811Ha       -58.1728eV
+   n=4  L=2  occ=10.00 e=      -0.254191Ha        -6.9169eV
+   n=5  L=0  occ= 1.00 e=      -0.136564Ha        -3.7161eV
+   n=4  L=2  occ= 0.00 e=      -1.061373Ha       -28.8814eV
+   n=5  L=0  occ= 0.00 e=      -0.761941Ha       -20.7335eV
+   n=5  L=1  occ= 0.00 e=      -0.518789Ha       -14.1170eV
+
+Note: calculation of reference xc derivative is turned on
+ for pseudopotential with core density correction
+
+Kpoints mesh:   6   9   1    0  0  0    0  1      54
+
+Parameters for generating k-points:   6   9   1        0.00      0.00      0.00       54
+Total number of symmetry-unique k points:      27
+Total number of symmetry-unique tetrahedra:     158
+
+
+Symmetry orbitals C1                            
+    n  norb    representation
+    1   228        a    
+  total number of valence orbitals:    228
+
+ cell charge=              0.000000   active electron number     222.0
+ (without charge=             222.0 )
+ 
+
+ real array elements, matrices vectors etc:      14.2 MB 
+ integer arrays                           :       0.4 MB 
+ min recommended for all-incl workspace   :      16.3 MB 
+Total memory allocated for arrays         :      39.1 MB 
+Memory for temporary file storage on disk :      13.7 MB
+Total memory allocated                    :      52.8 MB
+Max memory requested                      :    2048.0 MB
+Warning: taking last occupied orbital of first atom to start spin density!
+Default spin density on atom Pd(  1), L= 2 was used on start: M_s=  1.0
+Warning: start spin density on closed shell atom Pd(   1), L= 0 M_s=  1.0
+ 
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -2089.356064Ha        -1.3337549Ha      2.11E-01     0.0m      1
+Ef        -2089.153869Ha        -1.1315599Ha      8.47E-02     0.0m      2
+Ef        -2089.096012Ha        -1.0737028Ha      4.98E-02     0.0m      3
+Ef        -2089.091762Ha        -1.0694533Ha      3.41E-02     0.0m      4
+Ef        -2089.092941Ha        -1.0706321Ha      2.87E-02     0.0m      5
+Ef        -2089.091389Ha        -1.0690797Ha      1.73E-02     0.1m      6
+Ef        -2089.093259Ha        -1.0709503Ha      1.25E-02     0.1m      7
+Ef        -2089.093260Ha        -1.0709507Ha      7.64E-03     0.1m      8
+Ef        -2089.093097Ha        -1.0707882Ha      3.05E-03     0.1m      9
+Ef        -2089.093169Ha        -1.0708597Ha      2.43E-03     0.1m     10
+Ef        -2089.093165Ha        -1.0708556Ha      1.31E-03     0.1m     11
+Ef        -2089.093180Ha        -1.0708714Ha      9.07E-04     0.1m     12
+Ef        -2089.093179Ha        -1.0708698Ha      4.15E-04     0.1m     13
+Ef        -2089.093178Ha        -1.0708688Ha      3.07E-04     0.1m     14
+Ef        -2089.093178Ha        -1.0708689Ha      1.87E-04     0.1m     15
+Ef        -2089.093180Ha        -1.0708713Ha      7.64E-05     0.2m     16
+Ef        -2089.093180Ha        -1.0708710Ha      4.55E-05     0.2m     17
+Ef        -2089.093180Ha        -1.0708713Ha      3.22E-05     0.2m     18
+Ef        -2089.093180Ha        -1.0708710Ha      1.92E-05     0.2m     19
+Ef        -2089.093180Ha        -1.0708709Ha      8.25E-06     0.2m     20
+Message: SCF converged
+
+
+Fermi Energy:           -0.160606 Ha     -4.370 eV 
+
+this solid is a metal
+ with density of states at Fermi energy:      15.00 states/per unit cell and eV
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Pd     0.000097  -5.389920   0.000000     0.000010  -0.003544  -0.007533
+df   Pd     0.000211   0.018274   5.465654     0.000010   0.003548   0.007513
+df   Pd     3.844047  -2.685601   2.733031    -0.000019   0.000019   0.000004
+df   Ag     7.688534   0.075865   0.000120    -0.000029   0.003720  -0.001502
+df   Ag     7.688540  -5.447778   5.465774    -0.000002  -0.003741   0.001505
+df   Ag     3.844825   2.780196   2.733164     0.000031  -0.000003   0.000014
+df   Pd    -7.689010  -5.389920   0.000000     0.000010  -0.003544  -0.007533
+df   Pd    -7.688895   0.018274   5.465654     0.000010   0.003548   0.007512
+df   Pd    -3.845060  -2.685601   2.733031    -0.000019   0.000019   0.000004
+df   Ag    -0.000573   0.075865   0.000120    -0.000029   0.003720  -0.001502
+df   Ag    -0.000567  -5.447778   5.465774    -0.000002  -0.003741   0.001505
+df   Ag    -3.844282   2.780196   2.733164     0.000030  -0.000003   0.000014
+df  binding energy      -1.0708708Ha       -29.13989eV        -671.995kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -2088.0223089Ha
+                  Kinetic =      -13.7884695Ha
+            Electrostatic =       12.5555164Ha
+     Exchange-correlation =        0.0106173Ha
+        Spin polarization =        0.1514650Ha
+       Jellium correction =       -0.0003030Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -2089.093180Ha        -1.0708708Ha                   0.2m     21
+ 
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+** with  FIXED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Pd            0.000112            2.932677            0.000000
+            2    Pd            0.000112            0.009670            2.892299
+            3    Pd            2.034243            4.363741            1.446258
+            4    Ag            4.068597            0.040146            0.000064
+            5    Ag            4.068661            2.902060            2.892363
+            6    Ag            2.034594            1.471216            1.446328
+            7    Pd            4.069012            2.932677            0.000000
+            8    Pd            4.069012            0.009670            2.892299
+            9    Pd            6.103143            4.363741            1.446258
+           10    Ag            8.137497            0.040146            0.000064
+           11    Ag            8.137561            2.902060            2.892363
+           12    Ag            6.103494            1.471216            1.446328
+          ----------------------------------------------------------------------
+
+ Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Pd            0.000112            2.932677            0.000000
+            2    Pd            0.000112            0.009670            2.892299
+            3    Pd            2.034243            4.363741            1.446258
+            4    Ag            4.068597            0.040146            0.000064
+            5    Ag            4.068661            2.902060            2.892363
+            6    Ag            2.034594            1.471216            1.446328
+            7    Pd            4.069012            2.932677            0.000000
+            8    Pd            4.069012            0.009670            2.892299
+            9    Pd            6.103143            4.363741            1.446258
+           10    Ag            8.137497            0.040146            0.000064
+           11    Ag            8.137561            2.902060            2.892363
+           12    Ag            6.103494            1.471216            1.446328
+          ----------------------------------------------------------------------
+
+
+ +++ Entering Properties Section +++ 
+
+Message: License checkin of MS_dmol successful
+Message: License checkin of MS_dsolid successful
+
+Message: DMol3 job finished successfully
+
+ time all done       0.24m       14.11s
+
+DMol3.pl message: DMol3 job finished in 0 hr 0 min 17 sec.

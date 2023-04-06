@@ -1,0 +1,17 @@
+====================================================
+                  DMol3 Run Status                  
+====================================================
+ 
+Job Name            :        0ml
+Task                :        Property
+Basis               :        dnd                 
+Atom_Rcut           :        4.000 Angstrom
+Functional          :        pbe                 
+Harris              :        off  
+Integration Grid    :        medium              
+Kpoints             :        0ml.kpoints
+Occupation          :        fermi     
+Pseudopotential     :        dspp                
+Property            :        none                
+ 
+====================================================
