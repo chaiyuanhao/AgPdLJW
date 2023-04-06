@@ -1,0 +1,3554 @@
+ 
+     ===============================================================
+     Materials Studio DMol^3 version 2020            
+     compiled on Oct 17 2019 19:55:04
+     ===============================================================
+ 
+     ===============================================================
+     Density Functional Theory Electronic Structure Program
+     Copyright (c) 2019, Dassault Systemes, all rights reserved.
+     Cite work using this program as: 
+     B. Delley, J. Chem. Phys. 92,  508  (1990).
+     B. Delley, J. Chem. Phys. 113, 7756 (2000).
+     DMol^3 is available as part of Materials Studio.
+     ===============================================================
+ 
+ 
+DATE:     Dec  9 18:10:38 2022
+ 
+Job started on host DESKTOP-NLKLTCI
+
+This run uses   32 processors
+
+Message: License checkout of MS_dmol successful
+Message: License checkout of MS_dsolid successful
+ 
+Basis set is read from file:
+C:\Program Files (x86)\BIOVIA\Materials Studio 20.1 x64 Server\share\Resources\Quantum\DMol3\BASFILE_v3.5
+
+ 
+ parallel run with  32 processors
+ 
+ no INCOOR file: try ZMAT
+ no ZMAT file: try CAR
+
+Geometry is read from file: Ag25Pd75_I4MMM.car                                                                                                                                                                                                                                              
+
+INCOOR, atomic coordinates in au (for archive):
+______________________________________________________________________>8
+
+$cell vectors
+              7.59745491292423    0.00000000000000    0.00000000000000
+              0.00000000000000    7.59745491292423    0.00000000000000
+              0.00000000000000    0.00000000000000   15.37462278033535
+$coordinates
+Ag            0.00010922050085   -0.00008776455042    0.00004383786665
+Ag            3.79883667696296    3.79863969191169    7.68735522803432
+Pd            3.79883667696296   -0.00008776455042   11.53101092311816
+Pd            0.00010922050085    3.79863969191169    3.84369953295048
+Pd            0.00010922050085    3.79863969191169   11.53101092311816
+Pd            3.79883667696296   -0.00008776455042    3.84369953295048
+Pd            3.79883667696296    3.79863969191169    0.00004383786665
+Pd            0.00010922050085   -0.00008776455042    7.68735522803432
+$end
+______________________________________________________________________>8
+
+
+N_atoms =    8     N_atom_types =  2
+
+
+INPUT_DMOL keywords (for archive):
+______________________________________________________________________>8
+
+#Warning: no global confinement specs in BASFILE
+                                                                                                                                    <--
+# Task parameters                                                                                                                   <--
+Calculate                     optimize                                                                                              <--
+Opt_energy_convergence        2.0000e-05                                                                                            <--
+Opt_gradient_convergence      4.0000e-03 A                                                                                          <--
+Opt_displacement_convergence  5.0000e-03 A                                                                                          <--
+Opt_iterations                50                                                                                                    <--
+Opt_max_displacement          0.3000 A                                                                                              <--
+Lattice_optimization          4 0.0150 A                                                                                            <--
+Symmetry                      on                                                                                                    <--
+Max_memory                    2048                                                                                                  <--
+File_usage                    smart                                                                                                 <--
+Scf_density_convergence       1.000000e-05                                                                                          <--
+Scf_charge_mixing             2.000000e-01                                                                                          <--
+Scf_spin_mixing               5.000000e-01                                                                                          <--
+Scf_diis                      10 pulay                                                                                              <--
+Scf_iterations                9999                                                                                                  <--
+                                                                                                                                    <--
+# Electronic parameters                                                                                                             <--
+Spin_polarization             unrestricted                                                                                          <--
+Charge                        0                                                                                                     <--
+Basis                         dnd                                                                                                   <--
+Pseudopotential               dspp                                                                                                  <--
+Functional                    pbe                                                                                                   <--
+Aux_density                   hexadecapole                                                                                          <--
+Integration_grid              medium                                                                                                <--
+Occupation                    thermal 0.0050                                                                                        <--
+Cutoff_Global                 4.0000 angstrom                                                                                       <--
+                                                                                                                                    <--
+# Kpoint definition file (intervals/offset):                                                                                        <--
+Kpoints                       file     12 12 6 0.0000 0.0000 0.0000                                                                 <--
+Ag25Pd75_I4MMM.kpoints                                                                                                              
+                                                                                                                                    <--
+# Calculated properties                                                                                                             <--
+______________________________________________________________________>8
+
+
+Publications of specific relevance to this calculation:
+
+Density functional:
+ PBE functional: Perdew Burke Ernzerhof: Phys. Rev. Lett. 77, 3865 (1996)
+
+Spin unrestricted calculation
+
+
+ The Generation and Use of Delocalized Internal Coordinates in Geometry optimization; 
+ Baker Kessi Delley: J. Chem. Phys., 105, 192 (1996) 
+ Andzelm Fitzgerald King-Smith: Chem. Phys. Lett., 335, 321 (2001)
+
+ Hardness conserving semilocal pseudopotentials; Delley: Phys. Rev. B 66, 155125 (2002)
+
+ Fractional occupations and density functional energies and forces; Weinert Davenport: Phys. Rev. B 45, 13709 (1992)
+
+Fractional occupations, iterative stability:
+ Delley in; Modern Density Functional Theory vol 2 pg 221 ff (1995),
+  Elsevier, Seminario Politzer eds.
+
+Fast Calculation of Electrostatics in Crystals and Large Molecules;
+ Delley: J. Phys. Chem. 100, 6107 (1996)
+
+Parallel eigenvalue solution:
+Parallel solution of partial symmetric eigenvalue problems from electronic structure calculations:
+Auckenthaler, Blum, Bungartz, et al.: Parallel Computing 37, 783 (2011)
+
+
+Thermal smearing overrode tetrahedra Bloechl correction
+ 
+Calculation is Spin_unrestricted
+ 
+ 
+
+The point group of the crystal is:
+ tetragonal of order 16
+ with inversion symmetry
+
+Note: this cell has   2 times the volume of the primitive cell
+
+Warning: nonstd translation fixed  2  2   -0.000023104  0.000000
+Warning: nonstd translation fixed  3  1    0.000028752  0.000000
+Warning: nonstd translation fixed  4  1    0.000028752  0.000000
+Warning: nonstd translation fixed  4  2   -0.000023104  0.000000
+Warning: nonstd translation fixed  6  2   -0.000025928  0.000000
+Warning: nonstd translation fixed  7  1    0.000025928  0.000000
+Warning: nonstd translation fixed  8  1    0.000025928  0.000000
+Warning: nonstd translation fixed  8  2   -0.000025928  0.000000
+Warning: nonstd translation fixed  9  1    0.000028752  0.000000
+Warning: nonstd translation fixed  9  2   -0.000023104  0.000000
+Warning: nonstd translation fixed 10  1    0.000028752  0.000000
+Warning: nonstd translation fixed 11  2   -0.000023104  0.000000
+Warning: nonstd translation fixed 13  1    0.000025928  0.000000
+Warning: nonstd translation fixed 13  2   -0.000025928  0.000000
+Warning: nonstd translation fixed 14  1    0.000025928  0.000000
+Warning: nonstd translation fixed 15  2   -0.000025928  0.000000
+
+Lattice:
+ translation vector [a0]    1    7.597454913    0.000000000    0.000000000
+ translation vector [a0]    2    0.000000000    7.597454913    0.000000000
+ translation vector [a0]    3    0.000000000    0.000000000   15.374622780
+Cell volume          887.444 a0^3
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020354            0.000023
+            2    Ag            2.010258            2.010154            4.067973
+            3    Pd            2.010258            4.020354            6.101948
+            4    Pd            0.000058            2.010154            2.033998
+            5    Pd            0.000058            2.010154            6.101948
+            6    Pd            2.010258            4.020354            2.033998
+            7    Pd            2.010258            2.010154            0.000023
+            8    Pd            0.000058            4.020354            4.067973
+          ----------------------------------------------------------------------
+
+  
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     48  primitive internals
+
+Palladium    nbas=  1, z=  46, nrfn=  7, rcut=  7.56, e_ref= -0.006806 Ha
+  DSPP: PWC_PBE s 01d21 release   rcore=  1.43  zval=  18.00  46.00
+   n=4  L=0  occ= 2.00 e=      -3.142021Ha       -85.4988eV
+   n=4  L=1  occ= 6.00 e=      -1.864915Ha       -50.7469eV
+   n=4  L=2  occ=10.00 e=      -0.132294Ha        -3.5999eV
+   n=5  L=0  occ= 0.00 e=      -0.094650Ha        -2.5755eV
+   n=4  L=2  occ= 0.00 e=      -1.003745Ha       -27.3133eV
+   n=5  L=0  occ= 0.00 e=      -0.741482Ha       -20.1768eV
+   n=5  L=1  occ= 0.00 e=      -0.507684Ha       -13.8148eV
+Silver       nbas=  2, z=  47, nrfn=  7, rcut=  7.56, e_ref= -0.018438 Ha
+  DSPP: PWC_PBE s 01d21 release   rcore=  1.56  zval=  19.00  47.00
+   n=4  L=0  occ= 2.00 e=      -3.513144Ha       -95.5976eV
+   n=4  L=1  occ= 6.00 e=      -2.137811Ha       -58.1728eV
+   n=4  L=2  occ=10.00 e=      -0.254191Ha        -6.9169eV
+   n=5  L=0  occ= 1.00 e=      -0.136564Ha        -3.7161eV
+   n=4  L=2  occ= 0.00 e=      -1.061373Ha       -28.8814eV
+   n=5  L=0  occ= 0.00 e=      -0.761941Ha       -20.7335eV
+   n=5  L=1  occ= 0.00 e=      -0.518789Ha       -14.1170eV
+
+Note: calculation of reference xc derivative is turned on
+ for pseudopotential with core density correction
+
+Kpoints mesh:  12  12   6    0  0  0    0  0     864
+
+Parameters for generating k-points:  12  12   6        0.00      0.00      0.00      864
+Total number of symmetry-unique k points:      63
+Total number of symmetry-unique tetrahedra:    1218
+
+
+Symmetry orbitals C1                            
+    n  norb    representation
+    1   152        a    
+  total number of valence orbitals:    152
+
+ cell charge=              0.000000   active electron number     146.0
+ (without charge=             146.0 )
+ electron temperature=     0.005_Ha      0.14_eV     1579._K
+ 
+
+ real array elements, matrices vectors etc:      26.3 MB 
+ integer arrays                           :       0.5 MB 
+ min recommended for all-incl workspace   :      29.3 MB 
+Total memory allocated for arrays         :      59.0 MB 
+Memory for temporary file storage on disk :      23.3 MB
+Total memory allocated                    :      82.3 MB
+Max memory requested                      :    2048.0 MB
+Default spin density on atom Ag(  1), L= 0 was used on start: M_s=  1.0
+    1  1.000 start spin density on Ag(   1), L= 0 M_s=  1.0
+ 
+strainstep =   0.03000    1    1    1
+
+cell volume     887.444
+              7.59745491292423    0.00000000000000    0.00000000000000
+              0.00000000000000    7.59745491292423    0.00000000000000
+              0.00000000000000    0.00000000000000   15.37462278033535
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020354            0.000023
+            2    Ag            2.010258            2.010154            4.067973
+            3    Pd            2.010258            4.020354            6.101948
+            4    Pd            0.000058            2.010154            2.033998
+            5    Pd            0.000058            2.010154            6.101948
+            6    Pd            2.010258            4.020354            2.033998
+            7    Pd            2.010258            2.010154            0.000023
+            8    Pd            0.000058            4.020354            4.067973
+          ----------------------------------------------------------------------
+
+  
+ System is a dense periodic or a zeolite
+ Using fractional displacements
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     48  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.318437Ha        -1.2321522Ha      2.27E-01     0.0m      1
+Ef        -1350.097954Ha        -1.0116695Ha      9.42E-02     0.1m      2
+Ef        -1350.063351Ha        -0.9770662Ha      3.84E-02     0.1m      3
+Ef        -1350.064098Ha        -0.9778138Ha      2.88E-02     0.1m      4
+Ef        -1350.064780Ha        -0.9784956Ha      2.12E-02     0.2m      5
+Ef        -1350.065723Ha        -0.9794390Ha      2.17E-03     0.2m      6
+Ef        -1350.065732Ha        -0.9794474Ha      9.32E-04     0.2m      7
+Ef        -1350.065749Ha        -0.9794643Ha      6.05E-04     0.2m      8
+Ef        -1350.065729Ha        -0.9794450Ha      3.89E-04     0.3m      9
+Ef        -1350.065735Ha        -0.9794506Ha      6.84E-05     0.3m     10
+Ef        -1350.065734Ha        -0.9794499Ha      3.57E-05     0.3m     11
+Ef        -1350.065734Ha        -0.9794497Ha      9.74E-06     0.3m     12
+Message: SCF converged
+
+
+Fermi Energy:          -0.186507 Ha      -5.075 eV   -kTS_e= -0.0210368Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000109  -0.000088   0.000044    -0.000000  -0.000000  -0.000000
+df   Ag    -3.798618   3.798640  -7.687268     0.000000   0.000000   0.000000
+df   Pd    -3.798618  -0.000088  -3.843612     0.000000  -0.000000  -0.000000
+df   Pd     0.000109   3.798640   3.843700    -0.000000   0.000000   0.000000
+df   Pd     0.000109   3.798640  -3.843612    -0.000000   0.000000  -0.000000
+df   Pd    -3.798618  -0.000088   3.843700     0.000000  -0.000000   0.000000
+df   Pd    -3.798618   3.798640   0.000044     0.000000   0.000000  -0.000000
+df   Pd     0.000109  -0.000088  -7.687268    -0.000000  -0.000000  -0.000000
+df  binding energy      -0.9794497Ha       -26.65219eV        -614.626kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.6362328Ha
+            Electrostatic =       16.5667533Ha
+     Exchange-correlation =        0.0123186Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0088465Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.065734Ha        -0.9794497Ha                   0.4m     13
+
+Df  binding energy extrapolated to T=0K      -0.9689313 Ha       -26.36597 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020354            0.000023
+            2    Ag            2.010258            2.010154            4.067973
+            3    Pd            2.010258            4.020354            6.101948
+            4    Pd            0.000058            2.010154            2.033998
+            5    Pd            0.000058            2.010154            6.101948
+            6    Pd            2.010258            4.020354            2.033998
+            7    Pd            2.010258            2.010154            0.000023
+            8    Pd            0.000058            4.020354            4.067973
+          ----------------------------------------------------------------------
+
+ Message: Gradients are very small. RMS cartesian gradient:    0.2E-12
+ Message: Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  4.02040000        0.00000000        0.00000000
+                  0.00000000        4.02040000        0.00000000
+                  0.00000000        0.00000000        8.13590000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058           -0.000046            0.000023
+            2    Ag            2.010258            2.010154            4.067973
+            3    Pd            2.010258           -0.000046            6.101948
+            4    Pd            0.000058            2.010154            2.033998
+            5    Pd            0.000058            2.010154            6.101948
+            6    Pd            2.010258           -0.000046            2.033998
+            7    Pd            2.010258            2.010154            0.000023
+            8    Pd            0.000058           -0.000046            4.067973
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       4.020400 Ang    alpha =      90.000000 deg
+               b =       4.020400 Ang    beta  =      90.000000 deg
+               c =       8.135900 Ang    gamma =      90.000000 deg
+ 
+ Evaluating lattice optimization strategy...
+
+cell volume     887.444
+              7.71141673661809    0.00000000000000    0.00000000000000
+              0.00000000000000    7.71141673661809    0.00000000000000
+              0.00000000000000    0.00000000000000   15.37462278033535
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.060148Ha        -0.9738640Ha      1.15E-02     0.4m      1
+Ef        -1350.062731Ha        -0.9764469Ha      8.01E-03     0.5m      2
+Ef        -1350.062925Ha        -0.9766404Ha      6.35E-03     0.5m      3
+Ef        -1350.063314Ha        -0.9770292Ha      3.48E-03     0.5m      4
+Ef        -1350.063295Ha        -0.9770109Ha      1.41E-03     0.5m      5
+Ef        -1350.063269Ha        -0.9769846Ha      7.57E-04     0.5m      6
+Ef        -1350.063242Ha        -0.9769578Ha      2.30E-04     0.6m      7
+Ef        -1350.063245Ha        -0.9769608Ha      3.85E-05     0.6m      8
+Ef        -1350.063244Ha        -0.9769594Ha      1.04E-05     0.6m      9
+Ef        -1350.063244Ha        -0.9769595Ha      3.23E-06     0.6m     10
+Message: SCF converged
+
+
+Fermi Energy:          -0.188473 Ha      -5.129 eV   -kTS_e= -0.0216101Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000111  -0.000089   0.000044     0.010259   0.010258  -0.000000
+df   Ag    -3.797760  -3.797963  -7.687268    -0.010225  -0.010225  -0.000000
+df   Pd    -3.797760  -0.000090  -3.843612    -0.010665   0.010652  -0.000000
+df   Pd     0.000113  -3.797963   3.843700     0.010652  -0.010665   0.000000
+df   Pd     0.000113  -3.797963  -3.843612     0.010652  -0.010665  -0.000000
+df   Pd    -3.797760  -0.000090   3.843700    -0.010665   0.010652   0.000000
+df   Pd    -3.797760  -3.797963   0.000044    -0.010497  -0.010496  -0.000000
+df   Pd     0.000113  -0.000090  -7.687268     0.010488   0.010488   0.000000
+df  binding energy      -0.9769595Ha       -26.58443eV        -613.064kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.4839402Ha
+            Electrostatic =       16.4431454Ha
+     Exchange-correlation =       -0.0138759Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0074692Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.063244Ha        -0.9769595Ha                   0.7m     11
+
+Df  binding energy extrapolated to T=0K      -0.9661544 Ha       -26.29041 eV
+
+cell volume     914.267
+              7.71141673661809    0.00000000000000    0.00000000000000
+              0.00000000000000    7.71141673661809    0.00000000000000
+              0.00000000000000    0.00000000000000   15.37462278033535
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.062823Ha        -0.9765385Ha      8.09E-03     0.7m      1
+Ef        -1350.063751Ha        -0.9774669Ha      6.76E-03     0.8m      2
+Ef        -1350.063896Ha        -0.9776116Ha      4.55E-03     0.8m      3
+Ef        -1350.063913Ha        -0.9776288Ha      3.38E-03     0.8m      4
+Ef        -1350.063898Ha        -0.9776141Ha      2.84E-03     0.8m      5
+Ef        -1350.064091Ha        -0.9778067Ha      8.01E-03     0.9m      6
+Ef        -1350.063889Ha        -0.9776045Ha      8.11E-04     0.9m      7
+Ef        -1350.063895Ha        -0.9776105Ha      2.30E-04     0.9m      8
+Ef        -1350.063896Ha        -0.9776116Ha      1.42E-04     0.9m      9
+Ef        -1350.063898Ha        -0.9776134Ha      1.69E-05     1.0m     10
+Ef        -1350.063898Ha        -0.9776137Ha      2.92E-07     1.0m     11
+Message: SCF converged
+
+
+Fermi Energy:          -0.188574 Ha      -5.131 eV   -kTS_e= -0.0216165Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000111  -0.000089   0.000044     0.000000   0.000000  -0.000000
+df   Ag    -3.855598   3.855619  -7.687268    -0.000000  -0.000000  -0.000000
+df   Pd    -3.855598  -0.000089  -3.843612    -0.000000   0.000000   0.000000
+df   Pd     0.000111   3.855619   3.843700     0.000000  -0.000000   0.000000
+df   Pd     0.000111   3.855619  -3.843612     0.000000  -0.000000   0.000000
+df   Pd    -3.855598  -0.000089   3.843700    -0.000000   0.000000   0.000000
+df   Pd    -3.855598   3.855619   0.000044    -0.000000  -0.000000  -0.000000
+df   Pd     0.000111  -0.000089  -7.687268     0.000000   0.000000  -0.000000
+df  binding energy      -0.9776137Ha       -26.60223eV        -613.474kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.4784073Ha
+            Electrostatic =       16.4376595Ha
+     Exchange-correlation =       -0.0145771Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0084019Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.063898Ha        -0.9776137Ha                   1.0m     12
+
+Df  binding energy extrapolated to T=0K      -0.9668054 Ha       -26.30812 eV
+
+Message: Lattice optimization strategy: 
+
+Message: The system will be treated as dense periodic
+Message: Keeping fractional coordinates constant
+
+
+Gnorm for following fractionals:   0.00000000
+Gnorm for retaining cartesian coords:   0.04205652
+
+
+cell volume     914.267
+              7.71141673661809    0.00000000000000    0.00000000000000
+              0.00000000000000    7.71141673661809    0.00000000000000
+              0.00000000000000    0.00000000000000   15.37462278033535
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059            4.080659            0.000023
+            2    Ag            2.040412            2.040306            4.067973
+            3    Pd            2.040412            4.080659            6.101948
+            4    Pd            0.000059            2.040306            2.033998
+            5    Pd            0.000059            2.040306            6.101948
+            6    Pd            2.040412            4.080659            2.033998
+            7    Pd            2.040412            2.040306            0.000023
+            8    Pd            0.000059            4.080659            4.067973
+          ----------------------------------------------------------------------
+
+  
+ System is a dense periodic or a zeolite
+ Using fractional displacements
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     48  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.062064Ha        -0.9757794Ha      1.11E-02     1.1m      1
+Ef        -1350.063528Ha        -0.9772435Ha      7.89E-03     1.1m      2
+Ef        -1350.063699Ha        -0.9774146Ha      6.24E-03     1.1m      3
+Ef        -1350.063999Ha        -0.9777149Ha      2.63E-03     1.1m      4
+Ef        -1350.063947Ha        -0.9776629Ha      1.31E-03     1.2m      5
+Ef        -1350.063916Ha        -0.9776318Ha      6.65E-04     1.2m      6
+Ef        -1350.063895Ha        -0.9776103Ha      2.39E-04     1.2m      7
+Ef        -1350.063899Ha        -0.9776145Ha      3.70E-05     1.2m      8
+Ef        -1350.063898Ha        -0.9776137Ha      2.00E-05     1.3m      9
+Ef        -1350.063898Ha        -0.9776137Ha      2.55E-06     1.3m     10
+Message: SCF converged
+
+
+Fermi Energy:          -0.188573 Ha      -5.131 eV   -kTS_e= -0.0216166Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000111  -0.000089   0.000044    -0.000000   0.000000  -0.000000
+df   Ag    -3.855598   3.855619  -7.687268     0.000000  -0.000000  -0.000000
+df   Pd    -3.855598  -0.000089  -3.843612     0.000000   0.000000   0.000000
+df   Pd     0.000111   3.855619   3.843700    -0.000000  -0.000000   0.000000
+df   Pd     0.000111   3.855619  -3.843612    -0.000000  -0.000000   0.000000
+df   Pd    -3.855598  -0.000089   3.843700     0.000000   0.000000   0.000000
+df   Pd    -3.855598   3.855619   0.000044     0.000000  -0.000000  -0.000000
+df   Pd     0.000111  -0.000089  -7.687268    -0.000000   0.000000  -0.000000
+df  binding energy      -0.9776137Ha       -26.60223eV        -613.474kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.4783322Ha
+            Electrostatic =       16.4375830Ha
+     Exchange-correlation =       -0.0145758Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0084018Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.063898Ha        -0.9776137Ha                   1.3m     11
+
+Df  binding energy extrapolated to T=0K      -0.9668054 Ha       -26.30812 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059            4.080659            0.000023
+            2    Ag            2.040412            2.040306            4.067973
+            3    Pd            2.040412            4.080659            6.101948
+            4    Pd            0.000059            2.040306            2.033998
+            5    Pd            0.000059            2.040306            6.101948
+            6    Pd            2.040412            4.080659            2.033998
+            7    Pd            2.040412            2.040306            0.000023
+            8    Pd            0.000059            4.080659            4.067973
+          ----------------------------------------------------------------------
+
+ Message: Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Message: Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  4.08070000        0.00000000        0.00000000
+                  0.00000000        4.08070000        0.00000000
+                  0.00000000        0.00000000        8.13590000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059           -0.000047            0.000023
+            2    Ag            2.040412            2.040306            4.067973
+            3    Pd            2.040412           -0.000047            6.101948
+            4    Pd            0.000059            2.040306            2.033998
+            5    Pd            0.000059            2.040306            6.101948
+            6    Pd            2.040412           -0.000047            2.033998
+            7    Pd            2.040412            2.040306            0.000023
+            8    Pd            0.000059           -0.000047            4.067973
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       4.080700 Ang    alpha =      90.000000 deg
+               b =       4.080700 Ang    beta  =      90.000000 deg
+               c =       8.135900 Ang    gamma =      90.000000 deg
+ 
+
+cell volume     914.267
+              7.48349308923037    0.00000000000000    0.00000000000000
+              0.00000000000000    7.48349308923037    0.00000000000000
+              0.00000000000000    0.00000000000000   15.37462278033535
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000057            3.960048            0.000023
+            2    Ag            1.980104            1.980001            4.067973
+            3    Pd            1.980104            3.960048            6.101948
+            4    Pd            0.000057            1.980001            2.033998
+            5    Pd            0.000057            1.980001            6.101948
+            6    Pd            1.980104            3.960048            2.033998
+            7    Pd            1.980104            1.980001            0.000023
+            8    Pd            0.000057            3.960048            4.067973
+          ----------------------------------------------------------------------
+
+  
+ System is a dense periodic or a zeolite
+ Using fractional displacements
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     48  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.061722Ha        -0.9754379Ha      9.12E-03     1.4m      1
+Ef        -1350.064256Ha        -0.9779720Ha      9.66E-03     1.4m      2
+Ef        -1350.064111Ha        -0.9778263Ha      7.57E-03     1.4m      3
+Ef        -1350.063977Ha        -0.9776923Ha      3.73E-03     1.5m      4
+Ef        -1350.063953Ha        -0.9776686Ha      5.03E-03     1.5m      5
+Ef        -1350.063893Ha        -0.9776084Ha      3.58E-03     1.5m      6
+Ef        -1350.063907Ha        -0.9776227Ha      2.76E-04     1.5m      7
+Ef        -1350.063900Ha        -0.9776152Ha      3.51E-05     1.6m      8
+Ef        -1350.063899Ha        -0.9776143Ha      5.33E-05     1.6m      9
+Ef        -1350.063899Ha        -0.9776151Ha      2.35E-06     1.6m     10
+Message: SCF converged
+
+
+Fermi Energy:          -0.184301 Ha      -5.015 eV   -kTS_e= -0.0204446Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000108  -0.000086   0.000044    -0.000000  -0.000000  -0.000000
+df   Ag    -3.741639   3.741660  -7.687268     0.000000   0.000000  -0.000000
+df   Pd    -3.741639  -0.000086  -3.843612     0.000000  -0.000000   0.000000
+df   Pd     0.000108   3.741660   3.843700    -0.000000   0.000000   0.000000
+df   Pd     0.000108   3.741660  -3.843612    -0.000000   0.000000   0.000000
+df   Pd    -3.741639  -0.000086   3.843700     0.000000  -0.000000   0.000000
+df   Pd    -3.741639   3.741660   0.000044     0.000000   0.000000  -0.000000
+df   Pd     0.000108  -0.000086  -7.687268     0.000000  -0.000000  -0.000000
+df  binding energy      -0.9776151Ha       -26.60227eV        -613.475kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.7989988Ha
+            Electrostatic =       16.7022273Ha
+     Exchange-correlation =        0.0414451Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0091270Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.063899Ha        -0.9776151Ha                   1.7m     11
+
+Df  binding energy extrapolated to T=0K      -0.9673928 Ha       -26.32411 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000057            3.960048            0.000023
+            2    Ag            1.980104            1.980001            4.067973
+            3    Pd            1.980104            3.960048            6.101948
+            4    Pd            0.000057            1.980001            2.033998
+            5    Pd            0.000057            1.980001            6.101948
+            6    Pd            1.980104            3.960048            2.033998
+            7    Pd            1.980104            1.980001            0.000023
+            8    Pd            0.000057            3.960048            4.067973
+          ----------------------------------------------------------------------
+
+ Message: Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Message: Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  3.96010000        0.00000000        0.00000000
+                  0.00000000        3.96010000        0.00000000
+                  0.00000000        0.00000000        8.13590000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000057           -0.000046            0.000023
+            2    Ag            1.980104            1.980001            4.067973
+            3    Pd            1.980104           -0.000046            6.101948
+            4    Pd            0.000057            1.980001            2.033998
+            5    Pd            0.000057            1.980001            6.101948
+            6    Pd            1.980104           -0.000046            2.033998
+            7    Pd            1.980104            1.980001            0.000023
+            8    Pd            0.000057           -0.000046            4.067973
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       3.960100 Ang    alpha =      90.000000 deg
+               b =       3.960100 Ang    beta  =      90.000000 deg
+               c =       8.135900 Ang    gamma =      90.000000 deg
+ 
+
+cell volume     861.020
+              7.71141673661809    0.00000000000000    0.00000000000000
+              0.00000000000000    7.71141673661809    0.00000000000000
+              0.00000000000000    0.00000000000000   15.83586146374541
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059            4.080659            0.000024
+            2    Ag            2.040412            2.040306            4.190012
+            3    Pd            2.040412            4.080659            6.285007
+            4    Pd            0.000059            2.040306            2.095018
+            5    Pd            0.000059            2.040306            6.285007
+            6    Pd            2.040412            4.080659            2.095018
+            7    Pd            2.040412            2.040306            0.000024
+            8    Pd            0.000059            4.080659            4.190012
+          ----------------------------------------------------------------------
+
+  
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     96  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.051698Ha        -0.9654133Ha      1.51E-02     1.7m      1
+Ef        -1350.058775Ha        -0.9724911Ha      1.19E-02     1.7m      2
+Ef        -1350.058777Ha        -0.9724928Ha      8.79E-03     1.7m      3
+Ef        -1350.059233Ha        -0.9729490Ha      3.79E-03     1.8m      4
+Ef        -1350.059238Ha        -0.9729533Ha      3.58E-03     1.8m      5
+Ef        -1350.059188Ha        -0.9729040Ha      2.67E-03     1.8m      6
+Ef        -1350.059102Ha        -0.9728178Ha      1.17E-04     1.8m      7
+Ef        -1350.059101Ha        -0.9728167Ha      5.42E-05     1.9m      8
+Ef        -1350.059100Ha        -0.9728160Ha      1.36E-05     1.9m      9
+Ef        -1350.059100Ha        -0.9728158Ha      5.78E-06     1.9m     10
+Message: SCF converged
+
+
+Fermi Energy:          -0.190346 Ha      -5.180 eV   -kTS_e= -0.0217513Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000111  -0.000089   0.000045    -0.000000   0.000000  -0.000000
+df   Ag    -3.855598   3.855619  -7.917886     0.000000  -0.000000   0.000000
+df   Pd    -3.855598  -0.000089  -3.958920     0.000000   0.000000   0.000000
+df   Pd     0.000111   3.855619   3.959011    -0.000000  -0.000000   0.000000
+df   Pd     0.000111   3.855619  -3.958920    -0.000000  -0.000000   0.000000
+df   Pd    -3.855598  -0.000089   3.959011     0.000000   0.000000   0.000000
+df   Pd    -3.855598   3.855619   0.000045     0.000000  -0.000000  -0.000000
+df   Pd     0.000111  -0.000089  -7.917886    -0.000000   0.000000  -0.000000
+df  binding energy      -0.9728157Ha       -26.47167eV        -610.463kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.3029720Ha
+            Electrostatic =       16.2914028Ha
+     Exchange-correlation =       -0.0389577Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0076767Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.059100Ha        -0.9728157Ha                   2.0m     11
+
+Df  binding energy extrapolated to T=0K      -0.9619400 Ha       -26.17573 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059            4.080659            0.000024
+            2    Ag            2.040412            2.040306            4.190012
+            3    Pd            2.040412            4.080659            6.285007
+            4    Pd            0.000059            2.040306            2.095018
+            5    Pd            0.000059            2.040306            6.285007
+            6    Pd            2.040412            4.080659            2.095018
+            7    Pd            2.040412            2.040306            0.000024
+            8    Pd            0.000059            4.080659            4.190012
+          ----------------------------------------------------------------------
+
+ Message: Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Message: Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  4.08070000        0.00000000        0.00000000
+                  0.00000000        4.08070000        0.00000000
+                  0.00000000        0.00000000        8.38000000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059           -0.000047            0.000024
+            2    Ag            2.040412            2.040306            4.190012
+            3    Pd            2.040412           -0.000047            6.285007
+            4    Pd            0.000059            2.040306            2.095018
+            5    Pd            0.000059            2.040306            6.285007
+            6    Pd            2.040412           -0.000047            2.095018
+            7    Pd            2.040412            2.040306            0.000024
+            8    Pd            0.000059           -0.000047            4.190012
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       4.080700 Ang    alpha =      90.000000 deg
+               b =       4.080700 Ang    beta  =      90.000000 deg
+               c =       8.380000 Ang    gamma =      90.000000 deg
+ 
+
+cell volume     941.695
+              7.59745491292423    0.00000000000000    0.00000000000000
+              0.00000000000000    7.59745491292423    0.00000000000000
+              0.00000000000000    0.00000000000000   15.83586146374541
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020354            0.000024
+            2    Ag            2.010258            2.010154            4.190012
+            3    Pd            2.010258            4.020354            6.285007
+            4    Pd            0.000058            2.010154            2.095018
+            5    Pd            0.000058            2.010154            6.285007
+            6    Pd            2.010258            4.020354            2.095018
+            7    Pd            2.010258            2.010154            0.000024
+            8    Pd            0.000058            4.020354            4.190012
+          ----------------------------------------------------------------------
+
+  
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     96  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.061297Ha        -0.9750123Ha      1.14E-02     2.0m      1
+Ef        -1350.063230Ha        -0.9769455Ha      8.26E-03     2.0m      2
+Ef        -1350.063392Ha        -0.9771072Ha      6.59E-03     2.0m      3
+Ef        -1350.063689Ha        -0.9774049Ha      3.60E-03     2.1m      4
+Ef        -1350.063624Ha        -0.9773392Ha      1.40E-03     2.1m      5
+Ef        -1350.063593Ha        -0.9773091Ha      7.50E-04     2.1m      6
+Ef        -1350.063568Ha        -0.9772835Ha      3.23E-04     2.1m      7
+Ef        -1350.063572Ha        -0.9772875Ha      3.97E-05     2.2m      8
+Ef        -1350.063571Ha        -0.9772869Ha      1.54E-05     2.2m      9
+Ef        -1350.063571Ha        -0.9772866Ha      1.88E-06     2.2m     10
+Message: SCF converged
+
+
+Fermi Energy:          -0.188501 Ha      -5.129 eV   -kTS_e= -0.0211257Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000109  -0.000088   0.000045    -0.000000  -0.000000  -0.000000
+df   Ag    -3.798618   3.798640  -7.917886     0.000000   0.000000  -0.000000
+df   Pd    -3.798618  -0.000088  -3.958920     0.000000  -0.000000   0.000000
+df   Pd     0.000109   3.798640   3.959011    -0.000000   0.000000   0.000000
+df   Pd     0.000109   3.798640  -3.958920    -0.000000   0.000000   0.000000
+df   Pd    -3.798618  -0.000088   3.959011     0.000000  -0.000000   0.000000
+df   Pd    -3.798618   3.798640   0.000045     0.000000   0.000000  -0.000000
+df   Pd     0.000109  -0.000088  -7.917886    -0.000000  -0.000000  -0.000000
+df  binding energy      -0.9772865Ha       -26.59333eV        -613.269kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.4681839Ha
+            Electrostatic =       16.4267794Ha
+     Exchange-correlation =       -0.0135933Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0077282Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.063571Ha        -0.9772865Ha                   2.3m     11
+
+Df  binding energy extrapolated to T=0K      -0.9667237 Ha       -26.30590 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020354            0.000024
+            2    Ag            2.010258            2.010154            4.190012
+            3    Pd            2.010258            4.020354            6.285007
+            4    Pd            0.000058            2.010154            2.095018
+            5    Pd            0.000058            2.010154            6.285007
+            6    Pd            2.010258            4.020354            2.095018
+            7    Pd            2.010258            2.010154            0.000024
+            8    Pd            0.000058            4.020354            4.190012
+          ----------------------------------------------------------------------
+
+ Message: Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Message: Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  4.02040000        0.00000000        0.00000000
+                  0.00000000        4.02040000        0.00000000
+                  0.00000000        0.00000000        8.38000000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058           -0.000046            0.000024
+            2    Ag            2.010258            2.010154            4.190012
+            3    Pd            2.010258           -0.000046            6.285007
+            4    Pd            0.000058            2.010154            2.095018
+            5    Pd            0.000058            2.010154            6.285007
+            6    Pd            2.010258           -0.000046            2.095018
+            7    Pd            2.010258            2.010154            0.000024
+            8    Pd            0.000058           -0.000046            4.190012
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       4.020400 Ang    alpha =      90.000000 deg
+               b =       4.020400 Ang    beta  =      90.000000 deg
+               c =       8.380000 Ang    gamma =      90.000000 deg
+ 
+
+cell volume     914.067
+              7.59745491292423    0.00000000000000    0.00000000000000
+              0.00000000000000    7.59745491292423    0.00000000000000
+              0.00000000000000    0.00000000000000   14.91338409692529
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020354            0.000023
+            2    Ag            2.010258            2.010154            3.945934
+            3    Pd            2.010258            4.020354            5.918890
+            4    Pd            0.000058            2.010154            1.972978
+            5    Pd            0.000058            2.010154            5.918890
+            6    Pd            2.010258            4.020354            1.972978
+            7    Pd            2.010258            2.010154            0.000023
+            8    Pd            0.000058            4.020354            3.945934
+          ----------------------------------------------------------------------
+
+  
+ System is a dense periodic or a zeolite
+ Using fractional displacements
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     48  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.061020Ha        -0.9747358Ha      9.76E-03     2.3m      1
+Ef        -1350.063935Ha        -0.9776511Ha      1.01E-02     2.3m      2
+Ef        -1350.063787Ha        -0.9775027Ha      8.00E-03     2.3m      3
+Ef        -1350.063668Ha        -0.9773840Ha      5.41E-03     2.4m      4
+Ef        -1350.063609Ha        -0.9773250Ha      4.57E-03     2.4m      5
+Ef        -1350.063567Ha        -0.9772830Ha      3.38E-03     2.4m      6
+Ef        -1350.063587Ha        -0.9773025Ha      4.14E-04     2.4m      7
+Ef        -1350.063574Ha        -0.9772892Ha      2.76E-05     2.5m      8
+Ef        -1350.063573Ha        -0.9772888Ha      3.97E-05     2.5m      9
+Ef        -1350.063574Ha        -0.9772894Ha      1.05E-06     2.5m     10
+Message: SCF converged
+
+
+Fermi Energy:          -0.184297 Ha      -5.015 eV   -kTS_e= -0.0208856Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000109  -0.000088   0.000043    -0.000000  -0.000000   0.000000
+df   Ag    -3.798618   3.798640  -7.456650     0.000000   0.000000   0.000000
+df   Pd    -3.798618  -0.000088  -3.728304     0.000000  -0.000000  -0.000000
+df   Pd     0.000109   3.798640   3.728389     0.000000   0.000000  -0.000000
+df   Pd     0.000109   3.798640  -3.728304    -0.000000   0.000000   0.000000
+df   Pd    -3.798618  -0.000088   3.728389     0.000000  -0.000000  -0.000000
+df   Pd    -3.798618   3.798640   0.000043     0.000000   0.000000   0.000000
+df   Pd     0.000109  -0.000088  -7.456650     0.000000   0.000000   0.000000
+df  binding energy      -0.9772894Ha       -26.59341eV        -613.271kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.8084559Ha
+            Electrostatic =       16.7121338Ha
+     Exchange-correlation =        0.0413215Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0093016Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.063574Ha        -0.9772894Ha                   2.6m     11
+
+Df  binding energy extrapolated to T=0K      -0.9668466 Ha       -26.30925 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020354            0.000023
+            2    Ag            2.010258            2.010154            3.945934
+            3    Pd            2.010258            4.020354            5.918890
+            4    Pd            0.000058            2.010154            1.972978
+            5    Pd            0.000058            2.010154            5.918890
+            6    Pd            2.010258            4.020354            1.972978
+            7    Pd            2.010258            2.010154            0.000023
+            8    Pd            0.000058            4.020354            3.945934
+          ----------------------------------------------------------------------
+
+ Message: Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Message: Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  4.02040000        0.00000000        0.00000000
+                  0.00000000        4.02040000        0.00000000
+                  0.00000000        0.00000000        7.89180000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058           -0.000046            0.000023
+            2    Ag            2.010258            2.010154            3.945934
+            3    Pd            2.010258           -0.000046            5.918890
+            4    Pd            0.000058            2.010154            1.972978
+            5    Pd            0.000058            2.010154            5.918890
+            6    Pd            2.010258           -0.000046            1.972978
+            7    Pd            2.010258            2.010154            0.000023
+            8    Pd            0.000058           -0.000046            3.945934
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       4.020400 Ang    alpha =      90.000000 deg
+               b =       4.020400 Ang    beta  =      90.000000 deg
+               c =       7.891800 Ang    gamma =      90.000000 deg
+ 
+
+Lattice deformations done
+Lattice optimization step 1 completed.
+
+Displacement stepsize:  0.03000
+
+stress [GPa], reduced c-matrix [GPa]: 
+      0.03       135.21
+      0.05        97.06    159.26
+
+cell volume     860.820
+              7.59746377143762    0.00000000000000    0.00000000000000
+              0.00000000000000    7.59746377143762    0.00000000000000
+              0.00000000000000    0.00000000000000   15.37445011586073
+
+deformation: Ag25Pd75_I4MMM.os255                                                                                                                                                                                                                                            
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020358            0.000023
+            2    Ag            2.010260            2.010156            4.067928
+            3    Pd            2.010260            4.020358            6.101880
+            4    Pd            0.000058            2.010156            2.033975
+            5    Pd            0.000058            2.010156            6.101880
+            6    Pd            2.010260            4.020358            2.033975
+            7    Pd            2.010260            2.010156            0.000023
+            8    Pd            0.000058            4.020358            4.067928
+          ----------------------------------------------------------------------
+
+  
+ System is a dense periodic or a zeolite
+ Using fractional displacements
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     48  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.065734Ha        -0.9794496Ha      8.07E-03     2.6m      1
+Ef        -1350.065603Ha        -0.9793186Ha      6.79E-03     2.6m      2
+Ef        -1350.065756Ha        -0.9794717Ha      4.08E-03     2.7m      3
+Ef        -1350.065745Ha        -0.9794604Ha      3.52E-03     2.7m      4
+Ef        -1350.065728Ha        -0.9794434Ha      2.86E-03     2.7m      5
+Ef        -1350.065721Ha        -0.9794368Ha      2.17E-03     2.7m      6
+Ef        -1350.065722Ha        -0.9794377Ha      1.06E-03     2.8m      7
+Ef        -1350.065724Ha        -0.9794399Ha      7.68E-04     2.8m      8
+Ef        -1350.065725Ha        -0.9794408Ha      6.74E-04     2.8m      9
+Ef        -1350.065729Ha        -0.9794445Ha      3.49E-04     2.9m     10
+Ef        -1350.065734Ha        -0.9794497Ha      2.92E-07     2.9m     11
+Message: SCF converged
+
+
+Fermi Energy:          -0.186506 Ha      -5.075 eV   -kTS_e= -0.0210369Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000109  -0.000088   0.000044    -0.000000  -0.000000   0.000000
+df   Ag    -3.798623   3.798644  -7.687181     0.000000   0.000000   0.000000
+df   Pd    -3.798623  -0.000088  -3.843569     0.000000  -0.000000  -0.000000
+df   Pd     0.000109   3.798644   3.843656    -0.000000   0.000000  -0.000000
+df   Pd     0.000109   3.798644  -3.843569    -0.000000   0.000000  -0.000000
+df   Pd    -3.798623  -0.000088   3.843656     0.000000  -0.000000  -0.000000
+df   Pd    -3.798623   3.798644   0.000044     0.000000   0.000000   0.000000
+df   Pd     0.000109  -0.000088  -7.687181    -0.000000  -0.000000   0.000000
+df  binding energy      -0.9794497Ha       -26.65219eV        -614.626kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.6362845Ha
+            Electrostatic =       16.5667938Ha
+     Exchange-correlation =        0.0123298Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0088464Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.065734Ha        -0.9794497Ha                   2.9m     12
+
+Df  binding energy extrapolated to T=0K      -0.9689312 Ha       -26.36597 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020358            0.000023
+            2    Ag            2.010260            2.010156            4.067928
+            3    Pd            2.010260            4.020358            6.101880
+            4    Pd            0.000058            2.010156            2.033975
+            5    Pd            0.000058            2.010156            6.101880
+            6    Pd            2.010260            4.020358            2.033975
+            7    Pd            2.010260            2.010156            0.000023
+            8    Pd            0.000058            4.020358            4.067928
+          ----------------------------------------------------------------------
+
+ Message: Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Message: Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  4.02040000        0.00000000        0.00000000
+                  0.00000000        4.02040000        0.00000000
+                  0.00000000        0.00000000        8.13580000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058           -0.000046            0.000023
+            2    Ag            2.010260            2.010156            4.067928
+            3    Pd            2.010260           -0.000046            6.101880
+            4    Pd            0.000058            2.010156            2.033975
+            5    Pd            0.000058            2.010156            6.101880
+            6    Pd            2.010260           -0.000046            2.033975
+            7    Pd            2.010260            2.010156            0.000023
+            8    Pd            0.000058           -0.000046            4.067928
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       4.020400 Ang    alpha =      90.000000 deg
+               b =       4.020400 Ang    beta  =      90.000000 deg
+               c =       8.135800 Ang    gamma =      90.000000 deg
+ 
+
+cell volume     887.436
+              7.71141673661809    0.00000000000000    0.00000000000000
+              0.00000000000000    7.71141673661809    0.00000000000000
+              0.00000000000000    0.00000000000000   15.37443380772285
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059            4.080659            0.000023
+            2    Ag            2.040414            2.040308            4.067928
+            3    Pd            2.040414            4.080659            6.101880
+            4    Pd            0.000059            2.040308            2.033975
+            5    Pd            0.000059            2.040308            6.101880
+            6    Pd            2.040414            4.080659            2.033975
+            7    Pd            2.040414            2.040308            0.000023
+            8    Pd            0.000059            4.080659            4.067928
+          ----------------------------------------------------------------------
+
+  
+ System is a dense periodic or a zeolite
+ Using fractional displacements
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     48  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.062065Ha        -0.9757809Ha      1.11E-02     3.0m      1
+Ef        -1350.063529Ha        -0.9772446Ha      7.89E-03     3.0m      2
+Ef        -1350.063700Ha        -0.9774158Ha      6.24E-03     3.0m      3
+Ef        -1350.064000Ha        -0.9777160Ha      2.64E-03     3.0m      4
+Ef        -1350.063948Ha        -0.9776640Ha      1.31E-03     3.1m      5
+Ef        -1350.063917Ha        -0.9776329Ha      6.65E-04     3.1m      6
+Ef        -1350.063896Ha        -0.9776114Ha      2.39E-04     3.1m      7
+Ef        -1350.063900Ha        -0.9776156Ha      3.70E-05     3.2m      8
+Ef        -1350.063899Ha        -0.9776148Ha      2.00E-05     3.2m      9
+Ef        -1350.063899Ha        -0.9776148Ha      2.55E-06     3.2m     10
+Message: SCF converged
+
+
+Fermi Energy:          -0.188572 Ha      -5.131 eV   -kTS_e= -0.0216165Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000111  -0.000089   0.000044     0.000001   0.000001   0.000001
+df   Ag    -3.855593   3.855624  -7.687165    -0.000001  -0.000001   0.000000
+df   Pd    -3.855593  -0.000089  -3.843552    -0.000001   0.000001  -0.000001
+df   Pd     0.000111   3.855624   3.843656     0.000001  -0.000001  -0.000000
+df   Pd     0.000111   3.855624  -3.843552     0.000001  -0.000001  -0.000001
+df   Pd    -3.855593  -0.000089   3.843656    -0.000001   0.000001  -0.000000
+df   Pd    -3.855593   3.855624   0.000044    -0.000001  -0.000001   0.000001
+df   Pd     0.000111  -0.000089  -7.687165     0.000001   0.000001   0.000000
+df  binding energy      -0.9776148Ha       -26.60226eV        -613.475kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.4784011Ha
+            Electrostatic =       16.4376402Ha
+     Exchange-correlation =       -0.0145651Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0084020Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.063899Ha        -0.9776148Ha                   3.3m     11
+
+Df  binding energy extrapolated to T=0K      -0.9668065 Ha       -26.30816 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059            4.080659            0.000023
+            2    Ag            2.040414            2.040308            4.067928
+            3    Pd            2.040414            4.080659            6.101880
+            4    Pd            0.000059            2.040308            2.033975
+            5    Pd            0.000059            2.040308            6.101880
+            6    Pd            2.040414            4.080659            2.033975
+            7    Pd            2.040414            2.040308            0.000023
+            8    Pd            0.000059            4.080659            4.067928
+          ----------------------------------------------------------------------
+
+ Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  4.08070000        0.00000000        0.00000000
+                  0.00000000        4.08070000        0.00000000
+                  0.00000000        0.00000000        8.13580000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059           -0.000047            0.000023
+            2    Ag            2.040414            2.040308            4.067928
+            3    Pd            2.040414           -0.000047            6.101880
+            4    Pd            0.000059            2.040308            2.033975
+            5    Pd            0.000059            2.040308            6.101880
+            6    Pd            2.040414           -0.000047            2.033975
+            7    Pd            2.040414            2.040308            0.000023
+            8    Pd            0.000059           -0.000047            4.067928
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       4.080700 Ang    alpha =      90.000000 deg
+               b =       4.080700 Ang    beta  =      90.000000 deg
+               c =       8.135800 Ang    gamma =      90.000000 deg
+ 
+
+cell volume     914.255
+              7.48349308923037    0.00000000000000    0.00000000000000
+              0.00000000000000    7.48349308923037    0.00000000000000
+              0.00000000000000    0.00000000000000   15.37443380772285
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000057            3.960048            0.000023
+            2    Ag            1.980106            1.980004            4.067928
+            3    Pd            1.980106            3.960048            6.101880
+            4    Pd            0.000057            1.980004            2.033975
+            5    Pd            0.000057            1.980004            6.101880
+            6    Pd            1.980106            3.960048            2.033975
+            7    Pd            1.980106            1.980004            0.000023
+            8    Pd            0.000057            3.960048            4.067928
+          ----------------------------------------------------------------------
+
+  
+ System is a dense periodic or a zeolite
+ Using fractional displacements
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     48  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.061721Ha        -0.9754363Ha      9.12E-03     3.3m      1
+Ef        -1350.064255Ha        -0.9779708Ha      9.66E-03     3.4m      2
+Ef        -1350.064109Ha        -0.9778251Ha      7.57E-03     3.4m      3
+Ef        -1350.063975Ha        -0.9776911Ha      3.73E-03     3.4m      4
+Ef        -1350.063952Ha        -0.9776673Ha      5.03E-03     3.5m      5
+Ef        -1350.063892Ha        -0.9776071Ha      3.58E-03     3.5m      6
+Ef        -1350.063906Ha        -0.9776214Ha      2.75E-04     3.5m      7
+Ef        -1350.063898Ha        -0.9776140Ha      3.51E-05     3.6m      8
+Ef        -1350.063897Ha        -0.9776130Ha      5.33E-05     3.6m      9
+Ef        -1350.063898Ha        -0.9776138Ha      2.35E-06     3.6m     10
+Message: SCF converged
+
+
+Fermi Energy:          -0.184300 Ha      -5.015 eV   -kTS_e= -0.0204446Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000108  -0.000086   0.000044     0.000001   0.000001   0.000002
+df   Ag    -3.741635   3.741664  -7.687165    -0.000001  -0.000001   0.000000
+df   Pd    -3.741635  -0.000086  -3.843552    -0.000001   0.000001  -0.000002
+df   Pd     0.000108   3.741664   3.843656     0.000001  -0.000001  -0.000000
+df   Pd     0.000108   3.741664  -3.843552     0.000001  -0.000001  -0.000002
+df   Pd    -3.741635  -0.000086   3.843656    -0.000001   0.000001  -0.000000
+df   Pd    -3.741635   3.741664   0.000044    -0.000001  -0.000001   0.000002
+df   Pd     0.000108  -0.000086  -7.687165     0.000001   0.000001   0.000000
+df  binding energy      -0.9776138Ha       -26.60224eV        -613.474kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.7990648Ha
+            Electrostatic =       16.7022827Ha
+     Exchange-correlation =        0.0414570Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0091276Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.063898Ha        -0.9776138Ha                   3.7m     11
+
+Df  binding energy extrapolated to T=0K      -0.9673915 Ha       -26.32407 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000057            3.960048            0.000023
+            2    Ag            1.980106            1.980004            4.067928
+            3    Pd            1.980106            3.960048            6.101880
+            4    Pd            0.000057            1.980004            2.033975
+            5    Pd            0.000057            1.980004            6.101880
+            6    Pd            1.980106            3.960048            2.033975
+            7    Pd            1.980106            1.980004            0.000023
+            8    Pd            0.000057            3.960048            4.067928
+          ----------------------------------------------------------------------
+
+ Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  3.96010000        0.00000000        0.00000000
+                  0.00000000        3.96010000        0.00000000
+                  0.00000000        0.00000000        8.13580000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000057           -0.000046            0.000023
+            2    Ag            1.980106            1.980004            4.067928
+            3    Pd            1.980106           -0.000046            6.101880
+            4    Pd            0.000057            1.980004            2.033975
+            5    Pd            0.000057            1.980004            6.101880
+            6    Pd            1.980106           -0.000046            2.033975
+            7    Pd            1.980106            1.980004            0.000023
+            8    Pd            0.000057           -0.000046            4.067928
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       3.960100 Ang    alpha =      90.000000 deg
+               b =       3.960100 Ang    beta  =      90.000000 deg
+               c =       8.135800 Ang    gamma =      90.000000 deg
+ 
+
+cell volume     861.009
+              7.71141673661809    0.00000000000000    0.00000000000000
+              0.00000000000000    7.71141673661809    0.00000000000000
+              0.00000000000000    0.00000000000000   15.83566682195454
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059            4.080659            0.000024
+            2    Ag            2.040414            2.040308            4.189965
+            3    Pd            2.040414            4.080659            6.284936
+            4    Pd            0.000059            2.040308            2.094995
+            5    Pd            0.000059            2.040308            6.284936
+            6    Pd            2.040414            4.080659            2.094995
+            7    Pd            2.040414            2.040308            0.000024
+            8    Pd            0.000059            4.080659            4.189965
+          ----------------------------------------------------------------------
+
+  
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     96  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.051701Ha        -0.9654170Ha      1.51E-02     3.7m      1
+Ef        -1350.058778Ha        -0.9724941Ha      1.19E-02     3.7m      2
+Ef        -1350.058780Ha        -0.9724957Ha      8.79E-03     3.8m      3
+Ef        -1350.059236Ha        -0.9729520Ha      3.79E-03     3.8m      4
+Ef        -1350.059240Ha        -0.9729561Ha      3.58E-03     3.8m      5
+Ef        -1350.059191Ha        -0.9729067Ha      2.67E-03     3.8m      6
+Ef        -1350.059105Ha        -0.9728207Ha      1.17E-04     3.8m      7
+Ef        -1350.059104Ha        -0.9728197Ha      5.42E-05     3.9m      8
+Ef        -1350.059103Ha        -0.9728189Ha      1.35E-05     3.9m      9
+Ef        -1350.059103Ha        -0.9728187Ha      5.78E-06     3.9m     10
+Message: SCF converged
+
+
+Fermi Energy:          -0.190346 Ha      -5.180 eV   -kTS_e= -0.0217513Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000111  -0.000089   0.000045     0.000001   0.000001   0.000001
+df   Ag    -3.855593   3.855624  -7.917780    -0.000001  -0.000001   0.000000
+df   Pd    -3.855593  -0.000089  -3.958859    -0.000001   0.000001  -0.000001
+df   Pd     0.000111   3.855624   3.958966     0.000001  -0.000001  -0.000000
+df   Pd     0.000111   3.855624  -3.958859     0.000001  -0.000001  -0.000001
+df   Pd    -3.855593  -0.000089   3.958966    -0.000001   0.000001  -0.000000
+df   Pd    -3.855593   3.855624   0.000045    -0.000001  -0.000001   0.000001
+df   Pd     0.000111  -0.000089  -7.917780     0.000001   0.000001   0.000000
+df  binding energy      -0.9728187Ha       -26.47175eV        -610.465kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.3030511Ha
+            Electrostatic =       16.2914694Ha
+     Exchange-correlation =       -0.0389481Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0076771Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.059103Ha        -0.9728187Ha                   4.0m     11
+
+Df  binding energy extrapolated to T=0K      -0.9619430 Ha       -26.17581 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059            4.080659            0.000024
+            2    Ag            2.040414            2.040308            4.189965
+            3    Pd            2.040414            4.080659            6.284936
+            4    Pd            0.000059            2.040308            2.094995
+            5    Pd            0.000059            2.040308            6.284936
+            6    Pd            2.040414            4.080659            2.094995
+            7    Pd            2.040414            2.040308            0.000024
+            8    Pd            0.000059            4.080659            4.189965
+          ----------------------------------------------------------------------
+
+ Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  4.08070000        0.00000000        0.00000000
+                  0.00000000        4.08070000        0.00000000
+                  0.00000000        0.00000000        8.37990000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059           -0.000047            0.000024
+            2    Ag            2.040414            2.040308            4.189965
+            3    Pd            2.040414           -0.000047            6.284936
+            4    Pd            0.000059            2.040308            2.094995
+            5    Pd            0.000059            2.040308            6.284936
+            6    Pd            2.040414           -0.000047            2.094995
+            7    Pd            2.040414            2.040308            0.000024
+            8    Pd            0.000059           -0.000047            4.189965
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       4.080700 Ang    alpha =      90.000000 deg
+               b =       4.080700 Ang    beta  =      90.000000 deg
+               c =       8.379900 Ang    gamma =      90.000000 deg
+ 
+
+cell volume     941.683
+              7.59745491292423    0.00000000000000    0.00000000000000
+              0.00000000000000    7.59745491292423    0.00000000000000
+              0.00000000000000    0.00000000000000   15.83566682195454
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020354            0.000024
+            2    Ag            2.010260            2.010156            4.189965
+            3    Pd            2.010260            4.020354            6.284936
+            4    Pd            0.000058            2.010156            2.094995
+            5    Pd            0.000058            2.010156            6.284936
+            6    Pd            2.010260            4.020354            2.094995
+            7    Pd            2.010260            2.010156            0.000024
+            8    Pd            0.000058            4.020354            4.189965
+          ----------------------------------------------------------------------
+
+  
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     96  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.061299Ha        -0.9750147Ha      1.13E-02     4.0m      1
+Ef        -1350.063232Ha        -0.9769476Ha      8.26E-03     4.0m      2
+Ef        -1350.063394Ha        -0.9771092Ha      6.59E-03     4.1m      3
+Ef        -1350.063691Ha        -0.9774070Ha      3.60E-03     4.1m      4
+Ef        -1350.063626Ha        -0.9773412Ha      1.40E-03     4.1m      5
+Ef        -1350.063595Ha        -0.9773111Ha      7.50E-04     4.1m      6
+Ef        -1350.063570Ha        -0.9772855Ha      3.22E-04     4.2m      7
+Ef        -1350.063574Ha        -0.9772895Ha      3.97E-05     4.2m      8
+Ef        -1350.063573Ha        -0.9772889Ha      1.54E-05     4.2m      9
+Ef        -1350.063573Ha        -0.9772886Ha      1.88E-06     4.2m     10
+Message: SCF converged
+
+
+Fermi Energy:          -0.188500 Ha      -5.129 eV   -kTS_e= -0.0211257Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000109  -0.000088   0.000045     0.000001   0.000001   0.000001
+df   Ag    -3.798614   3.798644  -7.917780    -0.000001  -0.000001   0.000000
+df   Pd    -3.798614  -0.000088  -3.958859    -0.000001   0.000001  -0.000001
+df   Pd     0.000109   3.798644   3.958966     0.000001  -0.000001  -0.000000
+df   Pd     0.000109   3.798644  -3.958859     0.000001  -0.000001  -0.000001
+df   Pd    -3.798614  -0.000088   3.958966    -0.000001   0.000001  -0.000000
+df   Pd    -3.798614   3.798644   0.000045    -0.000001  -0.000001   0.000001
+df   Pd     0.000109  -0.000088  -7.917780     0.000001   0.000001   0.000000
+df  binding energy      -0.9772886Ha       -26.59339eV        -613.270kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.4682598Ha
+            Electrostatic =       16.4268431Ha
+     Exchange-correlation =       -0.0135831Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0077288Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.063573Ha        -0.9772886Ha                   4.3m     11
+
+Df  binding energy extrapolated to T=0K      -0.9667257 Ha       -26.30596 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020354            0.000024
+            2    Ag            2.010260            2.010156            4.189965
+            3    Pd            2.010260            4.020354            6.284936
+            4    Pd            0.000058            2.010156            2.094995
+            5    Pd            0.000058            2.010156            6.284936
+            6    Pd            2.010260            4.020354            2.094995
+            7    Pd            2.010260            2.010156            0.000024
+            8    Pd            0.000058            4.020354            4.189965
+          ----------------------------------------------------------------------
+
+ Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  4.02040000        0.00000000        0.00000000
+                  0.00000000        4.02040000        0.00000000
+                  0.00000000        0.00000000        8.37990000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058           -0.000046            0.000024
+            2    Ag            2.010260            2.010156            4.189965
+            3    Pd            2.010260           -0.000046            6.284936
+            4    Pd            0.000058            2.010156            2.094995
+            5    Pd            0.000058            2.010156            6.284936
+            6    Pd            2.010260           -0.000046            2.094995
+            7    Pd            2.010260            2.010156            0.000024
+            8    Pd            0.000058           -0.000046            4.189965
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       4.020400 Ang    alpha =      90.000000 deg
+               b =       4.020400 Ang    beta  =      90.000000 deg
+               c =       8.379900 Ang    gamma =      90.000000 deg
+ 
+
+cell volume     914.056
+              7.59745491292423    0.00000000000000    0.00000000000000
+              0.00000000000000    7.59745491292423    0.00000000000000
+              0.00000000000000    0.00000000000000   14.91320079349116
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020354            0.000023
+            2    Ag            2.010260            2.010156            3.945890
+            3    Pd            2.010260            4.020354            5.918823
+            4    Pd            0.000058            2.010156            1.972956
+            5    Pd            0.000058            2.010156            5.918823
+            6    Pd            2.010260            4.020354            1.972956
+            7    Pd            2.010260            2.010156            0.000023
+            8    Pd            0.000058            4.020354            3.945890
+          ----------------------------------------------------------------------
+
+  
+ System is a dense periodic or a zeolite
+ Using fractional displacements
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     48  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.061018Ha        -0.9747336Ha      9.76E-03     4.4m      1
+Ef        -1350.063934Ha        -0.9776492Ha      1.01E-02     4.4m      2
+Ef        -1350.063785Ha        -0.9775009Ha      7.99E-03     4.4m      3
+Ef        -1350.063666Ha        -0.9773821Ha      5.41E-03     4.4m      4
+Ef        -1350.063608Ha        -0.9773232Ha      4.57E-03     4.5m      5
+Ef        -1350.063566Ha        -0.9772812Ha      3.39E-03     4.5m      6
+Ef        -1350.063585Ha        -0.9773007Ha      4.15E-04     4.5m      7
+Ef        -1350.063572Ha        -0.9772873Ha      2.77E-05     4.6m      8
+Ef        -1350.063571Ha        -0.9772869Ha      3.97E-05     4.6m      9
+Ef        -1350.063572Ha        -0.9772875Ha      9.81E-07     4.6m     10
+Message: SCF converged
+
+
+Fermi Energy:          -0.184297 Ha      -5.015 eV   -kTS_e= -0.0208855Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000109  -0.000088   0.000043     0.000001   0.000001   0.000001
+df   Ag    -3.798614   3.798644  -7.456550    -0.000001  -0.000001   0.000000
+df   Pd    -3.798614  -0.000088  -3.728246    -0.000001   0.000001  -0.000001
+df   Pd     0.000109   3.798644   3.728347     0.000001  -0.000001  -0.000000
+df   Pd     0.000109   3.798644  -3.728246     0.000001  -0.000001  -0.000001
+df   Pd    -3.798614  -0.000088   3.728347    -0.000001   0.000001  -0.000000
+df   Pd    -3.798614   3.798644   0.000043    -0.000001  -0.000001   0.000001
+df   Pd     0.000109  -0.000088  -7.456550     0.000001   0.000001   0.000000
+df  binding energy      -0.9772875Ha       -26.59336eV        -613.269kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.8085253Ha
+            Electrostatic =       16.7121929Ha
+     Exchange-correlation =        0.0413337Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0093016Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.063572Ha        -0.9772875Ha                   4.7m     11
+
+Df  binding energy extrapolated to T=0K      -0.9668447 Ha       -26.30919 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020354            0.000023
+            2    Ag            2.010260            2.010156            3.945890
+            3    Pd            2.010260            4.020354            5.918823
+            4    Pd            0.000058            2.010156            1.972956
+            5    Pd            0.000058            2.010156            5.918823
+            6    Pd            2.010260            4.020354            1.972956
+            7    Pd            2.010260            2.010156            0.000023
+            8    Pd            0.000058            4.020354            3.945890
+          ----------------------------------------------------------------------
+
+ Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  4.02040000        0.00000000        0.00000000
+                  0.00000000        4.02040000        0.00000000
+                  0.00000000        0.00000000        7.89170000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058           -0.000046            0.000023
+            2    Ag            2.010260            2.010156            3.945890
+            3    Pd            2.010260           -0.000046            5.918823
+            4    Pd            0.000058            2.010156            1.972956
+            5    Pd            0.000058            2.010156            5.918823
+            6    Pd            2.010260           -0.000046            1.972956
+            7    Pd            2.010260            2.010156            0.000023
+            8    Pd            0.000058           -0.000046            3.945890
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       4.020400 Ang    alpha =      90.000000 deg
+               b =       4.020400 Ang    beta  =      90.000000 deg
+               c =       7.891700 Ang    gamma =      90.000000 deg
+ 
+
+Lattice deformations done
+Lattice optimization step 2 completed.
+Change in total energy                  =   0.000000 Ha
+Change in cell volume                   =  -0.010908 bohr^3
+Maximal coordinate change               =   0.000129 bohr
+Maximal lattice vector component change =   0.000189 bohr
+
+Displacement stepsize:  0.03000
+
+stress [GPa], reduced c-matrix [GPa]: 
+     -0.02       135.22
+     -0.02        97.06    159.26
+
+cell volume     860.810
+              7.59746341827120    0.00000000000000    0.00000000000000
+              0.00000000000000    7.59746341827120    0.00000000000000
+              0.00000000000000    0.00000000000000   15.37447023955694
+
+deformation: Ag25Pd75_I4MMM.os355                                                                                                                                                                                                                                            
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020358            0.000023
+            2    Ag            2.010262            2.010158            4.067937
+            3    Pd            2.010262            4.020358            6.101894
+            4    Pd            0.000058            2.010158            2.033980
+            5    Pd            0.000058            2.010158            6.101894
+            6    Pd            2.010262            4.020358            2.033980
+            7    Pd            2.010262            2.010158            0.000023
+            8    Pd            0.000058            4.020358            4.067937
+          ----------------------------------------------------------------------
+
+  
+ System is a dense periodic or a zeolite
+ Using fractional displacements
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     48  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.065734Ha        -0.9794497Ha      8.07E-03     4.7m      1
+Ef        -1350.065603Ha        -0.9793185Ha      6.79E-03     4.7m      2
+Ef        -1350.065756Ha        -0.9794720Ha      4.07E-03     4.8m      3
+Ef        -1350.065745Ha        -0.9794604Ha      3.52E-03     4.8m      4
+Ef        -1350.065728Ha        -0.9794434Ha      2.86E-03     4.8m      5
+Ef        -1350.065721Ha        -0.9794368Ha      2.17E-03     4.8m      6
+Ef        -1350.065722Ha        -0.9794377Ha      1.06E-03     4.9m      7
+Ef        -1350.065724Ha        -0.9794399Ha      7.65E-04     4.9m      8
+Ef        -1350.065725Ha        -0.9794407Ha      6.81E-04     4.9m      9
+Ef        -1350.065727Ha        -0.9794422Ha      5.40E-04     4.9m     10
+Ef        -1350.065734Ha        -0.9794497Ha      2.47E-07     5.0m     11
+Message: SCF converged
+
+
+Fermi Energy:          -0.186506 Ha      -5.075 eV   -kTS_e= -0.0210369Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000109  -0.000088   0.000044     0.000001   0.000001   0.000002
+df   Ag    -3.798618   3.798648  -7.687183    -0.000001  -0.000001   0.000000
+df   Pd    -3.798618  -0.000088  -3.843561    -0.000001   0.000001  -0.000002
+df   Pd     0.000109   3.798648   3.843665     0.000001  -0.000001  -0.000000
+df   Pd     0.000109   3.798648  -3.843561     0.000001  -0.000001  -0.000002
+df   Pd    -3.798618  -0.000088   3.843665    -0.000001   0.000001  -0.000000
+df   Pd    -3.798618   3.798648   0.000044    -0.000001  -0.000001   0.000002
+df   Pd     0.000109  -0.000088  -7.687183     0.000001   0.000001   0.000000
+df  binding energy      -0.9794497Ha       -26.65219eV        -614.626kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.6362795Ha
+            Electrostatic =       16.5667899Ha
+     Exchange-correlation =        0.0123286Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0088464Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.065734Ha        -0.9794497Ha                   5.0m     12
+
+Df  binding energy extrapolated to T=0K      -0.9689312 Ha       -26.36597 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020358            0.000023
+            2    Ag            2.010262            2.010158            4.067937
+            3    Pd            2.010262            4.020358            6.101894
+            4    Pd            0.000058            2.010158            2.033980
+            5    Pd            0.000058            2.010158            6.101894
+            6    Pd            2.010262            4.020358            2.033980
+            7    Pd            2.010262            2.010158            0.000023
+            8    Pd            0.000058            4.020358            4.067937
+          ----------------------------------------------------------------------
+
+ Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  4.02040000        0.00000000        0.00000000
+                  0.00000000        4.02040000        0.00000000
+                  0.00000000        0.00000000        8.13580000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058           -0.000046            0.000023
+            2    Ag            2.010262            2.010158            4.067937
+            3    Pd            2.010262           -0.000046            6.101894
+            4    Pd            0.000058            2.010158            2.033980
+            5    Pd            0.000058            2.010158            6.101894
+            6    Pd            2.010262           -0.000046            2.033980
+            7    Pd            2.010262            2.010158            0.000023
+            8    Pd            0.000058           -0.000046            4.067937
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       4.020400 Ang    alpha =      90.000000 deg
+               b =       4.020400 Ang    beta  =      90.000000 deg
+               c =       8.135800 Ang    gamma =      90.000000 deg
+ 
+
+cell volume     887.437
+              7.71141673661809    0.00000000000000    0.00000000000000
+              0.00000000000000    7.71141673661809    0.00000000000000
+              0.00000000000000    0.00000000000000   15.37443380772285
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059            4.080659            0.000023
+            2    Ag            2.040416            2.040311            4.067937
+            3    Pd            2.040416            4.080659            6.101894
+            4    Pd            0.000059            2.040311            2.033980
+            5    Pd            0.000059            2.040311            6.101894
+            6    Pd            2.040416            4.080659            2.033980
+            7    Pd            2.040416            2.040311            0.000023
+            8    Pd            0.000059            4.080659            4.067937
+          ----------------------------------------------------------------------
+
+  
+ System is a dense periodic or a zeolite
+ Using fractional displacements
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     48  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.062065Ha        -0.9757810Ha      1.11E-02     5.0m      1
+Ef        -1350.063529Ha        -0.9772446Ha      7.89E-03     5.1m      2
+Ef        -1350.063700Ha        -0.9774158Ha      6.24E-03     5.1m      3
+Ef        -1350.064000Ha        -0.9777160Ha      2.64E-03     5.1m      4
+Ef        -1350.063948Ha        -0.9776640Ha      1.31E-03     5.1m      5
+Ef        -1350.063917Ha        -0.9776329Ha      6.64E-04     5.2m      6
+Ef        -1350.063896Ha        -0.9776114Ha      2.39E-04     5.2m      7
+Ef        -1350.063900Ha        -0.9776156Ha      3.70E-05     5.2m      8
+Ef        -1350.063899Ha        -0.9776148Ha      2.00E-05     5.2m      9
+Ef        -1350.063899Ha        -0.9776148Ha      2.55E-06     5.3m     10
+Message: SCF converged
+
+
+Fermi Energy:          -0.188572 Ha      -5.131 eV   -kTS_e= -0.0216165Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000111  -0.000089   0.000044     0.000002   0.000002   0.000005
+df   Ag    -3.855589   3.855628  -7.687147    -0.000002  -0.000002   0.000000
+df   Pd    -3.855589  -0.000089  -3.843525    -0.000002   0.000002  -0.000004
+df   Pd     0.000111   3.855628   3.843665     0.000002  -0.000002  -0.000000
+df   Pd     0.000111   3.855628  -3.843525     0.000002  -0.000002  -0.000004
+df   Pd    -3.855589  -0.000089   3.843665    -0.000002   0.000002  -0.000000
+df   Pd    -3.855589   3.855628   0.000044    -0.000002  -0.000002   0.000004
+df   Pd     0.000111  -0.000089  -7.687147     0.000002   0.000002   0.000000
+df  binding energy      -0.9776148Ha       -26.60226eV        -613.475kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.4784011Ha
+            Electrostatic =       16.4376402Ha
+     Exchange-correlation =       -0.0145651Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0084020Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.063899Ha        -0.9776148Ha                   5.3m     11
+
+Df  binding energy extrapolated to T=0K      -0.9668065 Ha       -26.30816 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059            4.080659            0.000023
+            2    Ag            2.040416            2.040311            4.067937
+            3    Pd            2.040416            4.080659            6.101894
+            4    Pd            0.000059            2.040311            2.033980
+            5    Pd            0.000059            2.040311            6.101894
+            6    Pd            2.040416            4.080659            2.033980
+            7    Pd            2.040416            2.040311            0.000023
+            8    Pd            0.000059            4.080659            4.067937
+          ----------------------------------------------------------------------
+
+ Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  4.08070000        0.00000000        0.00000000
+                  0.00000000        4.08070000        0.00000000
+                  0.00000000        0.00000000        8.13580000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059           -0.000047            0.000023
+            2    Ag            2.040416            2.040311            4.067937
+            3    Pd            2.040416           -0.000047            6.101894
+            4    Pd            0.000059            2.040311            2.033980
+            5    Pd            0.000059            2.040311            6.101894
+            6    Pd            2.040416           -0.000047            2.033980
+            7    Pd            2.040416            2.040311            0.000023
+            8    Pd            0.000059           -0.000047            4.067937
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       4.080700 Ang    alpha =      90.000000 deg
+               b =       4.080700 Ang    beta  =      90.000000 deg
+               c =       8.135800 Ang    gamma =      90.000000 deg
+ 
+
+cell volume     914.255
+              7.48349308923037    0.00000000000000    0.00000000000000
+              0.00000000000000    7.48349308923037    0.00000000000000
+              0.00000000000000    0.00000000000000   15.37443380772285
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000057            3.960048            0.000023
+            2    Ag            1.980108            1.980006            4.067937
+            3    Pd            1.980108            3.960048            6.101894
+            4    Pd            0.000057            1.980006            2.033980
+            5    Pd            0.000057            1.980006            6.101894
+            6    Pd            1.980108            3.960048            2.033980
+            7    Pd            1.980108            1.980006            0.000023
+            8    Pd            0.000057            3.960048            4.067937
+          ----------------------------------------------------------------------
+
+  
+ System is a dense periodic or a zeolite
+ Using fractional displacements
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     48  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.061720Ha        -0.9754361Ha      9.12E-03     5.4m      1
+Ef        -1350.064255Ha        -0.9779708Ha      9.66E-03     5.4m      2
+Ef        -1350.064109Ha        -0.9778251Ha      7.57E-03     5.4m      3
+Ef        -1350.063975Ha        -0.9776911Ha      3.73E-03     5.4m      4
+Ef        -1350.063952Ha        -0.9776673Ha      5.03E-03     5.5m      5
+Ef        -1350.063892Ha        -0.9776071Ha      3.58E-03     5.5m      6
+Ef        -1350.063906Ha        -0.9776214Ha      2.75E-04     5.5m      7
+Ef        -1350.063898Ha        -0.9776140Ha      3.51E-05     5.5m      8
+Ef        -1350.063897Ha        -0.9776130Ha      5.32E-05     5.5m      9
+Ef        -1350.063898Ha        -0.9776138Ha      2.35E-06     5.6m     10
+Message: SCF converged
+
+
+Fermi Energy:          -0.184300 Ha      -5.015 eV   -kTS_e= -0.0204446Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000108  -0.000086   0.000044     0.000002   0.000002   0.000005
+df   Ag    -3.741630   3.741669  -7.687147    -0.000002  -0.000002   0.000001
+df   Pd    -3.741630  -0.000086  -3.843525    -0.000002   0.000002  -0.000005
+df   Pd     0.000108   3.741669   3.843665     0.000002  -0.000002  -0.000001
+df   Pd     0.000108   3.741669  -3.843525     0.000002  -0.000002  -0.000005
+df   Pd    -3.741630  -0.000086   3.843665    -0.000002   0.000002  -0.000001
+df   Pd    -3.741630   3.741669   0.000044    -0.000002  -0.000002   0.000005
+df   Pd     0.000108  -0.000086  -7.687147     0.000002   0.000002   0.000001
+df  binding energy      -0.9776138Ha       -26.60224eV        -613.474kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.7990648Ha
+            Electrostatic =       16.7022827Ha
+     Exchange-correlation =        0.0414570Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0091276Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.063898Ha        -0.9776138Ha                   5.6m     11
+
+Df  binding energy extrapolated to T=0K      -0.9673915 Ha       -26.32407 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000057            3.960048            0.000023
+            2    Ag            1.980108            1.980006            4.067937
+            3    Pd            1.980108            3.960048            6.101894
+            4    Pd            0.000057            1.980006            2.033980
+            5    Pd            0.000057            1.980006            6.101894
+            6    Pd            1.980108            3.960048            2.033980
+            7    Pd            1.980108            1.980006            0.000023
+            8    Pd            0.000057            3.960048            4.067937
+          ----------------------------------------------------------------------
+
+ Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  3.96010000        0.00000000        0.00000000
+                  0.00000000        3.96010000        0.00000000
+                  0.00000000        0.00000000        8.13580000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000057           -0.000046            0.000023
+            2    Ag            1.980108            1.980006            4.067937
+            3    Pd            1.980108           -0.000046            6.101894
+            4    Pd            0.000057            1.980006            2.033980
+            5    Pd            0.000057            1.980006            6.101894
+            6    Pd            1.980108           -0.000046            2.033980
+            7    Pd            1.980108            1.980006            0.000023
+            8    Pd            0.000057           -0.000046            4.067937
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       3.960100 Ang    alpha =      90.000000 deg
+               b =       3.960100 Ang    beta  =      90.000000 deg
+               c =       8.135800 Ang    gamma =      90.000000 deg
+ 
+
+cell volume     861.009
+              7.71141673661809    0.00000000000000    0.00000000000000
+              0.00000000000000    7.71141673661809    0.00000000000000
+              0.00000000000000    0.00000000000000   15.83566682195454
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059            4.080659            0.000024
+            2    Ag            2.040416            2.040311            4.189975
+            3    Pd            2.040416            4.080659            6.284951
+            4    Pd            0.000059            2.040311            2.095000
+            5    Pd            0.000059            2.040311            6.284951
+            6    Pd            2.040416            4.080659            2.095000
+            7    Pd            2.040416            2.040311            0.000024
+            8    Pd            0.000059            4.080659            4.189975
+          ----------------------------------------------------------------------
+
+  
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     96  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.051702Ha        -0.9654173Ha      1.51E-02     5.7m      1
+Ef        -1350.058778Ha        -0.9724941Ha      1.19E-02     5.7m      2
+Ef        -1350.058780Ha        -0.9724957Ha      8.79E-03     5.7m      3
+Ef        -1350.059236Ha        -0.9729520Ha      3.79E-03     5.7m      4
+Ef        -1350.059240Ha        -0.9729561Ha      3.58E-03     5.8m      5
+Ef        -1350.059191Ha        -0.9729067Ha      2.67E-03     5.8m      6
+Ef        -1350.059105Ha        -0.9728207Ha      1.17E-04     5.8m      7
+Ef        -1350.059104Ha        -0.9728197Ha      5.42E-05     5.8m      8
+Ef        -1350.059103Ha        -0.9728189Ha      1.35E-05     5.8m      9
+Ef        -1350.059103Ha        -0.9728187Ha      5.78E-06     5.9m     10
+Message: SCF converged
+
+
+Fermi Energy:          -0.190346 Ha      -5.180 eV   -kTS_e= -0.0217513Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000111  -0.000089   0.000045     0.000001   0.000001   0.000004
+df   Ag    -3.855589   3.855628  -7.917761    -0.000001  -0.000001   0.000000
+df   Pd    -3.855589  -0.000089  -3.958831    -0.000001   0.000001  -0.000004
+df   Pd     0.000111   3.855628   3.958975     0.000001  -0.000001  -0.000000
+df   Pd     0.000111   3.855628  -3.958831     0.000001  -0.000001  -0.000004
+df   Pd    -3.855589  -0.000089   3.958975    -0.000001   0.000001  -0.000000
+df   Pd    -3.855589   3.855628   0.000045    -0.000001  -0.000001   0.000004
+df   Pd     0.000111  -0.000089  -7.917761     0.000001   0.000001   0.000000
+df  binding energy      -0.9728187Ha       -26.47175eV        -610.465kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.3030511Ha
+            Electrostatic =       16.2914694Ha
+     Exchange-correlation =       -0.0389481Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0076771Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.059103Ha        -0.9728187Ha                   5.9m     11
+
+Df  binding energy extrapolated to T=0K      -0.9619430 Ha       -26.17581 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059            4.080659            0.000024
+            2    Ag            2.040416            2.040311            4.189975
+            3    Pd            2.040416            4.080659            6.284951
+            4    Pd            0.000059            2.040311            2.095000
+            5    Pd            0.000059            2.040311            6.284951
+            6    Pd            2.040416            4.080659            2.095000
+            7    Pd            2.040416            2.040311            0.000024
+            8    Pd            0.000059            4.080659            4.189975
+          ----------------------------------------------------------------------
+
+ Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  4.08070000        0.00000000        0.00000000
+                  0.00000000        4.08070000        0.00000000
+                  0.00000000        0.00000000        8.37990000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059           -0.000047            0.000024
+            2    Ag            2.040416            2.040311            4.189975
+            3    Pd            2.040416           -0.000047            6.284951
+            4    Pd            0.000059            2.040311            2.095000
+            5    Pd            0.000059            2.040311            6.284951
+            6    Pd            2.040416           -0.000047            2.095000
+            7    Pd            2.040416            2.040311            0.000024
+            8    Pd            0.000059           -0.000047            4.189975
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       4.080700 Ang    alpha =      90.000000 deg
+               b =       4.080700 Ang    beta  =      90.000000 deg
+               c =       8.379900 Ang    gamma =      90.000000 deg
+ 
+
+cell volume     941.683
+              7.59745491292423    0.00000000000000    0.00000000000000
+              0.00000000000000    7.59745491292423    0.00000000000000
+              0.00000000000000    0.00000000000000   15.83566682195454
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020354            0.000024
+            2    Ag            2.010262            2.010158            4.189975
+            3    Pd            2.010262            4.020354            6.284951
+            4    Pd            0.000058            2.010158            2.095000
+            5    Pd            0.000058            2.010158            6.284951
+            6    Pd            2.010262            4.020354            2.095000
+            7    Pd            2.010262            2.010158            0.000024
+            8    Pd            0.000058            4.020354            4.189975
+          ----------------------------------------------------------------------
+
+  
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     96  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.061299Ha        -0.9750149Ha      1.13E-02     6.0m      1
+Ef        -1350.063232Ha        -0.9769476Ha      8.26E-03     6.0m      2
+Ef        -1350.063394Ha        -0.9771092Ha      6.59E-03     6.0m      3
+Ef        -1350.063691Ha        -0.9774070Ha      3.60E-03     6.0m      4
+Ef        -1350.063626Ha        -0.9773412Ha      1.40E-03     6.1m      5
+Ef        -1350.063595Ha        -0.9773111Ha      7.50E-04     6.1m      6
+Ef        -1350.063570Ha        -0.9772855Ha      3.22E-04     6.1m      7
+Ef        -1350.063574Ha        -0.9772895Ha      3.97E-05     6.1m      8
+Ef        -1350.063573Ha        -0.9772889Ha      1.54E-05     6.2m      9
+Ef        -1350.063573Ha        -0.9772886Ha      1.88E-06     6.2m     10
+Message: SCF converged
+
+
+Fermi Energy:          -0.188500 Ha      -5.129 eV   -kTS_e= -0.0211257Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000109  -0.000088   0.000045     0.000002   0.000002   0.000004
+df   Ag    -3.798610   3.798648  -7.917761    -0.000002  -0.000002   0.000001
+df   Pd    -3.798610  -0.000088  -3.958831    -0.000002   0.000002  -0.000003
+df   Pd     0.000109   3.798648   3.958975     0.000002  -0.000002  -0.000001
+df   Pd     0.000109   3.798648  -3.958831     0.000002  -0.000002  -0.000003
+df   Pd    -3.798610  -0.000088   3.958975    -0.000002   0.000002  -0.000001
+df   Pd    -3.798610   3.798648   0.000045    -0.000002  -0.000002   0.000003
+df   Pd     0.000109  -0.000088  -7.917761     0.000002   0.000002   0.000001
+df  binding energy      -0.9772886Ha       -26.59339eV        -613.270kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.4682598Ha
+            Electrostatic =       16.4268431Ha
+     Exchange-correlation =       -0.0135831Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0077288Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.063573Ha        -0.9772886Ha                   6.2m     11
+
+Df  binding energy extrapolated to T=0K      -0.9667257 Ha       -26.30596 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020354            0.000024
+            2    Ag            2.010262            2.010158            4.189975
+            3    Pd            2.010262            4.020354            6.284951
+            4    Pd            0.000058            2.010158            2.095000
+            5    Pd            0.000058            2.010158            6.284951
+            6    Pd            2.010262            4.020354            2.095000
+            7    Pd            2.010262            2.010158            0.000024
+            8    Pd            0.000058            4.020354            4.189975
+          ----------------------------------------------------------------------
+
+ Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  4.02040000        0.00000000        0.00000000
+                  0.00000000        4.02040000        0.00000000
+                  0.00000000        0.00000000        8.37990000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058           -0.000046            0.000024
+            2    Ag            2.010262            2.010158            4.189975
+            3    Pd            2.010262           -0.000046            6.284951
+            4    Pd            0.000058            2.010158            2.095000
+            5    Pd            0.000058            2.010158            6.284951
+            6    Pd            2.010262           -0.000046            2.095000
+            7    Pd            2.010262            2.010158            0.000024
+            8    Pd            0.000058           -0.000046            4.189975
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       4.020400 Ang    alpha =      90.000000 deg
+               b =       4.020400 Ang    beta  =      90.000000 deg
+               c =       8.379900 Ang    gamma =      90.000000 deg
+ 
+
+cell volume     914.056
+              7.59745491292423    0.00000000000000    0.00000000000000
+              0.00000000000000    7.59745491292423    0.00000000000000
+              0.00000000000000    0.00000000000000   14.91320079349116
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020354            0.000023
+            2    Ag            2.010262            2.010158            3.945899
+            3    Pd            2.010262            4.020354            5.918837
+            4    Pd            0.000058            2.010158            1.972961
+            5    Pd            0.000058            2.010158            5.918837
+            6    Pd            2.010262            4.020354            1.972961
+            7    Pd            2.010262            2.010158            0.000023
+            8    Pd            0.000058            4.020354            3.945899
+          ----------------------------------------------------------------------
+
+  
+ System is a dense periodic or a zeolite
+ Using fractional displacements
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     48  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.061018Ha        -0.9747334Ha      9.76E-03     6.3m      1
+Ef        -1350.063934Ha        -0.9776492Ha      1.01E-02     6.3m      2
+Ef        -1350.063785Ha        -0.9775009Ha      8.00E-03     6.3m      3
+Ef        -1350.063666Ha        -0.9773821Ha      5.41E-03     6.3m      4
+Ef        -1350.063608Ha        -0.9773232Ha      4.57E-03     6.4m      5
+Ef        -1350.063566Ha        -0.9772812Ha      3.39E-03     6.4m      6
+Ef        -1350.063585Ha        -0.9773007Ha      4.15E-04     6.4m      7
+Ef        -1350.063572Ha        -0.9772873Ha      2.77E-05     6.4m      8
+Ef        -1350.063571Ha        -0.9772869Ha      3.97E-05     6.5m      9
+Ef        -1350.063572Ha        -0.9772875Ha      9.81E-07     6.5m     10
+Message: SCF converged
+
+
+Fermi Energy:          -0.184297 Ha      -5.015 eV   -kTS_e= -0.0208855Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000109  -0.000088   0.000043     0.000002   0.000002   0.000005
+df   Ag    -3.798610   3.798648  -7.456532    -0.000002  -0.000002   0.000000
+df   Pd    -3.798610  -0.000088  -3.728219    -0.000002   0.000002  -0.000005
+df   Pd     0.000109   3.798648   3.728356     0.000002  -0.000002  -0.000001
+df   Pd     0.000109   3.798648  -3.728219     0.000002  -0.000002  -0.000005
+df   Pd    -3.798610  -0.000088   3.728356    -0.000002   0.000002  -0.000001
+df   Pd    -3.798610   3.798648   0.000043    -0.000002  -0.000002   0.000005
+df   Pd     0.000109  -0.000088  -7.456532     0.000002   0.000002   0.000000
+df  binding energy      -0.9772875Ha       -26.59336eV        -613.269kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.8085253Ha
+            Electrostatic =       16.7121929Ha
+     Exchange-correlation =        0.0413337Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0093016Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.063572Ha        -0.9772875Ha                   6.6m     11
+
+Df  binding energy extrapolated to T=0K      -0.9668447 Ha       -26.30919 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020354            0.000023
+            2    Ag            2.010262            2.010158            3.945899
+            3    Pd            2.010262            4.020354            5.918837
+            4    Pd            0.000058            2.010158            1.972961
+            5    Pd            0.000058            2.010158            5.918837
+            6    Pd            2.010262            4.020354            1.972961
+            7    Pd            2.010262            2.010158            0.000023
+            8    Pd            0.000058            4.020354            3.945899
+          ----------------------------------------------------------------------
+
+ Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  4.02040000        0.00000000        0.00000000
+                  0.00000000        4.02040000        0.00000000
+                  0.00000000        0.00000000        7.89170000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058           -0.000046            0.000023
+            2    Ag            2.010262            2.010158            3.945899
+            3    Pd            2.010262           -0.000046            5.918837
+            4    Pd            0.000058            2.010158            1.972961
+            5    Pd            0.000058            2.010158            5.918837
+            6    Pd            2.010262           -0.000046            1.972961
+            7    Pd            2.010262            2.010158            0.000023
+            8    Pd            0.000058           -0.000046            3.945899
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       4.020400 Ang    alpha =      90.000000 deg
+               b =       4.020400 Ang    beta  =      90.000000 deg
+               c =       7.891700 Ang    gamma =      90.000000 deg
+ 
+
+Lattice deformations done
+Lattice optimization step 3 completed.
+Change in total energy                  =  -0.000000 Ha
+Change in cell volume                   =   0.000000 bohr^3
+Maximal coordinate change               =   0.000027 bohr
+Maximal lattice vector component change =   0.000000 bohr
+
+Displacement stepsize:  0.03000
+
+stress [GPa], reduced c-matrix [GPa]: 
+     -0.02       135.22
+     -0.02        97.06    159.26
+
+cell volume     860.810
+              7.59746341744722    0.00000000000000    0.00000000000000
+              0.00000000000000    7.59746341744722    0.00000000000000
+              0.00000000000000    0.00000000000000   15.37447024577541
+
+deformation: Ag25Pd75_I4MMM.os455                                                                                                                                                                                                                                            
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020358            0.000023
+            2    Ag            2.010265            2.010160            4.067947
+            3    Pd            2.010265            4.020358            6.101909
+            4    Pd            0.000058            2.010160            2.033985
+            5    Pd            0.000058            2.010160            6.101909
+            6    Pd            2.010265            4.020358            2.033985
+            7    Pd            2.010265            2.010160            0.000023
+            8    Pd            0.000058            4.020358            4.067947
+          ----------------------------------------------------------------------
+
+  
+ System is a dense periodic or a zeolite
+ Using fractional displacements
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     48  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.065734Ha        -0.9794497Ha      8.07E-03     6.6m      1
+Ef        -1350.065603Ha        -0.9793185Ha      6.79E-03     6.6m      2
+Ef        -1350.065756Ha        -0.9794720Ha      4.07E-03     6.6m      3
+Ef        -1350.065745Ha        -0.9794604Ha      3.52E-03     6.7m      4
+Ef        -1350.065728Ha        -0.9794434Ha      2.86E-03     6.7m      5
+Ef        -1350.065721Ha        -0.9794368Ha      2.17E-03     6.7m      6
+Ef        -1350.065722Ha        -0.9794377Ha      1.06E-03     6.7m      7
+Ef        -1350.065724Ha        -0.9794399Ha      7.66E-04     6.8m      8
+Ef        -1350.065725Ha        -0.9794407Ha      6.83E-04     6.8m      9
+Ef        -1350.065727Ha        -0.9794421Ha      5.46E-04     6.8m     10
+Ef        -1350.065734Ha        -0.9794497Ha      2.48E-07     6.8m     11
+Message: SCF converged
+
+
+Fermi Energy:          -0.186506 Ha      -5.075 eV   -kTS_e= -0.0210369Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000109  -0.000088   0.000044     0.000002   0.000002   0.000005
+df   Ag    -3.798614   3.798653  -7.687165    -0.000002  -0.000002   0.000000
+df   Pd    -3.798614  -0.000088  -3.843534    -0.000002   0.000002  -0.000005
+df   Pd     0.000109   3.798653   3.843675     0.000002  -0.000002  -0.000000
+df   Pd     0.000109   3.798653  -3.843534     0.000002  -0.000002  -0.000005
+df   Pd    -3.798614  -0.000088   3.843675    -0.000002   0.000002  -0.000000
+df   Pd    -3.798614   3.798653   0.000044    -0.000002  -0.000002   0.000005
+df   Pd     0.000109  -0.000088  -7.687165     0.000002   0.000002   0.000000
+df  binding energy      -0.9794497Ha       -26.65219eV        -614.626kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.6362794Ha
+            Electrostatic =       16.5667899Ha
+     Exchange-correlation =        0.0123286Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0088464Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.065734Ha        -0.9794497Ha                   6.9m     12
+
+Df  binding energy extrapolated to T=0K      -0.9689312 Ha       -26.36597 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020358            0.000023
+            2    Ag            2.010265            2.010160            4.067947
+            3    Pd            2.010265            4.020358            6.101909
+            4    Pd            0.000058            2.010160            2.033985
+            5    Pd            0.000058            2.010160            6.101909
+            6    Pd            2.010265            4.020358            2.033985
+            7    Pd            2.010265            2.010160            0.000023
+            8    Pd            0.000058            4.020358            4.067947
+          ----------------------------------------------------------------------
+
+ Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  4.02040000        0.00000000        0.00000000
+                  0.00000000        4.02040000        0.00000000
+                  0.00000000        0.00000000        8.13580000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058           -0.000046            0.000023
+            2    Ag            2.010265            2.010160            4.067947
+            3    Pd            2.010265           -0.000046            6.101909
+            4    Pd            0.000058            2.010160            2.033985
+            5    Pd            0.000058            2.010160            6.101909
+            6    Pd            2.010265           -0.000046            2.033985
+            7    Pd            2.010265            2.010160            0.000023
+            8    Pd            0.000058           -0.000046            4.067947
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       4.020400 Ang    alpha =      90.000000 deg
+               b =       4.020400 Ang    beta  =      90.000000 deg
+               c =       8.135800 Ang    gamma =      90.000000 deg
+ 
+
+cell volume     887.437
+              7.71141673661809    0.00000000000000    0.00000000000000
+              0.00000000000000    7.71141673661809    0.00000000000000
+              0.00000000000000    0.00000000000000   15.37443380772285
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059            4.080659            0.000023
+            2    Ag            2.040419            2.040313            4.067947
+            3    Pd            2.040419            4.080659            6.101909
+            4    Pd            0.000059            2.040313            2.033985
+            5    Pd            0.000059            2.040313            6.101909
+            6    Pd            2.040419            4.080659            2.033985
+            7    Pd            2.040419            2.040313            0.000023
+            8    Pd            0.000059            4.080659            4.067947
+          ----------------------------------------------------------------------
+
+  
+ System is a dense periodic or a zeolite
+ Using fractional displacements
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     48  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.062065Ha        -0.9757810Ha      1.11E-02     6.9m      1
+Ef        -1350.063529Ha        -0.9772446Ha      7.89E-03     6.9m      2
+Ef        -1350.063700Ha        -0.9774158Ha      6.24E-03     7.0m      3
+Ef        -1350.064000Ha        -0.9777160Ha      2.64E-03     7.0m      4
+Ef        -1350.063948Ha        -0.9776640Ha      1.31E-03     7.0m      5
+Ef        -1350.063917Ha        -0.9776329Ha      6.64E-04     7.0m      6
+Ef        -1350.063896Ha        -0.9776114Ha      2.39E-04     7.1m      7
+Ef        -1350.063900Ha        -0.9776156Ha      3.70E-05     7.1m      8
+Ef        -1350.063899Ha        -0.9776148Ha      2.00E-05     7.1m      9
+Ef        -1350.063899Ha        -0.9776148Ha      2.55E-06     7.1m     10
+Message: SCF converged
+
+
+Fermi Energy:          -0.188572 Ha      -5.131 eV   -kTS_e= -0.0216165Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000111  -0.000089   0.000044     0.000002   0.000002   0.000008
+df   Ag    -3.855584   3.855632  -7.687128    -0.000002  -0.000002   0.000000
+df   Pd    -3.855584  -0.000089  -3.843498    -0.000002   0.000002  -0.000008
+df   Pd     0.000111   3.855632   3.843675     0.000002  -0.000002  -0.000001
+df   Pd     0.000111   3.855632  -3.843498     0.000002  -0.000002  -0.000008
+df   Pd    -3.855584  -0.000089   3.843675    -0.000002   0.000002  -0.000001
+df   Pd    -3.855584   3.855632   0.000044    -0.000002  -0.000002   0.000008
+df   Pd     0.000111  -0.000089  -7.687128     0.000002   0.000002   0.000001
+df  binding energy      -0.9776148Ha       -26.60226eV        -613.475kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.4784011Ha
+            Electrostatic =       16.4376402Ha
+     Exchange-correlation =       -0.0145651Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0084020Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.063899Ha        -0.9776148Ha                   7.2m     11
+
+Df  binding energy extrapolated to T=0K      -0.9668065 Ha       -26.30816 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059            4.080659            0.000023
+            2    Ag            2.040419            2.040313            4.067947
+            3    Pd            2.040419            4.080659            6.101909
+            4    Pd            0.000059            2.040313            2.033985
+            5    Pd            0.000059            2.040313            6.101909
+            6    Pd            2.040419            4.080659            2.033985
+            7    Pd            2.040419            2.040313            0.000023
+            8    Pd            0.000059            4.080659            4.067947
+          ----------------------------------------------------------------------
+
+ Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  4.08070000        0.00000000        0.00000000
+                  0.00000000        4.08070000        0.00000000
+                  0.00000000        0.00000000        8.13580000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059           -0.000047            0.000023
+            2    Ag            2.040419            2.040313            4.067947
+            3    Pd            2.040419           -0.000047            6.101909
+            4    Pd            0.000059            2.040313            2.033985
+            5    Pd            0.000059            2.040313            6.101909
+            6    Pd            2.040419           -0.000047            2.033985
+            7    Pd            2.040419            2.040313            0.000023
+            8    Pd            0.000059           -0.000047            4.067947
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       4.080700 Ang    alpha =      90.000000 deg
+               b =       4.080700 Ang    beta  =      90.000000 deg
+               c =       8.135800 Ang    gamma =      90.000000 deg
+ 
+
+cell volume     914.255
+              7.48349308923037    0.00000000000000    0.00000000000000
+              0.00000000000000    7.48349308923037    0.00000000000000
+              0.00000000000000    0.00000000000000   15.37443380772285
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000057            3.960048            0.000023
+            2    Ag            1.980111            1.980008            4.067947
+            3    Pd            1.980111            3.960048            6.101909
+            4    Pd            0.000057            1.980008            2.033985
+            5    Pd            0.000057            1.980008            6.101909
+            6    Pd            1.980111            3.960048            2.033985
+            7    Pd            1.980111            1.980008            0.000023
+            8    Pd            0.000057            3.960048            4.067947
+          ----------------------------------------------------------------------
+
+  
+ System is a dense periodic or a zeolite
+ Using fractional displacements
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     48  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.061720Ha        -0.9754361Ha      9.12E-03     7.2m      1
+Ef        -1350.064255Ha        -0.9779708Ha      9.66E-03     7.3m      2
+Ef        -1350.064109Ha        -0.9778251Ha      7.57E-03     7.3m      3
+Ef        -1350.063975Ha        -0.9776911Ha      3.73E-03     7.3m      4
+Ef        -1350.063952Ha        -0.9776673Ha      5.03E-03     7.3m      5
+Ef        -1350.063892Ha        -0.9776071Ha      3.58E-03     7.4m      6
+Ef        -1350.063906Ha        -0.9776214Ha      2.75E-04     7.4m      7
+Ef        -1350.063898Ha        -0.9776140Ha      3.51E-05     7.4m      8
+Ef        -1350.063897Ha        -0.9776130Ha      5.32E-05     7.4m      9
+Ef        -1350.063898Ha        -0.9776138Ha      2.35E-06     7.4m     10
+Message: SCF converged
+
+
+Fermi Energy:          -0.184300 Ha      -5.015 eV   -kTS_e= -0.0204446Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000108  -0.000086   0.000044     0.000003   0.000003   0.000009
+df   Ag    -3.741626   3.741673  -7.687128    -0.000003  -0.000003   0.000001
+df   Pd    -3.741626  -0.000086  -3.843498    -0.000003   0.000003  -0.000009
+df   Pd     0.000108   3.741673   3.843675     0.000003  -0.000003  -0.000001
+df   Pd     0.000108   3.741673  -3.843498     0.000003  -0.000003  -0.000009
+df   Pd    -3.741626  -0.000086   3.843675    -0.000003   0.000003  -0.000001
+df   Pd    -3.741626   3.741673   0.000044    -0.000003  -0.000003   0.000009
+df   Pd     0.000108  -0.000086  -7.687128     0.000003   0.000003   0.000001
+df  binding energy      -0.9776138Ha       -26.60224eV        -613.474kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.7990648Ha
+            Electrostatic =       16.7022827Ha
+     Exchange-correlation =        0.0414570Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0091276Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.063898Ha        -0.9776138Ha                   7.5m     11
+
+Df  binding energy extrapolated to T=0K      -0.9673915 Ha       -26.32407 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000057            3.960048            0.000023
+            2    Ag            1.980111            1.980008            4.067947
+            3    Pd            1.980111            3.960048            6.101909
+            4    Pd            0.000057            1.980008            2.033985
+            5    Pd            0.000057            1.980008            6.101909
+            6    Pd            1.980111            3.960048            2.033985
+            7    Pd            1.980111            1.980008            0.000023
+            8    Pd            0.000057            3.960048            4.067947
+          ----------------------------------------------------------------------
+
+ Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  3.96010000        0.00000000        0.00000000
+                  0.00000000        3.96010000        0.00000000
+                  0.00000000        0.00000000        8.13580000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000057           -0.000046            0.000023
+            2    Ag            1.980111            1.980008            4.067947
+            3    Pd            1.980111           -0.000046            6.101909
+            4    Pd            0.000057            1.980008            2.033985
+            5    Pd            0.000057            1.980008            6.101909
+            6    Pd            1.980111           -0.000046            2.033985
+            7    Pd            1.980111            1.980008            0.000023
+            8    Pd            0.000057           -0.000046            4.067947
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       3.960100 Ang    alpha =      90.000000 deg
+               b =       3.960100 Ang    beta  =      90.000000 deg
+               c =       8.135800 Ang    gamma =      90.000000 deg
+ 
+
+cell volume     861.009
+              7.71141673661809    0.00000000000000    0.00000000000000
+              0.00000000000000    7.71141673661809    0.00000000000000
+              0.00000000000000    0.00000000000000   15.83566682195454
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059            4.080659            0.000024
+            2    Ag            2.040419            2.040313            4.189985
+            3    Pd            2.040419            4.080659            6.284966
+            4    Pd            0.000059            2.040313            2.095005
+            5    Pd            0.000059            2.040313            6.284966
+            6    Pd            2.040419            4.080659            2.095005
+            7    Pd            2.040419            2.040313            0.000024
+            8    Pd            0.000059            4.080659            4.189985
+          ----------------------------------------------------------------------
+
+  
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     96  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.051702Ha        -0.9654173Ha      1.51E-02     7.5m      1
+Ef        -1350.058778Ha        -0.9724941Ha      1.19E-02     7.6m      2
+Ef        -1350.058780Ha        -0.9724957Ha      8.79E-03     7.6m      3
+Ef        -1350.059236Ha        -0.9729520Ha      3.79E-03     7.6m      4
+Ef        -1350.059240Ha        -0.9729561Ha      3.58E-03     7.6m      5
+Ef        -1350.059191Ha        -0.9729067Ha      2.67E-03     7.7m      6
+Ef        -1350.059105Ha        -0.9728207Ha      1.17E-04     7.7m      7
+Ef        -1350.059104Ha        -0.9728197Ha      5.42E-05     7.7m      8
+Ef        -1350.059103Ha        -0.9728189Ha      1.35E-05     7.7m      9
+Ef        -1350.059103Ha        -0.9728187Ha      5.78E-06     7.7m     10
+Message: SCF converged
+
+
+Fermi Energy:          -0.190346 Ha      -5.180 eV   -kTS_e= -0.0217513Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000111  -0.000089   0.000045     0.000002   0.000002   0.000007
+df   Ag    -3.855584   3.855632  -7.917742    -0.000002  -0.000002   0.000001
+df   Pd    -3.855584  -0.000089  -3.958803    -0.000002   0.000002  -0.000007
+df   Pd     0.000111   3.855632   3.958985     0.000002  -0.000002  -0.000001
+df   Pd     0.000111   3.855632  -3.958803     0.000002  -0.000002  -0.000007
+df   Pd    -3.855584  -0.000089   3.958985    -0.000002   0.000002  -0.000001
+df   Pd    -3.855584   3.855632   0.000045    -0.000002  -0.000002   0.000007
+df   Pd     0.000111  -0.000089  -7.917742     0.000002   0.000002   0.000001
+df  binding energy      -0.9728187Ha       -26.47175eV        -610.465kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.3030511Ha
+            Electrostatic =       16.2914694Ha
+     Exchange-correlation =       -0.0389481Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0076771Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.059103Ha        -0.9728187Ha                   7.8m     11
+
+Df  binding energy extrapolated to T=0K      -0.9619430 Ha       -26.17581 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059            4.080659            0.000024
+            2    Ag            2.040419            2.040313            4.189985
+            3    Pd            2.040419            4.080659            6.284966
+            4    Pd            0.000059            2.040313            2.095005
+            5    Pd            0.000059            2.040313            6.284966
+            6    Pd            2.040419            4.080659            2.095005
+            7    Pd            2.040419            2.040313            0.000024
+            8    Pd            0.000059            4.080659            4.189985
+          ----------------------------------------------------------------------
+
+ Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  4.08070000        0.00000000        0.00000000
+                  0.00000000        4.08070000        0.00000000
+                  0.00000000        0.00000000        8.37990000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000059           -0.000047            0.000024
+            2    Ag            2.040419            2.040313            4.189985
+            3    Pd            2.040419           -0.000047            6.284966
+            4    Pd            0.000059            2.040313            2.095005
+            5    Pd            0.000059            2.040313            6.284966
+            6    Pd            2.040419           -0.000047            2.095005
+            7    Pd            2.040419            2.040313            0.000024
+            8    Pd            0.000059           -0.000047            4.189985
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       4.080700 Ang    alpha =      90.000000 deg
+               b =       4.080700 Ang    beta  =      90.000000 deg
+               c =       8.379900 Ang    gamma =      90.000000 deg
+ 
+
+cell volume     941.683
+              7.59745491292423    0.00000000000000    0.00000000000000
+              0.00000000000000    7.59745491292423    0.00000000000000
+              0.00000000000000    0.00000000000000   15.83566682195454
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020354            0.000024
+            2    Ag            2.010265            2.010160            4.189985
+            3    Pd            2.010265            4.020354            6.284966
+            4    Pd            0.000058            2.010160            2.095005
+            5    Pd            0.000058            2.010160            6.284966
+            6    Pd            2.010265            4.020354            2.095005
+            7    Pd            2.010265            2.010160            0.000024
+            8    Pd            0.000058            4.020354            4.189985
+          ----------------------------------------------------------------------
+
+  
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     96  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.061299Ha        -0.9750149Ha      1.13E-02     7.8m      1
+Ef        -1350.063232Ha        -0.9769476Ha      8.26E-03     7.9m      2
+Ef        -1350.063394Ha        -0.9771092Ha      6.59E-03     7.9m      3
+Ef        -1350.063691Ha        -0.9774070Ha      3.60E-03     7.9m      4
+Ef        -1350.063626Ha        -0.9773412Ha      1.40E-03     7.9m      5
+Ef        -1350.063595Ha        -0.9773111Ha      7.50E-04     8.0m      6
+Ef        -1350.063570Ha        -0.9772855Ha      3.22E-04     8.0m      7
+Ef        -1350.063574Ha        -0.9772895Ha      3.97E-05     8.0m      8
+Ef        -1350.063573Ha        -0.9772889Ha      1.54E-05     8.0m      9
+Ef        -1350.063573Ha        -0.9772886Ha      1.88E-06     8.0m     10
+Message: SCF converged
+
+
+Fermi Energy:          -0.188500 Ha      -5.129 eV   -kTS_e= -0.0211257Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000109  -0.000088   0.000045     0.000002   0.000002   0.000007
+df   Ag    -3.798605   3.798653  -7.917742    -0.000002  -0.000002   0.000001
+df   Pd    -3.798605  -0.000088  -3.958803    -0.000002   0.000002  -0.000006
+df   Pd     0.000109   3.798653   3.958985     0.000002  -0.000002  -0.000001
+df   Pd     0.000109   3.798653  -3.958803     0.000002  -0.000002  -0.000006
+df   Pd    -3.798605  -0.000088   3.958985    -0.000002   0.000002  -0.000001
+df   Pd    -3.798605   3.798653   0.000045    -0.000002  -0.000002   0.000006
+df   Pd     0.000109  -0.000088  -7.917742     0.000002   0.000002   0.000001
+df  binding energy      -0.9772886Ha       -26.59339eV        -613.270kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.4682598Ha
+            Electrostatic =       16.4268431Ha
+     Exchange-correlation =       -0.0135831Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0077288Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.063573Ha        -0.9772886Ha                   8.1m     11
+
+Df  binding energy extrapolated to T=0K      -0.9667257 Ha       -26.30596 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020354            0.000024
+            2    Ag            2.010265            2.010160            4.189985
+            3    Pd            2.010265            4.020354            6.284966
+            4    Pd            0.000058            2.010160            2.095005
+            5    Pd            0.000058            2.010160            6.284966
+            6    Pd            2.010265            4.020354            2.095005
+            7    Pd            2.010265            2.010160            0.000024
+            8    Pd            0.000058            4.020354            4.189985
+          ----------------------------------------------------------------------
+
+ Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  4.02040000        0.00000000        0.00000000
+                  0.00000000        4.02040000        0.00000000
+                  0.00000000        0.00000000        8.37990000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058           -0.000046            0.000024
+            2    Ag            2.010265            2.010160            4.189985
+            3    Pd            2.010265           -0.000046            6.284966
+            4    Pd            0.000058            2.010160            2.095005
+            5    Pd            0.000058            2.010160            6.284966
+            6    Pd            2.010265           -0.000046            2.095005
+            7    Pd            2.010265            2.010160            0.000024
+            8    Pd            0.000058           -0.000046            4.189985
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       4.020400 Ang    alpha =      90.000000 deg
+               b =       4.020400 Ang    beta  =      90.000000 deg
+               c =       8.379900 Ang    gamma =      90.000000 deg
+ 
+
+cell volume     914.056
+              7.59745491292423    0.00000000000000    0.00000000000000
+              0.00000000000000    7.59745491292423    0.00000000000000
+              0.00000000000000    0.00000000000000   14.91320079349116
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020354            0.000023
+            2    Ag            2.010265            2.010160            3.945908
+            3    Pd            2.010265            4.020354            5.918851
+            4    Pd            0.000058            2.010160            1.972965
+            5    Pd            0.000058            2.010160            5.918851
+            6    Pd            2.010265            4.020354            1.972965
+            7    Pd            2.010265            2.010160            0.000023
+            8    Pd            0.000058            4.020354            3.945908
+          ----------------------------------------------------------------------
+
+  
+ System is a dense periodic or a zeolite
+ Using fractional displacements
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     48  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.061018Ha        -0.9747334Ha      9.76E-03     8.1m      1
+Ef        -1350.063934Ha        -0.9776492Ha      1.01E-02     8.2m      2
+Ef        -1350.063785Ha        -0.9775009Ha      8.00E-03     8.2m      3
+Ef        -1350.063666Ha        -0.9773821Ha      5.41E-03     8.2m      4
+Ef        -1350.063608Ha        -0.9773232Ha      4.57E-03     8.2m      5
+Ef        -1350.063566Ha        -0.9772812Ha      3.39E-03     8.3m      6
+Ef        -1350.063585Ha        -0.9773007Ha      4.15E-04     8.3m      7
+Ef        -1350.063572Ha        -0.9772873Ha      2.77E-05     8.3m      8
+Ef        -1350.063571Ha        -0.9772869Ha      3.97E-05     8.3m      9
+Ef        -1350.063572Ha        -0.9772875Ha      9.81E-07     8.4m     10
+Message: SCF converged
+
+
+Fermi Energy:          -0.184297 Ha      -5.015 eV   -kTS_e= -0.0208855Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000109  -0.000088   0.000043     0.000003   0.000003   0.000008
+df   Ag    -3.798605   3.798653  -7.456515    -0.000003  -0.000003   0.000001
+df   Pd    -3.798605  -0.000088  -3.728193    -0.000003   0.000003  -0.000008
+df   Pd     0.000109   3.798653   3.728364     0.000003  -0.000003  -0.000001
+df   Pd     0.000109   3.798653  -3.728193     0.000003  -0.000003  -0.000008
+df   Pd    -3.798605  -0.000088   3.728364    -0.000003   0.000003  -0.000001
+df   Pd    -3.798605   3.798653   0.000043    -0.000003  -0.000003   0.000008
+df   Pd     0.000109  -0.000088  -7.456515     0.000003   0.000003   0.000001
+df  binding energy      -0.9772875Ha       -26.59336eV        -613.269kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.8085253Ha
+            Electrostatic =       16.7121929Ha
+     Exchange-correlation =        0.0413337Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0093016Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.063572Ha        -0.9772875Ha                   8.4m     11
+
+Df  binding energy extrapolated to T=0K      -0.9668447 Ha       -26.30919 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020354            0.000023
+            2    Ag            2.010265            2.010160            3.945908
+            3    Pd            2.010265            4.020354            5.918851
+            4    Pd            0.000058            2.010160            1.972965
+            5    Pd            0.000058            2.010160            5.918851
+            6    Pd            2.010265            4.020354            1.972965
+            7    Pd            2.010265            2.010160            0.000023
+            8    Pd            0.000058            4.020354            3.945908
+          ----------------------------------------------------------------------
+
+ Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  4.02040000        0.00000000        0.00000000
+                  0.00000000        4.02040000        0.00000000
+                  0.00000000        0.00000000        7.89170000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058           -0.000046            0.000023
+            2    Ag            2.010265            2.010160            3.945908
+            3    Pd            2.010265           -0.000046            5.918851
+            4    Pd            0.000058            2.010160            1.972965
+            5    Pd            0.000058            2.010160            5.918851
+            6    Pd            2.010265           -0.000046            1.972965
+            7    Pd            2.010265            2.010160            0.000023
+            8    Pd            0.000058           -0.000046            3.945908
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       4.020400 Ang    alpha =      90.000000 deg
+               b =       4.020400 Ang    beta  =      90.000000 deg
+               c =       7.891700 Ang    gamma =      90.000000 deg
+ 
+
+Lattice deformations done
+Lattice optimization step 4 completed.
+Change in total energy                  =   0.000000 Ha
+Change in cell volume                   =   0.000000 bohr^3
+Maximal coordinate change               =   0.000027 bohr
+Maximal lattice vector component change =   0.000000 bohr
+
+Displacement stepsize:  0.03000
+
+stress [GPa], reduced c-matrix [GPa]: 
+     -0.02       135.22
+     -0.02        97.06    159.26
+
+cell volume     860.810
+              7.59746341909329    0.00000000000000    0.00000000000000
+              0.00000000000000    7.59746341909329    0.00000000000000
+              0.00000000000000    0.00000000000000   15.37447024007579
+
+deformation: Ag25Pd75_I4MMM.os555                                                                                                                                                                                                                                            
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+Note: One or more atoms were translated into the central cell
+
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020358            0.000023
+            2    Ag            2.010267            2.010163            4.067956
+            3    Pd            2.010267            4.020358            6.101923
+            4    Pd            0.000058            2.010163            2.033990
+            5    Pd            0.000058            2.010163            6.101923
+            6    Pd            2.010267            4.020358            2.033990
+            7    Pd            2.010267            2.010163            0.000023
+            8    Pd            0.000058            4.020358            4.067956
+          ----------------------------------------------------------------------
+
+  
+ System is a dense periodic or a zeolite
+ Using fractional displacements
+
+*** OPTIMIZATION USES DELOCALIZED INTERNALS ***
+
+ The preliminary size of active space is :      21
+ There are :           21  degrees of freedom
+ There are likely:     48  primitive internals
+
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef        -1350.065734Ha        -0.9794497Ha      8.07E-03     8.5m      1
+Ef        -1350.065603Ha        -0.9793185Ha      6.79E-03     8.5m      2
+Ef        -1350.065756Ha        -0.9794720Ha      4.07E-03     8.5m      3
+Ef        -1350.065745Ha        -0.9794604Ha      3.52E-03     8.5m      4
+Ef        -1350.065728Ha        -0.9794434Ha      2.86E-03     8.6m      5
+Ef        -1350.065721Ha        -0.9794368Ha      2.17E-03     8.6m      6
+Ef        -1350.065722Ha        -0.9794377Ha      1.06E-03     8.6m      7
+Ef        -1350.065724Ha        -0.9794399Ha      7.66E-04     8.6m      8
+Ef        -1350.065725Ha        -0.9794407Ha      6.83E-04     8.7m      9
+Ef        -1350.065727Ha        -0.9794421Ha      5.46E-04     8.7m     10
+Ef        -1350.065734Ha        -0.9794497Ha      2.48E-07     8.7m     11
+Message: SCF converged
+
+
+Fermi Energy:          -0.186506 Ha      -5.075 eV   -kTS_e= -0.0210369Ha
+
+df              ATOMIC  COORDINATES (au)                  DERIVATIVES (au)
+df            x          y          z            x          y          z
+df   Ag     0.000109  -0.000088   0.000044     0.000003   0.000003   0.000008
+df   Ag    -3.798610   3.798657  -7.687147    -0.000003  -0.000003   0.000001
+df   Pd    -3.798610  -0.000088  -3.843507    -0.000003   0.000003  -0.000008
+df   Pd     0.000109   3.798657   3.843684     0.000003  -0.000003  -0.000001
+df   Pd     0.000109   3.798657  -3.843507     0.000003  -0.000003  -0.000008
+df   Pd    -3.798610  -0.000088   3.843684    -0.000003   0.000003  -0.000001
+df   Pd    -3.798610   3.798657   0.000044    -0.000003  -0.000003   0.000008
+df   Pd     0.000109  -0.000088  -7.687147     0.000003   0.000003   0.000001
+df  binding energy      -0.9794497Ha       -26.65219eV        -614.626kcal/mol
+
+
+Energy components:
+   Sum of atomic energies =    -1349.0862844Ha
+                  Kinetic =      -17.6362794Ha
+            Electrostatic =       16.5667899Ha
+     Exchange-correlation =        0.0123286Ha
+        Spin polarization =        0.0777112Ha
+       Jellium correction =       -0.0088464Ha
+
+            Total Energy           Binding E                   Time   Iter
+Ef        -1350.065734Ha        -0.9794497Ha                   8.8m     12
+
+Df  binding energy extrapolated to T=0K      -0.9689312 Ha       -26.36597 eV
+
+** GEOMETRY OPTIMIZATION IN DELOCALIZED COORDINATES **
+
+   Searching for a Minimum
+
+                              Input Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058            4.020358            0.000023
+            2    Ag            2.010267            2.010163            4.067956
+            3    Pd            2.010267            4.020358            6.101923
+            4    Pd            0.000058            2.010163            2.033990
+            5    Pd            0.000058            2.010163            6.101923
+            6    Pd            2.010267            4.020358            2.033990
+            7    Pd            2.010267            2.010163            0.000023
+            8    Pd            0.000058            4.020358            4.067956
+          ----------------------------------------------------------------------
+
+ Gradients are very small. RMS cartesian gradient:    0.0E+00
+ Geometry is converged
+  Geometry optimization completed successfully in    1 steps.
+
+                              Final cell vectors (Angstroms)
+                              ==============================
+                  4.02040000        0.00000000        0.00000000
+                  0.00000000        4.02040000        0.00000000
+                  0.00000000        0.00000000        8.13580000
+
+
+                              Final Coordinates (Angstroms)
+          ----------------------------------------------------------------------
+               ATOM               X                   Y                   Z
+            1    Ag            0.000058           -0.000046            0.000023
+            2    Ag            2.010267            2.010163            4.067956
+            3    Pd            2.010267           -0.000046            6.101923
+            4    Pd            0.000058            2.010163            2.033990
+            5    Pd            0.000058            2.010163            6.101923
+            6    Pd            2.010267           -0.000046            2.033990
+            7    Pd            2.010267            2.010163            0.000023
+            8    Pd            0.000058           -0.000046            4.067956
+          ----------------------------------------------------------------------
+
+                              Cell geometry: 
+                              ==============
+               a =       4.020400 Ang    alpha =      90.000000 deg
+               b =       4.020400 Ang    beta  =      90.000000 deg
+               c =       8.135800 Ang    gamma =      90.000000 deg
+ 
+
+ +++ Entering Properties Section +++ 
+
+Message: License checkin of MS_dmol successful
+Message: License checkin of MS_dsolid successful
+
+Message: DMol3 job finished successfully
+
+ time all done       8.77m      526.44s
+
+DMol3.pl message: DMol3 job finished in 0 hr 8 min 51 sec.
