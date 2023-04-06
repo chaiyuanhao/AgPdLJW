@@ -1,0 +1,100 @@
+!BIOSYM molecular_data 4
+ 
+!Date: Fri Oct 14 16:53:11 2022   Materials Studio Generated MDF file
+ 
+#topology
+
+@column 1 element
+@column 2 atom_type
+@column 3 charge_group
+@column 4 isotope
+@column 5 formal_charge
+@column 6 charge
+@column 7 switching_atom
+@column 8 oop_flag
+@column 9 chirality_flag
+@column 10 occupancy
+@column 11 xray_temp_factor
+@column 12 connections
+ 
+@molecule Molecule
+ 
+XXXX_1:Pd1          Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Pd2          Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Pd3          Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Pd4          Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Pd5          Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Pd6          Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Pd7          Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Pd8          Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Pd9          Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Pd10         Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Pd11         Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Pd12         Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag1          Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag2          Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag3          Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag4          Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag5          Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag6          Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Pd13         Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Pd14         Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Pd15         Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Pd16         Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Pd17         Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Pd18         Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Pd19         Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Pd20         Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Pd21         Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Pd22         Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Pd23         Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Pd24         Pd x       ?     0  2+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag7          Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag8          Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag9          Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag10         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag11         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag12         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag13         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag14         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag15         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag16         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag17         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag18         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag19         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag20         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag21         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag22         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag23         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag24         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag25         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag26         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag27         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag28         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag29         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag30         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag31         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag32         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag33         Ag x       ?     0  1+    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:O1           O  x       ?     0  2-    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:O2           O  x       ?     0  2-    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:O3           O  x       ?     0  2-    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:O4           O  x       ?     0  2-    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:O5           O  x       ?     0  2-    0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:O6           O  x       ?     0  2-    0.0000 0 0 8 1.0000  0.0000 
+ 
+!
+#symmetry
+@periodicity 3 xyz
+@group (P1)
+
+
+#atomset
+
+@list subset MDF_FIXED_ATOMS_SUBSET
+
+Molecule:XXXX_1:Pd1 Pd2 Pd3 Pd4 Pd5 Pd6 Pd7 Pd8 Pd9 Pd10 Pd11 Pd12 Pd13 Pd14 
+Pd15 Pd16 Pd17 Pd18 Ag7 Ag8 Ag9 Ag10 Ag11 Ag12 Ag19 Ag20 Ag21 Ag22 Ag23 Ag24 
+Ag25 Ag26 Ag27 Ag28 Ag29 Ag30 
+
+#end
