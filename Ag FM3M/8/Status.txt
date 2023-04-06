@@ -1,0 +1,17 @@
+====================================================
+                  DMol3 Run Status                  
+====================================================
+ 
+Job Name            :        Ag__2_
+Task                :        Property
+Basis               :        dnd                 
+Atom_Rcut           :        4.000 Angstrom
+Functional          :        pbe                 
+Harris              :        off  
+Integration Grid    :        medium              
+Kpoints             :        Ag__2_.kpoints
+Occupation          :        thermal       0.0050
+Pseudopotential     :        dspp                
+Property            :        none                
+ 
+====================================================

@@ -1,0 +1,28 @@
+
+# Task parameters
+Calculate                     energy
+Symmetry                      on
+Max_memory                    2048
+File_usage                    smart
+Scf_density_convergence       1.000000e-05
+Scf_charge_mixing             2.000000e-01
+Scf_spin_mixing               5.000000e-01
+Scf_diis                      10 pulay
+Scf_iterations                9999
+
+# Electronic parameters
+Spin_polarization             unrestricted
+Charge                        0
+Basis                         dnd
+Pseudopotential               dspp
+Functional                    pbe
+Aux_density                   hexadecapole
+Integration_grid              medium
+Occupation                    thermal 0.0050
+Cutoff_Global                 4.0000 angstrom
+
+# Kpoint definition file (intervals/offset): 
+Kpoints                       file     6 12 12 0.0000 0.0000 0.0000
+Ag__2_.kpoints
+
+# Calculated properties

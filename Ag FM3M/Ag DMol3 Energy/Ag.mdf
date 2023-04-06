@@ -1,0 +1,44 @@
+!BIOSYM molecular_data 4
+ 
+!Date: Tue Dec 13 18:43:11 2022   Materials Studio Generated MDF file
+ 
+#topology
+
+@column 1 element
+@column 2 atom_type
+@column 3 charge_group
+@column 4 isotope
+@column 5 formal_charge
+@column 6 charge
+@column 7 switching_atom
+@column 8 oop_flag
+@column 9 chirality_flag
+@column 10 occupancy
+@column 11 xray_temp_factor
+@column 12 connections
+ 
+@molecule Ag
+ 
+XXXX_1:Ag1          Ag x       ?     0  0     0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag2          Ag x       ?     0  0     0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag3          Ag x       ?     0  0     0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag4          Ag x       ?     0  0     0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag5          Ag x       ?     0  0     0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag6          Ag x       ?     0  0     0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag7          Ag x       ?     0  0     0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag8          Ag x       ?     0  0     0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag9          Ag x       ?     0  0     0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag10         Ag x       ?     0  0     0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag11         Ag x       ?     0  0     0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag12         Ag x       ?     0  0     0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag13         Ag x       ?     0  0     0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag14         Ag x       ?     0  0     0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag15         Ag x       ?     0  0     0.0000 0 0 8 1.0000  0.0000 
+XXXX_1:Ag16         Ag x       ?     0  0     0.0000 0 0 8 1.0000  0.0000 
+ 
+!
+#symmetry
+@periodicity 3 xyz
+@group (P1)
+
+#end
