@@ -1,0 +1,397 @@
+ 
+     ===============================================================
+     Materials Studio DMol^3 version 2020            
+     compiled on Oct 17 2019 19:55:04
+     ===============================================================
+ 
+     ===============================================================
+     Density Functional Theory Electronic Structure Program
+     Copyright (c) 2019, Dassault Systemes, all rights reserved.
+     Cite work using this program as: 
+     B. Delley, J. Chem. Phys. 92,  508  (1990).
+     B. Delley, J. Chem. Phys. 113, 7756 (2000).
+     DMol^3 is available as part of Materials Studio.
+     ===============================================================
+ 
+ 
+DATE:     Jan  7 20:11:31 2023
+ 
+Job started on host LAPTOP-T66GAP8O
+
+This run uses   16 processors
+
+Message: License checkout of MS_dmol successful
+Message: License checkout of MS_dsolid successful
+ 
+Basis set is read from file:
+C:\Program Files (x86)\BIOVIA\Materials Studio 20.1 x64 Server\share\Resources\Quantum\DMol3\BASFILE_v3.5
+
+ 
+ parallel run with  16 processors
+ 
+ no INCOOR file: try ZMAT
+ no ZMAT file: try CAR
+
+Geometry is read from file: 025ml__2_.car                                                                                                                                                                                                                                                   
+
+INCOOR, atomic coordinates in au (for archive):
+______________________________________________________________________>8
+
+$cell vectors
+             21.86375332095083    0.00000000000000    0.00000000000000
+             -0.23089852899032   21.86253405140170    0.00000000000000
+              0.00000000000000    0.00000000000000   53.17311370506963
+$coordinates
+Pd            5.38991855996229    5.48369102594771    3.84456186789365
+Pd           10.91360163123638    0.01803745476033    3.84456186789365
+Pd            5.39047111966070    5.48357718506649   11.46069841297860
+Pd           10.91466072257396    0.01768773826418   11.70918360908372
+Pd            2.68529258063053    2.75034970761443    0.00029611819406
+Pd            8.09352628493804    8.21600327880182    0.00029611819406
+Pd            2.68537753137876    2.75043556165174    7.68940274818048
+Pd            8.09361123757599    8.21608913283913    7.68940274818048
+Ag            2.65432567263533    2.71900955792256   15.55426057474507
+Ag            8.12397956537247    8.24669431512866   15.54912007559945
+Ag            2.62765313513384    8.21583392154649    0.00000000000000
+Ag            8.15133620640793    2.75018035035911    0.00000000000000
+Ag            2.62773808588206    8.21591977558380    7.68910662809669
+Ag            8.15142115904588    2.75026620439642    7.68910662809669
+Ag            2.59397162989091    8.24995916282947   15.54236021155581
+Ag            8.18457985454879    2.71775662792771   15.53778488792020
+Ag            5.44781348887219    0.01795400823410    3.84485798419798
+Ag           10.85604719506942    5.48360757942148    3.84485798419798
+Ag            5.44728577907233    0.01782144583616   11.54022894101546
+Ag           10.85602890252053    5.48355239185973   11.54025329769549
+O             5.40814169921166    5.48948433665239   17.30885579927547
+Pd           16.32179522043771    5.48369102594771    3.84456186789365
+Pd           21.84547829171180    0.01803745476033    3.84456186789365
+Pd           16.32234778013611    5.48357718506649   11.46069841297860
+Pd           21.84653738304938    0.01768773826418   11.70918360908372
+Pd           13.61716924110595    2.75034970761443    0.00029611819406
+Pd           19.02540294541346    8.21600327880182    0.00029611819406
+Pd           13.61725419185417    2.75043556165174    7.68940274818048
+Pd           19.02548789805141    8.21608913283913    7.68940274818048
+Ag           13.58620233311075    2.71900955792256   15.55426057474507
+Ag           19.05585622584789    8.24669431512866   15.54912007559945
+Ag           13.55952979560926    8.21583392154649    0.00000000000000
+Ag           19.08321286688334    2.75018035035911    0.00000000000000
+Ag           13.55961474635748    8.21591977558380    7.68910662809669
+Ag           19.08329781952130    2.75026620439642    7.68910662809669
+Ag           13.52584829036632    8.24995916282947   15.54236021155581
+Ag           19.11645651502421    2.71775662792771   15.53778488792020
+Ag           16.37969014934760    0.01795400823410    3.84485798419798
+Ag           21.78792385554484    5.48360757942148    3.84485798419798
+Ag           16.37916243954774    0.01782144583616   11.54022894101546
+Ag           21.78790556299595    5.48355239185973   11.54025329769549
+O            16.34001835968708    5.48948433665239   17.30885579927547
+Pd            5.27446929504093   16.41495805132658    3.84456186789365
+Pd           10.79815236631502   10.94930448013919    3.84456186789365
+Pd            5.27502185473933   16.41484421044535   11.46069841297860
+Pd           10.79921145765259   10.94895476364304   11.70918360908372
+Pd            2.56984331570917   13.68161673299329    0.00029611819406
+Pd            7.97807702001668   19.14727030418068    0.00029611819406
+Pd            2.56992826645739   13.68170258703061    7.68940274818048
+Pd            7.97816197265462   19.14735615821799    7.68940274818048
+Ag            2.53887640771397   13.65027658330142   15.55426057474507
+Ag            8.00853030045110   19.17796134050752   15.54912007559945
+Ag            2.51220387021247   19.14710094692536    0.00000000000000
+Ag            8.03588694148656   13.68144737573797    0.00000000000000
+Ag            2.51228882096069   19.14718680096267    7.68910662809669
+Ag            8.03597189412451   13.68153322977528    7.68910662809669
+Ag            2.47852236496954   19.18122618820833   15.54236021155581
+Ag            8.06913058962743   13.64902365330657   15.53778488792020
+Ag            5.33236422395082   10.94922103361296    3.84485798419798
+Ag           10.74059793014805   16.41487460480035    3.84485798419798
+Ag            5.33183651415096   10.94908847121502   11.54022894101546
+Ag           10.74057963759916   16.41481941723859   11.54025329769549
+O             5.29269243429029   16.42075136203125   17.30885579927547
+Pd           16.20634595551634   16.41495805132658    3.84456186789365
+Pd           21.73002902679043   10.94930448013919    3.84456186789365
+Pd           16.20689851521475   16.41484421044535   11.46069841297860
+Pd           21.73108811812801   10.94895476364304   11.70918360908372
+Pd           13.50171997618458   13.68161673299329    0.00029611819406
+Pd           18.90995368049209   19.14727030418068    0.00029611819406
+Pd           13.50180492693281   13.68170258703061    7.68940274818048
+Pd           18.91003863313004   19.14735615821799    7.68940274818048
+Ag           13.47075306818938   13.65027658330142   15.55426057474507
+Ag           18.94040696092652   19.17796134050752   15.54912007559945
+Ag           13.44408053068789   19.14710094692536    0.00000000000000
+Ag           18.96776360196197   13.68144737573797    0.00000000000000
+Ag           13.44416548143611   19.14718680096267    7.68910662809669
+Ag           18.96784855459993   13.68153322977528    7.68910662809669
+Ag           13.41039902544495   19.18122618820833   15.54236021155581
+Ag           19.00100725010284   13.64902365330657   15.53778488792020
+Ag           16.26424088442623   10.94922103361296    3.84485798419798
+Ag           21.67247459062347   16.41487460480035    3.84485798419798
+Ag           16.26371317462638   10.94908847121502   11.54022894101546
+Ag           21.67245629807458   16.41481941723859   11.54025329769549
+O            16.22456909476571   16.42075136203125   17.30885579927547
+$end
+______________________________________________________________________>8
+
+
+N_atoms =   84     N_atom_types =  3
+
+
+INPUT_DMOL keywords (for archive):
+______________________________________________________________________>8
+
+#Warning: no global confinement specs in BASFILE
+                                                                                                                                    <--
+# Task parameters                                                                                                                   <--
+Calculate                     energy                                                                                                <--
+                                                                                                                                    <--
+# Cartesian constraints                                                                                                             <--
+Opt_fixed                                                                                                                           <--
+1   XYZ                                                                                                                             
+2   XYZ                                                                                                                             
+5   XYZ                                                                                                                             
+6   XYZ                                                                                                                             
+7   XYZ                                                                                                                             
+8   XYZ                                                                                                                             
+11   XYZ                                                                                                                            
+12   XYZ                                                                                                                            
+13   XYZ                                                                                                                            
+14   XYZ                                                                                                                            
+17   XYZ                                                                                                                            
+18   XYZ                                                                                                                            
+22   XYZ                                                                                                                            
+23   XYZ                                                                                                                            
+26   XYZ                                                                                                                            
+27   XYZ                                                                                                                            
+28   XYZ                                                                                                                            
+29   XYZ                                                                                                                            
+32   XYZ                                                                                                                            
+33   XYZ                                                                                                                            
+34   XYZ                                                                                                                            
+35   XYZ                                                                                                                            
+38   XYZ                                                                                                                            
+39   XYZ                                                                                                                            
+43   XYZ                                                                                                                            
+44   XYZ                                                                                                                            
+47   XYZ                                                                                                                            
+48   XYZ                                                                                                                            
+49   XYZ                                                                                                                            
+50   XYZ                                                                                                                            
+53   XYZ                                                                                                                            
+54   XYZ                                                                                                                            
+55   XYZ                                                                                                                            
+56   XYZ                                                                                                                            
+59   XYZ                                                                                                                            
+60   XYZ                                                                                                                            
+64   XYZ                                                                                                                            
+65   XYZ                                                                                                                            
+68   XYZ                                                                                                                            
+69   XYZ                                                                                                                            
+70   XYZ                                                                                                                            
+71   XYZ                                                                                                                            
+74   XYZ                                                                                                                            
+75   XYZ                                                                                                                            
+76   XYZ                                                                                                                            
+77   XYZ                                                                                                                            
+80   XYZ                                                                                                                            
+81   XYZ                                                                                                                            
+                                                                                                                                    
+Symmetry                      off                                                                                                   <--
+Max_memory                    2048                                                                                                  <--
+File_usage                    smart                                                                                                 <--
+Scf_density_convergence       1.000000e-05                                                                                          <--
+Scf_charge_mixing             2.000000e-01                                                                                          <--
+Scf_spin_mixing               5.000000e-01                                                                                          <--
+Scf_diis                      10 pulay                                                                                              <--
+Scf_iterations                9999                                                                                                  <--
+                                                                                                                                    <--
+# Electronic parameters                                                                                                             <--
+Spin_polarization             unrestricted                                                                                          <--
+Charge                        0                                                                                                     <--
+Basis                         dnd                                                                                                   <--
+Pseudopotential               dspp                                                                                                  <--
+Functional                    pbe                                                                                                   <--
+Aux_density                   hexadecapole                                                                                          <--
+Integration_grid              medium                                                                                                <--
+Occupation                    thermal 0.0010                                                                                        <--
+Cutoff_Global                 4.0000 angstrom                                                                                       <--
+                                                                                                                                    <--
+# Kpoint definition file (intervals/offset):                                                                                        <--
+Kpoints                       file     5 5 1 0.0000 0.0000 0.0000                                                                   <--
+025ml__2_.kpoints                                                                                                                   
+                                                                                                                                    <--
+# Calculated properties                                                                                                             <--
+______________________________________________________________________>8
+
+
+Publications of specific relevance to this calculation:
+
+Density functional:
+ PBE functional: Perdew Burke Ernzerhof: Phys. Rev. Lett. 77, 3865 (1996)
+
+Spin unrestricted calculation
+
+
+ Hardness conserving semilocal pseudopotentials; Delley: Phys. Rev. B 66, 155125 (2002)
+
+ Fractional occupations and density functional energies and forces; Weinert Davenport: Phys. Rev. B 45, 13709 (1992)
+
+Fractional occupations, iterative stability:
+ Delley in; Modern Density Functional Theory vol 2 pg 221 ff (1995),
+  Elsevier, Seminario Politzer eds.
+
+Fast Calculation of Electrostatics in Crystals and Large Molecules;
+ Delley: J. Phys. Chem. 100, 6107 (1996)
+
+Parallel eigenvalue solution:
+Parallel solution of partial symmetric eigenvalue problems from electronic structure calculations:
+Auckenthaler, Blum, Bungartz, et al.: Parallel Computing 37, 783 (2011)
+
+
+Thermal smearing overrode tetrahedra Bloechl correction
+ 
+Calculation is Spin_unrestricted
+ 
+ 
+
+Lattice:
+ translation vector [a0]    1   21.863753321    0.000000000    0.000000000
+ translation vector [a0]    2   -0.230898529   21.862534051    0.000000000
+ translation vector [a0]    3    0.000000000    0.000000000   53.173113705
+Cell volume        25416.592 a0^3
+Warning: at least C1 SYM file should be there for optgeom
+Oxygen       nbas=  1, z=   8, nrfn=  7, rcut=  7.56, e_ref= -0.056429 Ha
+                                  rcore=  0.00  zval=   8.00   8.00
+   n=1  L=0  occ= 2.00 e=     -18.895620Ha      -514.1762eV
+   n=2  L=0  occ= 2.00 e=      -0.876655Ha       -23.8550eV
+   n=2  L=1  occ= 4.00 e=      -0.329847Ha        -8.9756eV
+   n=2  L=0  occ= 0.00 e=      -2.141939Ha       -58.2852eV
+   n=2  L=1  occ= 0.00 e=      -1.589268Ha       -43.2462eV
+   n=3  L=2  occ= 0.00 e=      -2.722219Ha       -74.0754eV
+   n=3  L=2  occ= 0.00 e=      -1.388515Ha       -37.7834eV  eliminated
+Palladium    nbas=  2, z=  46, nrfn=  7, rcut=  7.56, e_ref= -0.006806 Ha
+  DSPP: PWC_PBE s 01d21 release   rcore=  1.43  zval=  18.00  46.00
+   n=4  L=0  occ= 2.00 e=      -3.142021Ha       -85.4988eV
+   n=4  L=1  occ= 6.00 e=      -1.864915Ha       -50.7469eV
+   n=4  L=2  occ=10.00 e=      -0.132294Ha        -3.5999eV
+   n=5  L=0  occ= 0.00 e=      -0.094650Ha        -2.5755eV
+   n=4  L=2  occ= 0.00 e=      -1.003745Ha       -27.3133eV
+   n=5  L=0  occ= 0.00 e=      -0.741482Ha       -20.1768eV
+   n=5  L=1  occ= 0.00 e=      -0.507684Ha       -13.8148eV
+Silver       nbas=  3, z=  47, nrfn=  7, rcut=  7.56, e_ref= -0.018438 Ha
+  DSPP: PWC_PBE s 01d21 release   rcore=  1.56  zval=  19.00  47.00
+   n=4  L=0  occ= 2.00 e=      -3.513144Ha       -95.5976eV
+   n=4  L=1  occ= 6.00 e=      -2.137811Ha       -58.1728eV
+   n=4  L=2  occ=10.00 e=      -0.254191Ha        -6.9169eV
+   n=5  L=0  occ= 1.00 e=      -0.136564Ha        -3.7161eV
+   n=4  L=2  occ= 0.00 e=      -1.061373Ha       -28.8814eV
+   n=5  L=0  occ= 0.00 e=      -0.761941Ha       -20.7335eV
+   n=5  L=1  occ= 0.00 e=      -0.518789Ha       -14.1170eV
+
+Note: calculation of reference xc derivative is turned on
+ for pseudopotential with core density correction
+
+Kpoints mesh:   5   5   1    0  0  0    0  0      25
+
+Parameters for generating k-points:   5   5   1        0.00      0.00      0.00       25
+Total number of symmetry-unique k points:      13
+Total number of symmetry-unique tetrahedra:      72
+
+
+Symmetry orbitals C1                            
+    n  norb    representation
+    1  1576        a    
+  total number of valence orbitals:   1576
+
+ cell charge=              0.000000   active electron number    1520.0
+ (without charge=            1520.0 )
+ electron temperature=     0.001_Ha      0.03_eV      316._K
+ 
+
+ p_diis workspace has max memory requirements       217.2 MB 
+
+ matrix diagonalization has max memory requirements   326.2 MB       10.5     3.2   312.5
+
+ population matrix assembly has max memory requirements   306.3 MB       10.5     3.2   292.6
+
+ real array elements, matrices vectors etc:     176.5 MB 
+ integer arrays                           :       2.5 MB 
+ min recommended for all-incl workspace   :     179.3 MB 
+Total memory allocated for arrays         :     326.3 MB 
+Memory for temporary file storage on disk :     237.8 MB
+Total memory allocated                    :     564.0 MB
+Max memory requested                      :    2048.0 MB
+Warning: taking last occupied orbital of first atom to start spin density!
+Default spin density on atom Pd(  1), L= 2 was used on start: M_s=  1.0
+Warning: start spin density on closed shell atom Pd(   1), L= 0 M_s=  1.0
+ 
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef       -14402.879617Ha       -11.0130921Ha      2.26E-01     1.2m      1
+Ef       -14406.022922Ha       -14.1563972Ha      2.95E-01     2.3m      2
+Ef       -14433.288663Ha       -41.4221379Ha      6.49E-01     3.3m      3
+Ef       -14409.849082Ha       -17.9825575Ha      3.36E-01     4.4m      4
+Ef       -14403.064746Ha       -11.1982208Ha      1.78E-01     5.5m      5
+Ef       -14401.197680Ha        -9.3311550Ha      8.88E-02     6.6m      6
+Ef       -14400.847346Ha        -8.9808213Ha      7.79E-02     7.7m      7
+Ef       -14400.712149Ha        -8.8456239Ha      6.71E-02     8.8m      8
+Ef       -14400.666764Ha        -8.8002391Ha      5.46E-02     9.9m      9
+Ef       -14400.596233Ha        -8.7297077Ha      4.28E-02    11.1m     10
+Ef       -14400.564230Ha        -8.6977049Ha      3.63E-02    12.2m     11
+Ef       -14400.547388Ha        -8.6808636Ha      2.77E-02    13.3m     12
+Ef       -14400.535958Ha        -8.6694333Ha      2.63E-02    14.4m     13
+Ef       -14400.584293Ha        -8.7177685Ha      3.68E-02    15.5m     14
+Ef       -14400.599683Ha        -8.7331586Ha      4.02E-02    16.6m     15
+Ef       -14400.581803Ha        -8.7152779Ha      3.63E-02    17.8m     16
+Ef       -14400.558557Ha        -8.6920325Ha      3.05E-02    18.9m     17
+Ef       -14400.546189Ha        -8.6796646Ha      2.77E-02    20.0m     18
+Ef       -14400.524039Ha        -8.6575140Ha      1.65E-02    21.1m     19
+Ef       -14400.521562Ha        -8.6550375Ha      1.37E-02    22.3m     20
+Ef       -14400.523788Ha        -8.6572631Ha      1.29E-02    23.4m     21
+Ef       -14400.520917Ha        -8.6543922Ha      9.61E-03    24.5m     22
+Ef       -14400.518686Ha        -8.6521617Ha      3.15E-03    25.7m     23
+Ef       -14400.518671Ha        -8.6521462Ha      2.82E-03    26.8m     24
+Ef       -14400.519038Ha        -8.6525133Ha      3.45E-03    27.9m     25
+Ef       -14400.518445Ha        -8.6519205Ha      1.30E-03    29.1m     26
+Ef       -14400.518454Ha        -8.6519289Ha      1.13E-03    30.2m     27
+Ef       -14400.518461Ha        -8.6519358Ha      1.03E-03    31.4m     28
+Ef       -14400.518459Ha        -8.6519344Ha      8.95E-04    32.5m     29
+Ef       -14400.518448Ha        -8.6519230Ha      2.81E-04    33.7m     30
+Ef       -14400.518455Ha        -8.6519302Ha      2.60E-04    34.8m     31
+Ef       -14400.518467Ha        -8.6519423Ha      2.14E-04    35.9m     32
+Ef       -14400.518468Ha        -8.6519436Ha      1.95E-04    37.1m     33
+Ef       -14400.518469Ha        -8.6519438Ha      1.02E-04    38.2m     34
+Ef       -14400.518473Ha        -8.6519479Ha      1.34E-04    39.4m     35
+Ef       -14400.518472Ha        -8.6519470Ha      7.94E-05    40.6m     36
+Ef       -14400.518473Ha        -8.6519478Ha      4.09E-05    41.7m     37
+Ef       -14400.518473Ha        -8.6519485Ha      3.05E-05    42.9m     38
+Ef       -14400.518474Ha        -8.6519491Ha      2.89E-05    44.1m     39
+Ef       -14400.518475Ha        -8.6519499Ha      1.81E-05    45.2m     40
+Ef       -14400.518475Ha        -8.6519500Ha      1.56E-05    46.4m     41
+Ef       -14400.518475Ha        -8.6519503Ha      8.92E-06    47.5m     42
+Message: SCF converged
+
+
+Fermi Energy:          -0.178766 Ha      -4.864 eV   -kTS_e= -0.0034405Ha
+
+Energy components:
+   Sum of atomic energies =   -14391.8665248Ha
+                  Kinetic =     -120.4409385Ha
+            Electrostatic =      109.2973050Ha
+     Exchange-correlation =        1.1631396Ha
+        Spin polarization =        1.3285435Ha
+       Jellium correction =       -0.0022402Ha
+
+            Total Energy           Binding E       Cnvgnce     Time   Iter
+Ef       -14400.518475Ha        -8.6519503Ha      2.32E-05    49.1m     43
+
+df  binding energy      -8.6519503Ha        -235.43165eV       -5429.289kcal/mol
+
+Df  binding energy extrapolated to T=0K      -8.6502301 Ha      -235.38484 eV
+
+ +++ Entering Properties Section +++ 
+
+Message: License checkin of MS_dmol successful
+Message: License checkin of MS_dsolid successful
+
+Message: DMol3 job finished successfully
+
+ time all done      49.14m     2948.10s
+
+DMol3.pl message: DMol3 job finished in 0 hr 49 min 14 sec.
