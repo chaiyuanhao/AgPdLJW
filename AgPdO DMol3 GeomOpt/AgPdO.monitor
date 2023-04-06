@@ -1,0 +1,17 @@
+====================================================
+                  DMol3 Run Status                  
+====================================================
+ 
+Job Name            :        AgPdO
+Task                :        Property
+Basis               :        dnd                 
+Atom_Rcut           :        4.000 Angstrom
+Functional          :        pbe                 
+Harris              :        off  
+Integration Grid    :        medium              
+Kpoints             :        AgPdO.kpoints
+Occupation          :        fermi     
+Pseudopotential     :        dspp                
+Property            :        none                
+ 
+====================================================
