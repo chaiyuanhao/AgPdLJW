@@ -1,0 +1,17 @@
+====================================================
+                  DMol3 Run Status                  
+====================================================
+ 
+Job Name            :        Ag75Pd25_I4MMM
+Task                :        Property
+Basis               :        dnd                 
+Atom_Rcut           :        4.000 Angstrom
+Functional          :        pbe                 
+Harris              :        off  
+Integration Grid    :        medium              
+Kpoints             :        Ag75Pd25_I4MMM.kpoints
+Occupation          :        thermal       0.0050
+Pseudopotential     :        dspp                
+Property            :        none                
+ 
+====================================================
